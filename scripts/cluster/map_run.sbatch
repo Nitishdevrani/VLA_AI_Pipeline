@@ -56,8 +56,9 @@ APPT=(apptainer exec --nv --no-mount home,bind-paths --no-home --writable-tmpfs
 ROSENV='export HOME=/home/frasky_ws_container; source /opt/ros/noetic/setup.bash; source $HOME/catkin_ws/devel/setup.bash; source $HOME/catkin_ws/src/ros.env'
 inapp() { "${APPT[@]}" bash -c "$ROSENV; $1"; }
 # The image's ENV sets LD_LIBRARY_PATH and hides the --nv driver libs in /.singularity.d/libs.
-# Append them (only for the YOLO side): prepending breaks cv_bridge's import, and Gazebo keeps Mesa.
-GPUENV='export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/.singularity.d/libs'
+# Tested in job 5058275: appending the folder still loads the wrong libcuda (CUDA unavailable), and
+# prepending it breaks cv_bridge's import. Preloading only the host libcuda works, and only for the YOLO side.
+GPUENV='export LD_PRELOAD=/.singularity.d/libs/libcuda.so.1'
 
 echo "=== $(date) simulator"
 inapp "roslaunch frasky_simulation frasky_simulation.launch gui:=false rviz:=false joystick:=false" >"$OUT/sim_roslaunch.log" 2>&1 &
