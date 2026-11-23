@@ -65,7 +65,8 @@ Rows are appended automatically by `scripts/new_experiment.sh`. Update the statu
 | smoke_5045806 | 2026-11-22 | Re-run with own /etc/hosts bind and HOME set in-shell | `experiments/smoke_5045806/`, `experiments/frasky_smoke_5045806.log` | ran: 186 topics, all 7 routines, camera 30 Hz, RTF 0.52; frame is untextured grey (open issue) | `scripts/cluster/sim_smoketest.sbatch` |
 | 20261123_1948_cluster_map | 2026-11-23 | Task 1 MAP run on a100mig (headless, Xvfb + Mesa, YOLO on MIG) | `/anvme/workspace/v115be23-ai_boost/experiments/20261123_1948_cluster_map` | cancelled (job 5058054): map folder copy ran without anvme bind, fixed | [notes](../results/20261123_1948_cluster_map/NOTES.md) |
 | 20261123_1949_cluster_map | 2026-11-23 | Task 1 MAP run on a100mig (headless, Xvfb + Mesa, YOLO on MIG) | `/anvme/workspace/v115be23-ai_boost/experiments/20261123_1949_cluster_map` | done (job 5058055): MAP ran, 0 grapes stored (estimator saved nothing) | [notes](../results/20261123_1949_cluster_map/NOTES.md) |
-| 20261123_2033_cluster_map | 2026-11-23 | Task 1 MAP run on a100mig (headless, Xvfb + Mesa, YOLO on MIG) | `/anvme/workspace/v115be23-ai_boost/experiments/20261123_2033_cluster_map` | queued (job 5058215) | [notes](../results/20261123_2033_cluster_map/NOTES.md) |
+| 20261123_2033_cluster_map | 2026-11-23 | Task 1 MAP run on a100mig (headless, Xvfb + Mesa, YOLO on MIG) | `/anvme/workspace/v115be23-ai_boost/experiments/20261123_2033_cluster_map` | cancelled (job 5058215): detector crashed at import (cv_bridge) after GPU lib path was prepended; diagnostics in outputs/diag_5min.txt | [notes](../results/20261123_2033_cluster_map/NOTES.md) |
+| 20261123_2049_cluster_map | 2026-11-23 | Task 1 MAP run on a100mig (headless, Xvfb + Mesa, YOLO on MIG) | `/anvme/workspace/v115be23-ai_boost/experiments/20261123_2049_cluster_map` | queued (job 5058275) | [notes](../results/20261123_2049_cluster_map/NOTES.md) |
 <!-- EXPERIMENTS-END -->
 
 ## Auto Inventory (sizes)

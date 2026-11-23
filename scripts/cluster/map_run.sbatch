@@ -56,8 +56,8 @@ APPT=(apptainer exec --nv --no-mount home,bind-paths --no-home --writable-tmpfs
 ROSENV='export HOME=/home/frasky_ws_container; source /opt/ros/noetic/setup.bash; source $HOME/catkin_ws/devel/setup.bash; source $HOME/catkin_ws/src/ros.env'
 inapp() { "${APPT[@]}" bash -c "$ROSENV; $1"; }
 # The image's ENV sets LD_LIBRARY_PATH and hides the --nv driver libs in /.singularity.d/libs.
-# Add them back only for the YOLO side, so Gazebo keeps using Mesa for rendering.
-GPUENV='export LD_LIBRARY_PATH=/.singularity.d/libs:$LD_LIBRARY_PATH'
+# Append them (only for the YOLO side): prepending breaks cv_bridge's import, and Gazebo keeps Mesa.
+GPUENV='export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/.singularity.d/libs'
 
 echo "=== $(date) simulator"
 inapp "roslaunch frasky_simulation frasky_simulation.launch gui:=false rviz:=false joystick:=false" >"$OUT/sim_roslaunch.log" 2>&1 &
@@ -81,6 +81,10 @@ echo "=== $(date) mapping.launch"
 inapp "$GPUENV; roslaunch --screen frasky_detection mapping.launch" >"$OUT/mapping_launch.log" 2>&1 &
 MAPL_PID=$!
 sleep 90   # YOLO model load
+if grep -q "Traceback" "$OUT/mapping_launch.log"; then
+  echo "!!! mapping node crashed:"; grep -A8 Traceback "$OUT/mapping_launch.log" | head -20
+  kill -INT $MAPL_PID $SIM_PID 2>/dev/null; sleep 10; kill $XVFB_PID 2>/dev/null; exit 1
+fi
 
 echo "=== $(date) HOMING + MAP"
 inapp "python3 /mission/routine.py HOMING MAP --timeout 9000 --log /out/routines.jsonl" 2>&1 | grep -v WARNING > "$OUT/routine_run.log" &
@@ -91,7 +95,10 @@ inapp "
   echo '--- crop_map_db node'; rosnode info /robot_frasky/frasky_detection/crop_map_db 2>&1
   echo '--- detection params'; rosparam get /robot_frasky/frasky_detection 2>&1
   echo '--- crop_data rate';  timeout 20 rostopic hz /robot_frasky/frasky_detection/crop_data 2>&1 | tail -3
-  echo '--- crop_data sample'; timeout 15 rostopic echo -n1 /robot_frasky/frasky_detection/crop_data 2>&1 | head -40
+  echo '--- nodes'; rosnode list 2>&1 | grep -E 'frasky_detection|yolo'
+  echo '--- crop_data sample'; timeout 15 rostopic echo -n2 /robot_frasky/frasky_detection/crop_data 2>&1 | head -60
+  echo '--- detection_img rate'; timeout 15 rostopic hz /robot_frasky/detection_img 2>&1 | tail -2
+  echo '--- estimator marker'; timeout 15 rostopic echo -n1 /robot_frasky/frasky_detection/visualization_marker 2>&1 | head -40
   echo '--- depth cloud rate'; timeout 20 rostopic hz /robot_frasky/camera/depth/color/points 2>&1 | tail -3
   echo '--- tf frames'; timeout 20 python3 -c \"
 import rospy, tf2_ros
