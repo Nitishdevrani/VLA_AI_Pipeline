@@ -1,0 +1,24 @@
+{
+ "file": "/anvme/workspace/v115be23-ai_boost/experiments/20261123_2105_cluster_map/outputs/crop_map_db/test_mapping.json",
+ "entries": 229,
+ "unique_ids": 229,
+ "official_pct": 84.8,
+ "verified_grapes": 226,
+ "verified_pct": 83.7,
+ "duplicate_entries": 1,
+ "unmatched_entries": 2,
+ "id_equals_sim_id": 0,
+ "matched_by": {
+  "grape_pose": 227
+ },
+ "mean_err_m": 0.055,
+ "max_err_m": 0.086,
+ "per_row_side": {
+  "1-45": 35,
+  "46-90": 44,
+  "91-135": 24,
+  "136-180": 44,
+  "181-225": 35,
+  "226-270": 44
+ }
+}
