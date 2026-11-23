@@ -1,0 +1,38 @@
+# Frasky simulator on a Linux laptop WITHOUT an NVIDIA GPU (Intel / AMD graphics).
+# Same as the organizers' compose.yaml, minus the NVIDIA parts, plus our captures folder.
+# Gazebo renders on the laptop GPU through /dev/dri (Mesa), in a normal X11 window.
+#
+# Use from the Frasky_Vineyard_simulator folder:
+#   xhost +SI:localuser:"$(id -un)"
+#   docker compose -f compose.nonvidia.yaml up -d
+#   docker compose -f compose.nonvidia.yaml exec frasky_test bash
+#
+# Changes vs the organizers' file:
+#   - removed deploy.resources (needs the NVIDIA container toolkit)
+#   - removed NVIDIA_DRIVER_CAPABILITIES, __NV_PRIME_RENDER_OFFLOAD, __GLX_VENDOR_LIBRARY_NAME
+#   - added ./captures -> /captures for monitoring photos and recordings
+services:
+  frasky_test:
+    image: frasky_test:latest
+    container_name: frasky_test
+    init: true
+    ipc: host
+    network_mode: host
+    privileged: true
+    stdin_open: true
+    tty: true
+    devices:
+      - /dev/dri:/dev/dri
+      - /dev/input:/dev/input
+    volumes:
+      - /dev:/dev
+      - /tmp/.X11-unix:/tmp/.X11-unix:ro
+      - ./test_mapping.json:/home/frasky_ws_container/catkin_ws/src/frasky_ws/frasky_detection/crop_map_db/test_mapping.json
+      - ./mapping_first_row.json:/home/frasky_ws_container/catkin_ws/src/frasky_ws/frasky_detection/crop_map_db/mapping_first_row.json
+      - ./my_pkgs:/home/frasky_ws_container/catkin_ws/src/my_pkgs
+      - ./husky_nav_out.json:/home/frasky_ws_container/catkin_ws/src/frasky_ws/autonomous_task/robots/frasky/tasks/husky_nav_out.json
+      - ./captures:/captures
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    command: bash
