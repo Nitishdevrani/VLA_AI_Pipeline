@@ -1,0 +1,1841 @@
+ 
+ 
+ 
+ 
+ 
+AI BOOST AI CHALLENGE COMPETITION 
+GUIDELINES FOR APPLICANTS 
+ 
+
+Guidelines for Applicants 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Grant Agreement No: 101135737  
+Call: HORIZON-CL4-2023-HUMAN-01-CNECT 
+Topic: HORIZON-CL4-2023-HUMAN-01-04 
+Type of action: HORIZON-CSA 
+ 
+DISCLAIMER 
+Funded by the European Union under GA No 101135737. Views and opinions expressed are however 
+those of the author(s) only and do not necessarily reflect those of the European Union. Neither the 
+European Union nor the granting authority can be held responsible for them 
+COPYRIGHT NOTICE 
+© AI-BOOST Consortium, 2026 
+This document contains original unpublished work except where clearly indicated otherwise. 
+Acknowledgement of previously published material and of the work of others has been made through 
+appropriate citation, quotation, or both. Reproduction is authorised provided the source is 
+acknowledged. 
+
+Guidelines for Applicants 
+2 
+ 
+EXECUTIVE SUMMARY 
+This guide aims to assist all potential applicants of the AI Challenge Competition. You can discover the 
+competition and prizes and learn all the steps and procedures you need to follow once you decided to 
+apply.  
+ 
+
+Guidelines for Applicants 
+3 
+ 
+TABLE OF CONTENTS 
+1 
+AI-BOOST AT A GLANCE ........................................................................................................................................ 5 
+1.1 
+WHAT IS ai-boost? .............................................................................................................................................. 5 
+1.2 
+WHO RUNS AI-BOOST? ................................................................................................................................... 5 
+2 
+AI BOOST AI CHALLENGE COMPETITON..................................................................................................... 8 
+2.1 
+Context and Objectives .................................................................................................................................. 8 
+2.1.1 
+SPARK phase ........................................................................................................................................................... 9 
+2.1.2 
+ADVANCE phase ................................................................................................................................................... 9 
+2.2 
+AI Boost Challenges .......................................................................................................................................... 12 
+2.2.1 
+Challenge 1: GENAI-BASED NATURAL LANGUAGE MISSION GENERATOR FOR 
+AUTONOMOUS ROBOTS IN AGRICULTURE ............................................................................................................ 12 
+2.2.2 
+Challenge 2: AGENTIC AI FOR AUTOMATED CAD GENERATION AND AUTONOMOUS 
+SIMULATION................................................................................................................................................................................ 13 
+2.2.3 
+Challenge 3: Generative-AI-for-enhancement-of-clinical-datasets ............................. 14 
+2.2.4 
+Challenge 4: Generative-AI-for-automatic-test-case-generation-from-crash-
+databases-and-standards .............................................................................................................................................. 14 
+2.3 
+Datasets .................................................................................................................................................................... 15 
+2.4 
+Infrastructure ......................................................................................................................................................... 15 
+2.4.1 
+Training and technical onboarding for CINECA’s Infrastructure users ........................... 17 
+2.5 
+Timeline ..................................................................................................................................................................... 18 
+2.6 
+Types of Beneficiaries ................................................................................................................................... 20 
+2.7 
+Eligible Countries ................................................................................................................................................ 21 
+2.8 
+Specific eligibility AND FIT TO PROGRAM requirements ......................................................... 21 
+2.9 
+Specific exclusion criteria ............................................................................................................................22 
+2.10 
+Declaration of Honour – Exclusion ........................................................................................................22 
+3 
+APPLICATION PROCESS ....................................................................................................................................... 23 
+3.1 
+How to apply? ..................................................................................................................................................... 23 
+3.2 
+Where can I find the application form? ............................................................................................. 23 
+3.3 
+Is it possible to submit the documents in national language? .......................................... 23 
+3.4 
+When to submit the application form? ............................................................................................. 23 
+3.5 
+Can an APPLICANT submit more than one proposal (multiple submission)? ........ 24 
+4 
+EVALUATION ................................................................................................................................................................ 25 
+4.1 
+PHASE I - SPARK PHASE  .............................................................................................................................. 25 
+
+Guidelines for Applicants 
+4 
+ 
+4.2 
+PHASE II – ADVANCE PHASE ...................................................................................................................... 27 
+4.3 
+Scoring process ................................................................................................................................................. 29 
+4.4 
+Special Awards ................................................................................................................................................... 30 
+5 
+COMMUNICATION FLOW WITH APPLICANTS ........................................................................................ 30 
+5.1 
+Is there any support for the applicants? .......................................................................................... 30 
+5.2 
+How are the results communicated to applicants? .................................................................... 31 
+5.3 
+How long does it take to receive the result? ................................................................................... 31 
+5.4 
+Can applicants appeal a rejection? ....................................................................................................... 31 
+6 
+ADDITIONAL INFORMATION .............................................................................................................................. 33 
+6.1 
+Required documents to enter the Advance phase ................................................................... 33 
+6.2 
+Prize Payment procedure ............................................................................................................................ 33 
+6.3 
+Dissemination and communication duties ..................................................................................... 34 
+6.4 
+Intellectual Property Rights (IPR) ........................................................................................................... 34 
+6.5 
+On conflicts of interest ................................................................................................................................. 35 
+6.6 
+Ethical issues ....................................................................................................................................................... 35 
+6.7 
+Data protection .................................................................................................................................................. 36 
+6.8 
+Confidentiality .................................................................................................................................................... 36 
+6.9 
+General Prize Terms ......................................................................................................................................... 37 
+7 
+ANNEX 1 - CONCEPT NOTE / APPLICATION FORM ............................................................................ 38 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Guidelines for Applicants 
+5 
+ 
+1 
+AI-BOOST AT A GLANCE 
+1.1 
+WHAT IS AI-BOOST? 
+AI-BOOST is an EU-funded prominent open challenge prize program that will serve as a benchmark 
+for the European artificial intelligence (AI) community.  
+The overall objective of the project is to create and run highly replicable AI Challenge Competition 
+that attracts outstanding talent all over EU and Associated Countries to drive scientific progress in 
+the major AI Areas. The project will foster collaboration between the key stakeholders in AI community 
+to define attractive AI challenges with the potential to lead trustworthy and human-centric real-world 
+solutions. 
+• 
+A unique sound methodology capable to define high social impact AI challenges.  
+• 
+A highly replicable and attractive AI Challenge Competition capable to lead breakthroughs 
+technologies and solutions with substantial scientific progress. 
+• 
+Provide access to infrastructure and expert knowledge and promote its adoption through 
+effective training and troubleshooting during the challenges implementation. 
+• 
+Attract outstanding talent and the best research teams to tackle AI challenges. 
+• 
+Engage private and public sponsors capable to provide funding, attractive rewards, and 
+expertise. 
+• 
+An AI community to foster interaction among all relevant stakeholders. 
+1.2 
+WHO RUNS AI-BOOST? 
+AI-BOOST consortium is formed by 7 partners from 6 European countries (Spain, Portugal, Ireland, 
+Hungary, Italy and Slovakia).  
+ZABALA - Zabala Innovation Consulting, S.A. 
+ 
+Website: https://www.zabala.eu/   
+We are a leading international consultancy firm in innovation 
+strategy and R&D&I financing. Since 1986, we have been 
+supporting our clients in their entrepreneurial drive through 
+the search for financing and the management and promotion 
+of innovation. We work with European Institutions, National 
+and International Public Bodies, SMEs & Startups, Large 
+Companies, Research & Academia 
+F6S - F6S Network Ireland Limited 
+
+Guidelines for Applicants 
+6 
+ 
+ 
+Website: https://www.f6s.com/  
+Brief description: F6S is a European based entity that has 
+become the largest Startup/SME community globally with 
+over 
+1.5 
+million 
+Startups/SMEs 
+and 
+2.0 
+million 
+entrepreneurs. F6S delivers more than €2 billion every 
+year to Startups and SMEs with with leading CRM for deal 
+flow, corporate challenges, structured programs, startup 
+services, corporate partnering, recruiting, government 
+grants, and free startup resources. 
+F6S is the leading platform for application management for 
+commercial, corporate, government, university, and other 
+accelerator programs, helping more than 17.000 such 
+initiatives worldwide. 
+CINECA - Cineca Consorzio Interuniversitario 
+ 
+Website: https://www.cineca.it/  
+Brief description: CINECA's aim is to accelerate the 
+scientific discovery by providing high performance 
+computing resources, data management, as well as HPC 
+services and expertise. Moreover, CINECA (a not-for-profit 
+Interuniversity Consortium with 117 members) provides 
+technical and scientific services related to high-
+performance computing to the Italian and European 
+research community. 
+The staff dedicated to HPC supports the users and offers 
+consultancy in tools and techniques in several disciplinary 
+fields ranging from medicine to meteorology, from 
+seismology to fluid dynamics, to bioinformatics and 
+chemistry, to provide a solid and reliable computing 
+environment for the scientific community. 
+CINECA is the hosting site for EuroHPC JU pre-exascale 
+system LEONARDO. 
+INESC TEC - Instituto De Engenhariade Sistemas e Computadores, Tecnologia e Ciencia Porto 
+ 
+ 
+Website: https://www.inesctec.pt/en  
+Brief description: INESC TEC is a private non-profit 
+research association, with Public Interest status, dedicated 
+to scientific research and technological development, 
+
+Guidelines for Applicants 
+7 
+ 
+technology transfer, advanced consulting and training, and 
+pre-incubation of new technology-based companies. The 
+13 R&D Centres of INESC TEC are structured in four 
+thematic domains - Computer Science, Industrial and 
+Systems Engineering, Networked Intelligent Systems, and 
+Power and Energy. 
+UPJS - Univerzita Pavla Jozefa Safarika V Kosiciach 
+ 
+Website: https://www.upjs.sk/  
+Brief description: UPJŠ is a research-based university 
+generating its highest level of scientific knowledge through 
+a vibrant community of young researchers in collaboration 
+with their supervisors. The Faculty of Science is the 
+strongest contributor to the research outputs of the 
+university and key partners in EDIH CASSOVIUM (EDCASS). 
+Within their Law Faculty have experts on AI Legal issues. 
+EIT DIGITAL -EIT Digital 
+ 
+Website:  https://28digital.eu/ 
+Brief description: 28DIGITAL is a pan-European multi-
+stakeholder open-innovation ecosystem of top European 
+corporations, SMEs, startups, universities and research 
+institutes, 
+where 
+students, 
+researchers, 
+engineers, 
+business 
+developers 
+and 
+investors 
+address 
+the 
+technology, talent, skills, business and capital needs of 
+digital entrepreneurship.  
+28DIGITAL build the next generation of digital ventures, 
+digital 
+products 
+and 
+services, 
+and 
+breed 
+digital 
+entrepreneurial talent, helping business and entrepreneurs 
+to be at the frontier of digital innovation by providing them 
+with technology, talent, and growth support. 
+UPF - Universitat Pompeu Fabra 
+ 
+Website:  www.upf.edu/web/etic  
+Brief description: UPF is a public, international and 
+research-intensive university that, in just thirty-two years, 
+has earned a place for itself among the best universities in 
+Europe. UPF is the third Spanish university in the world Top 
+200 (THE2023). The Department of Information and 
+
+Guidelines for Applicants 
+8 
+ 
+Communication Technologies (DTIC) of UPF has an 
+important track record of active participation in EU 
+projects (67 H2020 projects, many ERC grants (21)). DTIC-
+UPF is the only Spanish university ICT department that has 
+been awarded a second time the Maria de Maeztu 
+research excellence seal by the Spanish government. 
+2 
+AI BOOST AI CHALLENGE COMPETITON  
+2.1 
+CONTEXT AND OBJECTIVES 
+The AI Challenge Competition (teams from academia and/or industry) will launch 4 attractive 
+Generative AI challenges addressing strategic industrial and societal domains: autonomous robotics, 
+engineering design and simulation, healthcare AI, and automotive safety. The competition aims to drive 
+significant research and technological progress by advancing innovative Generative AI solutions from 
+Technology Readiness Level (TRL) 2–3 to TRL 4–5. 
+The AI-BOOST competition follows a two-phase funnel approach designed to identify, support and 
+accelerate the most promising teams from academia and industry. This approach enables the AI-
+BOOST consortium, evaluators and Challenge Owners to progressively focus resources and support on 
+the strongest candidates, while ensuring continuous monitoring of scientific and technical progress 
+throughout the competition. The methodology builds on the experience and best practices of previous 
+European open innovation programmes, including DAPSI, EDI, REACH and BLOCKCHERS.  
+ 
+FIGURE 1 FUNNEL APPROACH 
+ 
+ 
+
+Guidelines for Applicants 
+9 
+ 
+The competition consists of the following phases: 
+• 
+Spark Phase I: Submission and evaluation of a Concept Note. Five winners will be selected for each 
+challenge and awarded a prize of EUR 28,500 each. 
+• 
+Advance phase: Development, model validation and demonstration of AI solutions. The five 
+winners of the SPARK Phase will enter a five-month development programme involving algorithm 
+development, validation activities, conceptual and technical monitoring, and a final live 
+demonstration. One winner will be selected for each challenge and awarded a final prize of EUR 
+100,000.  
+The AI-BOOST competition is expected to generate 20 breakthrough AI solutions, contributing to 
+substantial scientific and technological progress in the targeted AI domains. Among these, four 
+solutions (one per challenge) will be recognised as the most promising for industrial adoption and real-
+world deployment. 
+The two-phase competition structure incorporates dedicated monitoring and support mechanisms to 
+ensure continuous progress throughout the development process, while fostering close collaboration 
+between participants, Challenge Owners, industry stakeholders and AI-BOOST. 
+ 
+  
+2.1.1 SPARK PHASE  
+Participation will be opened to one or more individuals or entities (teams and consortiums) from 
+academia and industry (incl. start-ups and SMEs, students, rising stars and newcomers professionals). 
+The teams registered will choose one challenge, depending on their interests, and provide a solution 
+to the problem statement(s).  
+At the end of this phase, participants will propose ideas to develop an algorithm that may solve a 
+specific published challenge. The submission of the concept note will be performed through the F6S 
+platform. 
+       
+ 
+ 
+ 
+Spark Phase Winners: Five winners per challenge will receive 28.500€ each and they will be 
+invited to the Advanced phase. 
+Before entering the Advance Phase, selected participants will be required to sign a participation 
+agreement with the AI-BOOST consortium and the corresponding Challenge Owner. Upon signature of 
+this agreement, participants will receive the first instalment corresponding to 50% of their SPARK Phase 
+prize. 
+2.1.2 ADVANCE PHASE 
+The Advance Phase will be open exclusively to the five winners of the SPARK Phase for each challenge. 
+This is the main phase of the competition, during which participants will further develop, train, validate 
+and demonstrate their AI-based solutions in response to the challenge problem statements. 
+The Advance Phase will start with a dedicated kick-off meeting organised by the AI-BOOST 
+consortium and the Challenge Owner. During this session, participants will receive a detailed 
+introduction to the challenge objectives, datasets, evaluation methodology, available resources, any 
+
+Guidelines for Applicants 
+10 
+ 
+challenge-specific technical constraints, if applicable, and expected outcomes. Participants will also 
+have the opportunity to discuss technical and challenge-specific questions directly with the Challenge 
+Owner and consortium experts. 
+Throughout the phase, participants will work with the datasets, infrastructure and technical resources 
+made available by AI-BOOST and the Challenge Owners. Further information on the datasets is 
+provided in the specific Challenge Description. Additional technical details, including access 
+conditions, data specifications and challenge-specific requirements, will be presented during the kick-
+off meeting. 
+Where required, participants may also access the high-performance computing (HPC) infrastructure 
+provided by CINECA, together with the associated training and technical support services necessary 
+for the development, training and validation of their solutions (see section 2.4). Applicants must 
+indicate in the SPARK Phase Application Form whether they intend to request access to CINECA’s 
+infrastructure, so that the technical requirements and feasibility of such access can be properly 
+assessed.  
+The Advance Phase will last five months. Throughout this period, participants are expected to 
+continuously improve their solutions and may submit their algorithms on a monthly basis for automatic 
+scoring. The automatic scores will be used to generate a leaderboard, allowing participants to monitor 
+their performance and benchmark their progress against the other teams participating in the same 
+challenge. The leaderboard will periodically communicated by email to participants and other relevant 
+members of the AI-BOOST community. 
+During the five-month period, AI-BOOST and the Challenge Owner will provide continuous support to 
+participants through technical guidance sessions, Q&A activities, webinars and other support 
+mechanisms designed to facilitate the successful development of the proposed solutions. 
+Approximately two months after the start of the Advance Phase (December 2026), participants will 
+take part in a mandatory Mid-Term Checkpoint. During this checkpoint, teams will present the work 
+carried out during the first part of the phase, including the technical specifications of the solution, the 
+progress achieved in the technical development and the preliminary results obtained through the 
+automatic scoring framework. 
+The Mid-Term Checkpoint will be assessed on a pass/fail basis and will not contribute to the final score 
+of the competition. Its purpose is to verify that participants are actively engaged in the challenge and 
+making sufficient progress towards the development and validation of their solution. Participants 
+successfully completing the Mid-Term Checkpoint will receive the remaining 50% of their SPARK Phase 
+prize. 
+Following the Mid-Term Checkpoint, the Challenge Owner and relevant AI-BOOST consortium experts 
+will provide qualitative feedback to the participants. This feedback will be intended to support the 
+further improvement of the solutions and may include technical recommendations, clarifications on 
+challenge-specific requirements and guidance on the next development steps. Participants will also 
+have the opportunity to raise technical or challenge-related questions during the session.  
+
+Guidelines for Applicants 
+11 
+ 
+Where necessary, challenge clarifications or corrections identified during the competition may be 
+introduced following the Mid-Term Checkpoint. Any such changes will be communicated equally to all 
+participants and implemented in a manner that preserves fair competition and equal treatment. 
+At the end of the Advance Phase, participants will be required to submit their final algorithm, a Final 
+Report describing the developed solution and its results. 
+The phase will conclude with a Final Live Competition event, expected to take place in February 2027 
+in Brussels. During this event, participants will publicly present and demonstrate their solutions before 
+a panel of evaluators, Challenge Owners, AI-BOOST consortium representatives and relevant 
+stakeholders. The live demonstration will allow participants to show the functionality, performance and 
+practical relevance of their solution in relation to the challenge objectives. The Final Event will also 
+include a public pitch session and audience voting. 
+The final ranking will be based on the technical quality of the solution, the automatic performance 
+score of the final algorithm submission, the Final Report, the quality and effectiveness of the live 
+demonstration during the Final Live Competition, and audience voting, according to the weighting 
+defined in the evaluation section of this document (see section 4). 
+One winner per challenge will be selected and awarded the final challenge prize of EUR 100,000.  
+ 
+FIGURE 2 ADVANCE PHASE STRUCTURE 
+In addition to the main challenge prize, AI-BOOST will award two Special Awards per challenge to 
+recognise solutions that demonstrate outstanding achievements in key dimensions aligned with the 
+objectives of the programme. 
+The total budget available for the Special Awards is EUR 25,000 per challenge. 
+• 
+Innovation Excellence Award – EUR 12,500 
+• 
+Responsible AI Award – EUR 12,500 
+
+Guidelines for Applicants 
+12 
+ 
+2.2 
+AI BOOST CHALLENGES 
+AI-BOOST challenges address key Generative AI domains and are designed to foster the development 
+of innovative, impactful, and market-oriented AI solutions. Each challenge focuses on a specific 
+technological area and is promoted by a Challenge Owner who defines the challenge objectives, 
+expected outcomes, and application context. 
+The present Guidelines for Applicants provide only a brief overview of each challenge, including its 
+scope, objectives, and thematic focus. The full description of each challenge is provided in a dedicated 
+Challenge Document.  
+Challenge Documents: 
+• 
+Challenge-1-GenAI-based-Natural-Language-Mission-Generator-for-Autonomous-Robots-in-
+Agriculture.pdf 
+• 
+Challenge-2-Agentic-AI-for-Automated-CAD-Generation-and-Autonomous-Simulation_v2.pdf 
+• 
+Challenge-3 - Challenge 3 Generative AI for Enhancement of Clinical Datasets 
+• 
+Challenge-4 - Challenge 4 Generative AI for Automatic Test Case Generation from Crash 
+Databases & Standards 
+These documents contains detailed technical, functional, and operational information necessary to 
+participate in the challenge, including the challenge context, objectives, expected outcomes, 
+applicable requirements, data and infrastructure conditions where relevant, evaluation approach, and 
+any additional challenge-specific rules. 
+The Challenge Documents contain all information necessary to participate in the challenge and shall 
+be considered the main reference document for the preparation of applications and the development 
+of solutions. Applicants are therefore strongly encouraged to consult both these Guidelines for 
+Applicants and the corresponding Challenge Document before preparing and submitting their 
+application. In the event of any discrepancy between the summary presented in these Guidelines and 
+the detailed information contained in the relevant Challenge Document, the latter shall prevail. 
+2.2.1 
+CHALLENGE 1: GENAI-BASED NATURAL LANGUAGE MISSION GENERATOR FOR 
+AUTONOMOUS ROBOTS IN AGRICULTURE 
+The “GenAI-Based Natural Language Mission Generator for Autonomous Robots in agriculture” 
+competition, lead by Consorzio Intellimech and JOiINT LAB, aims to eliminate the barrier of specialized 
+technical knowledge required to program robots. Currently, robotic frameworks like ROS require expert 
+scripting, which limits scalability for non-technical operators; this challenge addresses the issue by 
+developing a Generative AI system that translates spoken or written natural language into structured, 
+executable robotic commands. At the core of this innovation is the use of Vision-Language-Action 
+(VLA) models that process speech, text, visual data, and spatial maps to bridge the gap between 
+human intent and standardized robotic execution. The primary objective is to create a functional Proof 
+of Concept reaching TRL 5, capable of autonomously generating and executing missions in a controlled 
+environment. While the initial demonstrative use case focuses on enhancing productivity in 
+
+Guidelines for Applicants 
+13 
+ 
+agriculture—specifically within vineyards—the approach is designed to be modular and extendable to 
+industrial maintenance, robotic inspection, and other autonomous field operations. Performance will 
+be measured through key indicators including an intent recognition accuracy of at least 90%, a task 
+execution success rate of at least 85%, and high robustness to linguistic variability. Participants will 
+have access to labeled datasets of grape clusters, with final validation occurring on a physical robotic 
+platform in a real-world outdoor vineyard row at the JOiINT LAB premises in Italy. By democratizing 
+robotic control through AI, this challenge, seeks to accelerate the intelligent automation transition 
+across the European industrial landscape. 
+Detailed information on the challenge context, objectives, datasets, infrastructure conditions, technical 
+requirements, validation procedures, expected outcomes, and participation conditions is available in 
+the dedicated Challenge Description document, accessible at: Challenge-1-GenAI-based-Natural-
+Language-Mission-Generator-for-Autonomous-Robots-in-Agriculture.pdf 
+2.2.2 CHALLENGE 2: AGENTIC AI FOR AUTOMATED CAD GENERATION AND 
+AUTONOMOUS SIMULATION 
+The design and simulation of industrial piping systems and mechanical assemblies still depend heavily 
+on experienced engineers who can interpret implicit geometric constraints, adapt components to 
+existing assemblies, define meshing strategies, and, where relevant, conduct convergence studies. This 
+challenge aims to develop an agentic AI system to support the workflow from design intent to 
+simulation setup. 
+The system should be capable of interpreting engineering requirements expressed in natural language, 
+automatically extracting geometric constraints from CAD (Computer-Aided Design) assemblies, 
+generating compatible and editable parametric CAD components, and automating mesh generation 
+and convergence analysis when needed. The purpose is specifically to support the routing of 
+compressor tubes within a package or skid, in particular by determining suitable and efficient 
+positioning between fittings and connected components. 
+Starting from existing CAD assemblies, 2D piping drawings, and natural language requirements, the 
+system should generate compatible and parametric 3D CAD models or components. The solution is 
+expected to interpret geometric relationships, mating logic, tolerances, functional requirements, and 
+assembly constraints, even when these elements are only partially explicit in the input material. 
+The solution should demonstrate a measurable reduction in manual engineering effort and contribute 
+to a more compact overall package or skid layout, with potential cost reduction. It should be validated 
+against expert-defined CAD processes and relevant industrial engineering checks in relevant industrial 
+environments. 
+Detailed information on the challenge context, objectives, datasets, infrastructure conditions, technical 
+requirements, validation procedures, expected outcomes, and participation conditions is available in 
+the dedicated Challenge Description document, accessible at: Challenge-2-Agentic-AI-for-
+Automated-CAD-Generation-and-Autonomous-Simulation_v2.pdf 
+
+Guidelines for Applicants 
+14 
+ 
+2.2.3 CHALLENGE 3: GENERATIVE-AI-FOR-ENHANCEMENT-OF-CLINICAL-
+DATASETS 
+The challenge focuses on improving the quality, completeness, and representativeness of clinical 
+imaging datasets through the use of Generative AI. Medical imaging datasets are often incomplete, 
+imbalanced, or lack sufficient representation of specific patient populations, limiting the development 
+and validation of reliable AI models for healthcare. Generative AI offers the opportunity to enhance 
+these datasets by creating realistic synthetic data while preserving their clinical relevance. 
+The objective is to develop a Generative AI solution capable of generating synthetic patient cohorts 
+from existing clinical and imaging data, identifying the key demographic, clinical, and imaging 
+characteristics that drive the generation process. The solution should augment existing datasets, 
+complete missing information, harmonize imaging data acquired under different conditions, and 
+produce synthetic cohorts that closely match the statistical properties of real-world clinical data. 
+The project also aims to improve fairness and robustness of AI applications in medical imaging by 
+reducing bias and increasing the representation of underrepresented patient groups. A key aspect of 
+the challenge is ensuring that the generated data remain realistic, clinically consistent, and suitable for 
+developing and validating trustworthy AI models that can support future medical research and clinical 
+decision-making. 
+Detailed information on the challenge context, objectives, datasets, infrastructure conditions, technical 
+requirements, validation procedures, expected outcomes, and participation conditions is available in 
+the dedicated Challenge Description document, accessible at: Challenge-3 - Challenge 3 Generative 
+AI for Enhancement of Clinical Datasets 
+2.2.4 CHALLENGE 4: GENERATIVE-AI-FOR-AUTOMATIC-TEST-CASE-GENERATION-
+FROM-CRASH-DATABASES-AND-STANDARDS 
+The challenge focuses on improving the validation and safety assessment processes for autonomous 
+driving systems using Generative AI. Current validation methods rely heavily on manual work to convert 
+accident investigations and regulatory requirements into simulation scenarios. This limits scalability, 
+speed, and consistency, especially as autonomous vehicle technologies continue to evolve. 
+The objective is to develop a solution that processes accident reports, visual materials, and 
+international safety standards, transforming this information into structured data and simulation-ready 
+test scenarios. These scenarios support the evaluation of vehicle behaviour under critical and real-
+world conditions. 
+The project also aims to strengthen the connection between real accident data and regulatory 
+frameworks, enabling better identification of safety requirements, compliance gaps, and edge cases 
+relevant to autonomous driving validation. A key aspect of the challenge is enhancing reports and 
+datasets on scenarios that lead to dangerous conditions and accidents into fully fledged scenarios 
+deployable in simulators and other validation platforms. In this way, technical and regulatory teams will 
+interact with comprehensive sets of scenarios, improving accessibility and efficiency across validation 
+and safety workflows. 
+
+Guidelines for Applicants 
+15 
+ 
+Detailed information on the challenge context, objectives, datasets, infrastructure conditions, technical 
+requirements, validation procedures, expected outcomes, and participation conditions is available in 
+the dedicated Challenge Description document, accessible at: Challenge-4 - Challenge 4 Generative 
+AI for Automatic Test Case Generation from Crash Databases & Standards 
+2.3 
+DATASETS 
+Detailed information regarding the datasets, data access conditions and challenge-specific 
+requirements is provided in the corresponding Challenge Description document. Applicants are 
+strongly encouraged to review this document carefully before preparing their application and 
+throughout the competition. 
+2.4 
+INFRASTRUCTURE 
+Applicants selected to progress to the second phase of the AI Challenge Competition may request 
+access to CINECA’s computing infrastructure to support the development, training, testing, or 
+demonstration of their AI solutions. This service is optional and intended for projects requiring 
+additional computational capacity; applicants with adequate resources of their own may use their 
+existing infrastructure. 
+CINECA will provide selected participants with access to a High-Performance Computing (HPC) 
+environment designed to support advanced AI research and computationally intensive workloads. This 
+environment is continuously updated to ensure access to state-of-the-art technologies and services. 
+The CINECA HPC environment offers a unified user experience, enabling participants to: 
+• 
+Access data, software, and computational resources through a common environment. 
+• 
+Work seamlessly across different computing platforms. 
+• 
+Efficiently manage large-scale datasets and computational workloads. 
+ 
+Supercomputer Architecture 
+The HPC infrastructure is based on a standard supercomputing architecture comprising: 
+• 
+Login nodes for user access and job submission. 
+• 
+Compute nodes for workload execution. 
+• 
+High-performance shared data storage systems. 
+• 
+A workload scheduler for resource allocation and job management. 
+This architecture is designed to support scalable and reliable execution of compute-intensive tasks 
+and to provide participants with the resources required for the different stages of AI solution 
+development. 
+
+Guidelines for Applicants 
+16 
+ 
+ 
+FIGURE 3 SUPERCOMPUTER ARCHITECTURE 
+ 
+LEONARDO Supercomputer 
+The main HPC system currently in operation is LEONARDO (Leonardo website), a EuroHPC Joint 
+Undertaking pre-exascale Tier-0 supercomputer and one of Europe's most powerful computing 
+systems.. 
+Supplied by Atos, LEONARDO consists of two primary partitions: 
+• 
+Booster Module: 
+• 
+Powered by NVIDIA Ampere GPUs 
+• 
+Delivers exceptional performance for GPU-intensive tasks 
+• 
+Entered production in summer 2023 
+• 
+Data-centric Module: 
+• 
+Focused on CPU-based computations 
+• 
+Powered by Intel Xeon Ice Lake processors 
+• 
+Entered production in February 2024 
+These complementary partitions provide flexibility to support different computational needs 
+depending on the characteristics of the proposed AI solution and the requirements of the challenge. 
+ 
+Technical Highlights 
+LEONARDO combines advanced hardware and software technologies to deliver high performance and 
+scalability, including: 
+• 
+NVIDIA Ampere GPU accelerators 
+• 
+Intel Xeon Ice Lake processors 
+• 
+Advanced InfiniBand HDR200 high-speed interconnects 
+• 
+CUDA-aware and other HPC-oriented compilers 
+• 
+Efficient node-to-node communication for large-scale parallel workloads 
+
+Guidelines for Applicants 
+17 
+ 
+These capabilities make LEONARDO particularly suitable for AI model development, machine learning, 
+data analytics, simulation, and other computationally demanding research activities.  
+Access to CINECA’s infrastructure under AI-BOOST is intended to provide selected participants with 
+additional technical capacity where needed and to facilitate the development and validation of AI 
+solutions in a robust HPC environment. Detailed information on access arrangements, technical 
+requirements, and onboarding procedures will be communicated directly to the selected participants. 
+2.4.1 
+ TRAINING AND TECHNICAL ONBOARDING FOR CINECA’S INFRASTRUCTURE 
+USERS 
+Participants who are granted access to CINECA’s computing infrastructure will receive dedicated 
+training and technical onboarding to support the effective use of the available HPC resources during 
+the competition. This support is intended to help participants configure their working environment, 
+access the infrastructure, and use the computing resources efficiently for the development, training, 
+testing, and validation of their AI solutions. 
+The onboarding will be organised by CINECA and will be offered to participants selected to progress 
+beyond the Spark phase who request access to the infrastructure. Detailed information on the format, 
+schedule, and access arrangements will be communicated directly to the selected participants. 
+The training programme will introduce participants to the use of Artificial Intelligence (AI) techniques 
+on High-Performance Computing (HPC) infrastructures at CINECA, with a particular focus on the 
+LEONARDO supercomputer and GPU-based computing environments. 
+The training and onboarding activities may include: 
+• 
+introduction to the CINECA HPC environment and access procedures 
+• 
+user registration and environment configuration, including the use of dedicated software modules 
+for AI applications 
+• 
+creation and management of Python virtual environments for AI workloads 
+• 
+guidance on job submission, workload execution, and resource allocation through the SLURM 
+workload manager 
+• 
+practical instructions for data access, storage, transfer, and the download of models and datasets 
+from external repositories such as Hugging Face 
+• 
+introduction to monitoring and visualisation tools for AI training processes, including TensorBoard 
+and Weights & Biases 
+• 
+overview of software environments, frameworks, and tools commonly used for AI development on 
+HPC systems 
+• 
+technical recommendations to support the efficient use of the infrastructure during the 
+competition. 
+The training may also cover advanced parallelisation and scaling techniques for AI workloads, including 
+approaches such as Distributed Data Parallel (DDP), Fully Sharded Data Parallel (FSDP), Accelerate, 
+
+Guidelines for Applicants 
+18 
+ 
+DeepSpeed, and Ray. Practical examples may demonstrate how these techniques can be used to scale 
+AI applications and integrate widely adopted frameworks such as PyTorch Lightning and Megatron-LM. 
+Training will be delivered through a webinar that includes a practical technical session. Participants will 
+also receive written guidelines and supporting documentation in advance of the webinar. 
+In addition to the initial onboarding, participants using CINECA’s infrastructure may receive technical 
+support throughout the competition in relation to the use of the HPC environment. This support will 
+focus on infrastructure-related aspects and will aim to facilitate the implementation of the proposed 
+solution within the available computing environment. 
+The purpose of these activities is to ensure that selected participants can make effective and 
+appropriate use of the infrastructure resources made available by AI-BOOST, regardless of their prior 
+experience with HPC environments. Practical exercises and real-world examples will be used where 
+appropriate to help participants acquire the skills needed to effectively leverage HPC systems for AI 
+projects. 
+2.5 
+TIMELINE 
+The AI-BOOST Competition is organised as follows: 
+ 
+FIGURE 4 TIMELINE OF THE COMPETITION  
+ 
+Change in the timelines. The Challenge duration and any of the above-mentioned timelines may be 
+modified, in case it is necessary to better fulfil the Specific Objectives of the Competition. This(these) 
+potential change(s) will be notified in advance of all Participants and communicated to all the 
+interested parties (e.g. press etc.). 
+SPARK Phase 
+Challenges 1 and 2  
+Call Publication and Application Period: The challenge will be published on the AI-BOOST website and 
+the F6S platform on 19 June 2026. From the publication date, applicants may prepare and submit their 
+applications in accordance with the requirements set out in these Guidelines and the corresponding 
+Challenge Description. 
+
+Guidelines for Applicants 
+19 
+ 
+Deadline for Application. Applications must be submitted through the AI-BOOST F6S page from 19 
+June 2026 until 25 August 2026 at 17:00 (i.e., Closure of application period). No Application will be 
+admitted after the Closure of the application period. 
+Challenges 3 and 4  
+Call Publication and Application Period: The challenge will be published on the AI-BOOST website and 
+the F6S platform on 3rd July 2026. From the publication date, applicants may prepare and submit their 
+applications in accordance with the requirements set out in these Guidelines and the corresponding 
+Challenge Description. 
+Deadline for Application. Applications must be submitted through the AI-BOOST F6S page from 3 July 
+2026 until 8 September 2026 at 17:00 (i.e., Closure of application period). No Application will be 
+admitted after the Closure of the application period. 
+Evaluation of proposals from SPARK Phase 
+Eligibility Assessment period (approximately 1 week). Following the closure of the application period, 
+all applications will undergo an eligibility assessment conducted by the AI-BOOST consortium to verify 
+compliance with the eligibility requirements defined in these Guidelines. 
+Internal Pre-Assessment (approximately 1 week) (if applicable): If more than 20 eligible applications 
+are received for a given challenge, an internal pre-assessment will be carried out by the AI-BOOST 
+consortium. The objective of this stage is to identify the 20 highest-ranked proposals that will proceed 
+to the external evaluation stage. 
+External evaluation (approximately 3 weeks): The shortlisted proposals will be evaluated by 
+independent external experts according to the evaluation criteria described in Section 4 of these 
+Guidelines. 
+Notification of Results. Applicants will be informed of the outcome of the evaluation process by email. 
+The selected participants will also be announced through the AI-BOOST website and other official 
+communication channels. 
+Advance Phase 
+Signature of Participation Agreement (October 2026): The five winners of each challenge will be invited 
+to enter the Advance Phase. Selected participants will sign the Participation Agreement. 
+Kick-off Meeting (October 2026). The Advance Phase with a dedicated kick-off meeting organised by 
+the AI-BOOST consortium and the corresponding Challenge Owner. During this session, participants 
+will receive detailed information on the challenge objectives, datasets, evaluation methodology, 
+available resources, infrastructure access conditions, and expected outcomes. Participants will also 
+have the opportunity to discuss technical and challenge-specific questions directly with the Challenge 
+Owner and AI-BOOST experts.  
+Development and Validation Period (From October 2026 to February 2027). Participants will develop, 
+train, validate and optimise their AI-based solutions using the datasets, infrastructure and technical 
+resources provided by AI-BOOST and the Challenge Owner. Throughout this period, participants may 
+submit updated versions of their algorithms on a monthly basis for automatic scoring. The resulting 
+
+Guidelines for Applicants 
+20 
+ 
+scores will be used to generate a leaderboard, allowing teams to benchmark their performance and 
+monitor their progress against other participants within the same challenge. 
+Technical Support and Capacity Building (From October 2026 to February 2027). During the Advance 
+Phase, AI-BOOST and the Challenge Owner will provide continuous support through technical guidance 
+sessions, Q&A activities, webinars, and infrastructure-related assistance. Participants requesting 
+access to CINECA’s HPC infrastructure will also receive dedicated onboarding and training to facilitate 
+the effective use of the available computing resources.  
+Mid-Term Checkpoint (December 2026). Approximately two months after the start of the Advance 
+Phase, participants will take part in a mandatory Mid-Term Checkpoint. Teams will present the work 
+carried out during the first part of the programme, including the technical specifications of their 
+solution, development progress achieved, and preliminary results obtained through the automatic 
+scoring framework. The Mid-Term Checkpoint will be assessed on a pass/fail basis and will serve to 
+verify active participation and satisfactory progress towards the challenge objectives. Participants 
+successfully completing the checkpoint will receive the remaining 50% of their SPARK Phase prize.  
+Feedback Session. Following the Mid-Term Checkpoint, participants will receive qualitative feedback 
+from the Challenge Owner and AI-BOOST experts. This session will provide technical 
+recommendations, clarification of challenge-specific requirements, and guidance on further improving 
+the proposed solutions. Participants will also have the opportunity to raise technical and operational 
+questions regarding the next development steps.  
+Final Submission (February 2027). At the end of the Advance Phase, participants will be required to 
+submit their final algorithm, a Final Report describing the developed solution and achieved results, and 
+a Final Pitch Presentation. These deliverables will form part of the final evaluation process.  
+Final Live Competition and Award Ceremony (February 2027): The Advance Phase will conclude with 
+a Final Live Competition in Brussels. During this event, participants will publicly present and 
+demonstrate their solutions before the evaluation panel. The event will include live demonstrations, 
+final pitch presentations and audience voting. Following the final evaluation, one winner per challenge 
+will be selected and awarded the final challenge prize of EUR 100,000, together with the announcement 
+of the Special Awards. 
+2.6 
+TYPES OF BENEFICIARIES 
+AI-BOOST aims to attract and mobilise wide participation of top scientists from academia and industry 
+including start-ups and as well as young teams and rising stars from all over EU and Associated 
+countries. Therefore, the target audiences for AI Challenge Competition are students (above 18-years 
+old), scientists and researchers, developers, high-tech SMEs, spin-off, start-ups, etc. 
+ 
+The participants (or contestants) can apply as individuals or linked to a legal entity. Hence, eligible 
+applicants are: 
+ 
+• 
+Individuals (students, researchers…); 
+• 
+Single legal entity; 
+• 
+Small and medium-sized enterprises (SMEs), this includes startups;  
+
+Guidelines for Applicants 
+21 
+ 
+• 
+Academia, universities, NGOs, non-profit organizations or a consortium of these;  
+• 
+Have technical capacity AND experience working on AI systems. Also consider that projects must 
+focus exclusively on civil applications; 
+• 
+Be established in one of the Member States (MS) of the European Union (EU), including overseas 
+countries and territories (OCTs) and also some Associated Countries (consult the guide for 
+applicants for the complete list of eligible countries) 
+ 
+2.7 
+ELIGIBLE COUNTRIES 
+ 
+Single Legal entities established in one of the eligible countries: 
+• 
+the Member States (MS) of the European Union (EU)1: 
+All 27 EU Member States (Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, 
+Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, 
+Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, 
+Sweden). 
+• 
+the Overseas Countries and Territories (OCTs) linked to the Member States; 
+Aruba, Bonaire, Curaçao, French Polynesia, French Southern and Antarctic Territories, 
+Greenland, New Caledonia, Saba, Saint Barthélemy, Sint Eustatius, Sint Maarten, St. 
+Pierre and Miquelon, Wallis and Futuna Islands. 
+• 
+The following Associated Countries to Horizon Europe2:  
+Albania, Armenia, Bosnia and Herzegovina, Canada, Egypt, Faroe Islands, Georgia, 
+Iceland, Israel, Kosovo, Moldova, Montenegro, New Zealand, North Macedonia, Norway, 
+Republic of Korea, Serbia, Switzerland, Tunisia, Ukraine, Turkey, United Kingdom. 
+2.8 
+SPECIFIC ELIGIBILITY AND FIT TO PROGRAM REQUIREMENTS 
+The following additional Eligibility Criteria: 
+• 
+The competitions open only to individuals and entities with technical capacity AND experience 
+working on AI models. 
+• 
+Eligible activities are the ones described in the challenge conditions. Applications will only be 
+considered eligible if their content corresponds, wholly or in part, to the challenge description for 
+which it is submitted. 
+• 
+Actions must, moreover, comply with EU policy interests and priorities (environment, social, 
+security, industrial policy, etc.). 
+• 
+Alignment with AI-BOOST services and value proposition: Applicants must demonstrate willingness 
+to actively engage with the AI-BOOST programme, making use of the services, infrastructure, and 
+opportunities provided. 
+ 
+ 
+ 
+1 https://european-union.europa.eu/principles-countries-history/country-profiles_en  
+2 list-3rd-country-participation_horizon-euratom_en.pdf 
+
+Guidelines for Applicants 
+22 
+ 
+• 
+Openness to work with the challenge owner: Applicants must be ready to collaborate with the 
+challenge owner organisation(s), including solution development, and demonstration activities. 
+• 
+Optional use of CINECA HPC infrastructure: Applicants may choose to use CINECA 
+supercomputing resources to train and validate their algorithms. This is optional but encouraged 
+where relevant. 
+• 
+Participation in AI-BOOST trainings and events: Applicants must attend training sessions, webinars, 
+or other capacity-building activities organised by AI-BOOST, which are designed to strengthen 
+technical and business capabilities. 
+• 
+Engagement with challenge owner and acceptance of terms: Applicants must engage with 
+challenge owner in good faith, agree to the terms and conditions stipulated by the organisers, and 
+acknowledge that IP foreground exclusivity exists for challenge owner to use and implement 
+free of charge the solutions developed within their specific challenge for a period of 6 months 
+after the duration of the competition. Following this period, any further collaboration, commercial 
+exploitation, licensing arrangements, or intellectual property sharing agreements between the 
+selected applicant and the challenge owner shall be subject to a separate agreement negotiated 
+directly between the parties. 
+2.9 
+SPECIFIC EXCLUSION CRITERIA 
+No double financing rule: There is a strict prohibition of double funding for the same action. Actions 
+that have already received and EU prize or Grant cannot benefit from the competition rewards for the 
+same activities.  
+In the event of duplicated funding, it will be deemed a breach and may lead to the withdrawal of funds, 
+as well as potential legal actions. This provision aims to prevent resource duplication and ensure the 
+fair allocation of funding across different projects. 
+2.10 
+DECLARATION OF HONOUR – EXCLUSION 
+As part of the application form, applicants must confirm compliance with EU norms and regulations by 
+ticking the Declaration of Honour checkbox. By doing so, they declare that they are not subject to 
+exclusion grounds under the EU Financial Regulation 2018/1046, such as bankruptcy, breaches of tax 
+or social security obligations, professional misconduct, fraud, corruption, money laundering, terrorism-
+related activities, child labour, trafficking, or the creation of entities to circumvent legal obligations. 
+Agreement through the application form constitutes the official Declaration of Honour. Selected 
+beneficiaries may also be subject to audits and controls by the European Commission, the European 
+Court of Auditors, the European Public Prosecutor’s Office, and the European Anti-Fraud Office. 
+ 
+ 
+
+Guidelines for Applicants 
+23 
+ 
+3 
+APPLICATION PROCESS 
+3.1 
+HOW TO APPLY?  
+Applicants are invited to register, create a user profile, and complete the full application form, prepare 
+the required supporting documents and submit them via the F6S platform and accessible through AI-
+BOOST website: AI Challenge Competition – AI-BOOST. All proposals must be fully completed and 
+submitted via F6S platform before the deadline (see section 3.4) 
+Main steps required: 
+1) 
+Registration via F6S platform 
+2) Dully complete the application form (all mandatory fields must be completed) 
+3) Submit the application form before the deadline (see section 3.4) 
+3.2 
+WHERE CAN I FIND THE APPLICATION FORM? 
+The applications must be built and submitted through the online F6S application form, available via AI-
+BOOST website: AI Challenge Competition – AI-BOOST. 
+To support applicants in preparing their submission, the questions included in the application form are 
+provided in Annex 1 - Concept note / Application form of these Guidelines for Applicants. Applicants 
+are encouraged to review the questions and prepare their responses in advance. Please note that only 
+applications submitted through the official online application system will be considered. In the event 
+of any discrepancy, the online version of the application form shall prevail. 
+Applicants are strongly encouraged to submit their proposals well in advance of the deadline to allow 
+sufficient time to complete all required fields and address any potential technical issues that may arise 
+during the submission process. 
+3.3 
+IS IT POSSIBLE TO SUBMIT THE DOCUMENTS IN NATIONAL LANGUAGE?  
+English is the official language for AI BOOST Competitions. Submissions done in any other language will 
+not be evaluated. English is also the only official language during the whole execution of the AI-BOOST 
+action. 
+3.4 
+WHEN TO SUBMIT THE APPLICATION FORM? 
+Challenges 1 and 2: All sections of the Application Form must be submitted electronically via F6S 
+Platform (accessible via f6s.com/ai-challenge-competition/about before 25th of August 2026, 17:00 
+Brussels time.  
+
+Guidelines for Applicants 
+24 
+ 
+Challenges 3 and 4: All sections of the Application Form must be submitted electronically via F6S 
+Platform (accessible via  https://www.f6s.com/ai-challenge-competition-2/about before 8th of 
+September 2026, 17:00 Brussels time.  
+We recommend that applicants submit their proposals well in advance of the specified deadline to 
+ensure that all required fields are completed and that their submissions are accepted. 
+3.5 
+CAN AN APPLICANT SUBMIT MORE THAN ONE PROPOSAL (MULTIPLE 
+SUBMISSION)? 
+Given the fact this call is a competitive one, and the applicants will focus on a specific challenge, only 
+one proposal per applicant will be evaluated and accepted for funding. In the case of multiple 
+submissions, only the last one received (timestamp of the system) will enter our evaluation process, 
+the rest being declared as non-eligible. If the last submitted proposal is declared then non-eligible or 
+fails to reach the thresholds of the evaluation, the other proposals submitted earlier will not be 
+considered for evaluation in any case. 
+ 
+ 
+
+Guidelines for Applicants 
+25 
+ 
+4 
+EVALUATION 
+The evaluation process will be carried out in successive stages, ensuring a fair, transparent and 
+structured selection of the best solutions. Each phase has specific requirements, deliverables and 
+evaluation criteria, as outlined below: 
+• 
+Phase I – SPARK Phase: Initial eligibility assessment and internal/external evaluation of concept 
+notes, focusing on the novelty of the proposed approach, alignment with the challenge objectives, 
+technical feasibility, and potential to deliver an innovative solution. 
+• 
+Phase II – ADVANCE Phase: Continuous development, validation and demonstration of the 
+proposed solution over a five-month period. Participants will undergo a Mid-Term Checkpoint to 
+verify progress and active participation. The final evaluation will be based on the Final Report, the 
+performance achieved through the final algorithm submission, the Final Pitch Presentation and Live 
+Demonstration, and audience voting. The assessment will consider technical excellence, innovation, 
+scalability, sector relevance, responsible AI principles, sustainability, and the practical applicability 
+of the solution to the challenge objectives and target use case. 
+4.1 
+PHASE I - SPARK PHASE  
+Eligible participants are invited to submit a concept note (see Annex 1) that outlines their proposed 
+solution for a specific challenge. The concept note should demonstrate the team’s capabilities to 
+address the challenge, any references or examples that substantiate their credibility. Additionally, 
+participants must include an implementation plan that details code planning, the use of hardware 
+infrastructure (which includes storage and processing), and other essential resources. Proposals will 
+be evaluated based on the following criteria excellence, impact and implementation:  
+ 
+We are looking for solutions that best address the challenges, have technical and innovation 
+novelty, have an achievable but ambitious implementation plan, 
+ 
+INTERNAL EVALUATION 
+If more than 20 eligible applications are received for a challenge, an internal pre-assessment will be 
+conducted by the AI-BOOST consortium to shortlist the 20 highest-ranked proposals. The following 
+criteria will be applied: 
+Criteria 
+Description 
+Weight 
+Innovation Novelty 
+Assesses the originality and creativity of the proposed 
+solution, its potential to advance the state of the art, and 
+whether it introduces new concepts, methods, or applications 
+beyond existing approaches. 
+25% 
+Challenge Fit and 
+Motivation 
+Evaluates how well the proposal addresses the specific 
+challenge, including the clarity of the problem-solution fit, and 
+the motivation of the team to tackle the defined objectives. 
+25% 
+Technical 
+Implementation Plan 
+and Team Capacity 
+Reviews the feasibility and robustness of the proposed 
+technical plan, including methodology, resources, and 
+25% 
+
+Guidelines for Applicants 
+26 
+ 
+infrastructure, as well as the expertise, skills, and 
+complementarity of the team to successfully deliver results. 
+Alignment with the EU 
+AI Scene, Replicability 
+Potential and 
+Sustainability 
+Examines how the proposal aligns with European AI priorities 
+and values, its potential for replication across sectors or 
+regions, and the long-term sustainability of the solution 
+beyond the competition. 
+25% 
+ 
+This process will select 20 participants per challenge, which will be later evaluated by external 
+independent experts. 
+ 
+EXTERNAL EVALUATION 
+Those best 20 proposals (selected by the internal evaluation) will be evaluated by 3 external experts. 
+The evaluation is scheduled over a period of 3 weeks. External evaluators will score all the submitted 
+applications based on the defined criteria. 
+Where an insufficient number of proposals reach the thresholds, AI-BOOST reserves the right, upon 
+recommendation of the Evaluation Committee, to select fewer participants or to invite additional high-
+ranking proposals that demonstrate sufficient quality. 
+The external experts will be subcontracted, and they will sign a Non-Disclosure Agreement (NDA) prior 
+to the proposal evaluation. The experts’ evaluators will be selected considering their experience and 
+knowledge in the field. Thus, the challenge collects an external evaluation per call completed by three 
+external experts who will score all the concept note. The following criteria will be applied: 
+External evaluation criteria: 
+Criteria 
+Description 
+Weight 
+Excellence 
+• 
+Originality of the idea 
+• 
+The soundness of the proposed concept 
+• 
+Inclusion of data management strategies and ethical 
+considerations 
+50% 
+Impact 
+• 
+Potential to transform the industry 
+• 
+Transferability and scalability 
+• 
+Social and economic benefits, including SDG impact 
+assessment 
+• 
+Sustainable AI practices and solutions 
+• 
+Consideration of environmental impact 
+• 
+Potential for collaboration and scalability 
+25% 
+Quality of 
+Implementation 
+• 
+Work plan and resources (DEVELOP & DEMO) 
+• 
+Relevant expertise and track record 
+• 
+Strength and diversity of the team 
+• 
+Capacity to develop their solution until TRL 5 
+25% 
+ 
+Technical evaluation: 
+For applicants choosing to use CINECA’s infrastructure, they will be required to specify several 
+technical requirements. These include the partition name, the expected wall clock time for a typical 
+job execution, the amount of GPU/CPU hours requested, and the maximum terabytes of storage 
+needed. Applicants must also outline their software requirements, indicate how many models they 
+need to train along with their parameters, and provide details on whether previous scalability and 
+
+Guidelines for Applicants 
+27 
+ 
+performance tests have been conducted on devices similar to those available in the CINECA 
+infrastructure. 
+4.2 
+PHASE II – ADVANCE PHASE 
+The final evaluation of the Advance Phase will be based on four complementary assessment 
+components: 
+• 
+Final Report (50%) 
+• 
+Final Algorithm Automatic Scoring (25%) 
+• 
+Final Pitch Presentation and Live Demonstration (20%) 
+• 
+Audience Vote (5%) 
+The Mid-Term Checkpoint is assessed on a pass/fail basis and does not contribute to the final score. 
+Its purpose is solely to monitor progress, verify active participation and trigger the payment of the 
+remaining 50% of the SPARK Phase prize. 
+ 
+Final Report Evaluation (50%) 
+The Final Report will be evaluated by independent external evaluators appointed by AI-BOOST, with 
+the support of the Challenge Owner and/or relevant technical experts where appropriate. 
+The report may contain confidential technica l information and will therefore not be made publicly 
+available. 
+The evaluation will be based on the following criteria: 
+Criteria 
+Description 
+Weight 
+Technical Performance 
+• 
+Accuracy, robustness, performance on real data, 
+benchmarking. 
+Clear documentation of: 
+• 
+Data sources and datasets used: 
+• 
+Exploratory Data Analysis 
+• 
+Techniques and models applied 
+• 
+Feature weightings used in decision-making 
+• 
+Full technical documentation of algorithms and methods 
+• 
+Citations and references supporting outputs 
+Bias mitigation using intersectional approaches : 
+• 
+Continuous performance optimization 
+• 
+System must maintain integrity while adapting. 
+• 
+Human oversight mechanisms for final decisions 
+• 
+Cognitive science principles 
+• 
+Direct user observation 
+• 
+Both between-subject and within-subject study 
+designs 
+• 
+GDPR and AI ACT compliance, privacy-by-design, 
+security measures, responsible data governance. 
+60% 
+
+Guidelines for Applicants 
+28 
+ 
+Innovation Scalability 
+& Sector Relevance 
+• 
+Cross-sector flexibility, integration potential, alignment 
+with data provider needs, go-to-market readiness. 
+• 
+Novel algorithms, originality in technical approach, 
+competitive advantage, use of cutting-edge AI. 
+25% 
+Societal Acceptance & 
+Responsible AI 
+• 
+Bias 
+mitigation, 
+transparency, 
+explainability, 
+HITL 
+mechanisms, ethical alignment with EU AI values. 
+• 
+Algorithmic 
+efficiency 
+(observable 
+complexity, 
+scalability, streamlined models, carbon footprint and 
+energy-efficient system design) 
+15% 
+ 
+*Only some of the technical performance components are assessed through the automatic scoring 
+framework. All other criteria are evaluated by expert reviewers. 
+ 
+Final Algorithm Automatic Scoring (25%) 
+The final algorithm submission is mandatory for all participants. 
+The submitted algorithms will be evaluated through the automatic scoring framework defined for each 
+challenge. The specific evaluation metrics, benchmark datasets and scoring methodology will be 
+described in the corresponding Challenge Description. 
+Depending on the challenge, the evaluation may include metrics such as: 
+• 
+Accuracy and predictive performance. 
+• 
+Robustness and generalisation capabilities. 
+• 
+Precision, recall, F1-score or area under the curve. 
+• 
+Mean squared error or other regression metrics. 
+• 
+Time-to-solution and computational efficiency. 
+• 
+Image similarity or generation quality metrics. 
+• 
+Challenge-specific performance indicators. 
+Only the final mandatory algorithm submission will be considered for the final score. 
+Final Pitch Presentation and Live Demonstration (20%) 
+During the Final Live Competition, participants will present their solution before a panel of evaluators, 
+Challenge Owners and AI-BOOST representatives. 
+The evaluation will consider both the Final Pitch Presentation and the Live Demonstration of the 
+solution. 
+The objective of this assessment is to evaluate the participants' ability to clearly communicate the 
+value of their solution and demonstrate its practical applicability in relation to the challenge objectives. 
+The evaluation will be based on the following criteria: 
+Criteria 
+Description 
+Weight 
+Demonstration of the 
+Solution 
+Assessment of the functionality, maturity and practical 
+applicability of the developed solution, including: 
+• 
+Demonstration of the core functionalities of the 
+solution. 
+65% 
+
+Guidelines for Applicants 
+29 
+ 
+• 
+Evidence that the solution addresses the challenge 
+objectives and requirements. 
+• 
+Demonstration 
+of 
+performance, 
+robustness 
+and 
+reliability. 
+• 
+Quality and relevance of the demonstration scenario. 
+• 
+Consistency between the demonstrated results and 
+the information provided in the Final Report. 
+• 
+Ability of the solution to operate under realistic 
+conditions and constraints. 
+Communication and 
+Presentation Quality 
+Assessment of the quality and effectiveness of the 
+presentation, including: 
+• 
+Clarity and structure of the presentation. 
+• 
+Ability to explain complex technical concepts to a 
+mixed audience. 
+• 
+Quality of the supporting materials. 
+• 
+Effectiveness 
+in 
+communicating 
+the 
+problem 
+addressed, the proposed solution and the achieved 
+results. 
+• 
+Professionalism and overall quality of the presentation. 
+35% 
+Audience Vote (5%) 
+Audience members (public) attending the Final Live Competition will be invited to vote for their 
+preferred solution through a dedicated voting mechanism. 
+The audience vote will contribute 5% of the final score and is intended to recognise the solution that 
+generates the highest level of interest and engagement among the audience. 
+Final Ranking 
+The participant obtaining the highest final score within each challenge will be declared the winner of 
+that challenge and will receive the corresponding final prize during the Final Live Competition event. 
+4.3 
+SCORING PROCESS 
+The scoring process will follow the same general approach as Horizon Europe evaluations. Each 
+applicable criterion will be scored from 0 to 5, with 0.5-point resolution, according to the following 
+scale: 
+• 
+0 – Failure - The application fails to address the criterion or cannot be assessed due to missing 
+or incomplete information.  
+• 
+1 - Poor - the criterion is inadequately addressed, or there are serious inherent weaknesses.  
+• 
+2 - Fair - the application broadly addresses the criterion, but there are significant weaknesses.  
+• 
+3 - Good - the application addresses the criterion well, but a number of shortcomings are 
+present. 
+• 
+4 - Very good - the application addresses the criterion very well, but a small number of 
+shortcomings are present. 
+• 
+5 -Excellent - the application successfully addresses all relevant aspects of the criterion. Any 
+shortcomings are minor. 
+
+Guidelines for Applicants 
+30 
+ 
+ 
+The scores will be calculated by applying the corresponding weighting to the average marks obtained 
+under each criterion. 
+4.4 
+SPECIAL AWARDS 
+The Special Awards will be evaluated by the same evaluation panel responsible for the final assessment 
+of the challenge. A solution may receive both the main challenge prize and one of the Special Awards. 
+Innovation Excellence Award – EUR 12,500 
+This award recognises the solution that demonstrates the highest degree of scientific and 
+technological innovation and contributes most significantly to advancing the state of the art within the 
+challenge domain. 
+The evaluation will be based on: 
+• 
+Novelty and originality of the proposed solution. 
+• 
+Degree of innovation compared to existing approaches. 
+• 
+Ambition and breakthrough potential of the solution. 
+• 
+Potential to advance the state of the art in the challenge domain. 
+ 
+Responsible AI Award – EUR 12,500 
+This award recognises the solution that best demonstrates the principles of trustworthy, human-
+centric and responsible AI, in line with European values and regulatory frameworks. 
+The evaluation will be based on: 
+• 
+Transparency and explainability of the solution. 
+• 
+Human oversight and user-centric design, where applicable. 
+• 
+Fairness and bias mitigation measures. 
+• 
+Privacy, security and responsible data governance practices. 
+• 
+Alignment with European values and Responsible AI principles. 
+5 
+COMMUNICATION FLOW WITH APPLICANTS 
+5.1 
+IS THERE ANY SUPPORT FOR THE APPLICANTS? 
+For more information about the AI Challenge Competition, please check the AI-BOOST website: AI 
+Challenge Competition – AI-BOOST  
+For additional details concerning the AI Challenge Competition, any inquiries regarding eligibility 
+criteria, questions about the required information in the Application Form, or if you encounter technical 
+
+Guidelines for Applicants 
+31 
+ 
+difficulties or issues with the Application Form, please reach out to the AI-BOOST Technical Helpdesk 
+via email at: info@aiboost-project.eu  
+We also recommend following us on LinkedIn to stay updated on the latest news and events: 
+https://www.linkedin.com/company/aiboost-project/ 
+5.2 
+HOW ARE THE RESULTS COMMUNICATED TO APPLICANTS? 
+After the evaluation process is concluded, applicants are informed via e-mail about the results, 
+although AI-BOOST website will also publish the list of prize-winners. Moreover, the rejected elegible 
+applicants will also receive an Evaluation Summary Report (ESR) with the reasons for exclusion. 
+Applicants are strongly encouraged to check Spam inbox. 
+5.3 
+HOW LONG DOES IT TAKE TO RECEIVE THE RESULT? 
+The evaluation of the SPARK Phase is expected to take approximately one month from the closure of 
+the call. Applicants will be informed of the outcome once the evaluation process has been completed. 
+The Advance Phase lasts five months and includes continuous monitoring of participants’ progress. 
+During this phase, participants will receive regular performance feedback through the automatic 
+scoring system and leaderboard, as well as qualitative feedback at the Mid-Term Checkpoint. 
+The Mid-Term Checkpoint will take place approximately two months after the start of the Advance 
+Phase. Participants will be informed of the outcome of this checkpoint once the review has been 
+completed. 
+The final evaluation of the Advance Phase will be carried out at the end of the phase, on the basis of 
+the final report, the final mandatory algorithm submission, the final pitch presentation and 
+demonstration, and the audience vote at the Final Event. Final results will be announced during the Live 
+Competition and Award Ceremony. 
+5.4 
+CAN APPLICANTS APPEAL A REJECTION? 
+If, at any stage of the evaluation process, the applicant considers that a mistake has been made or that 
+the evaluators have acted unfairly or have failed to comply with the rules of AI-BOOST first open call, 
+and that her/his interests have been prejudiced as a result; the following appeal procedures are 
+available. 
+A complaint should be drawn up in English and submitted by email to: info@aiboost-project.eu  
+Any complaint made should include: 
+• 
+contact details, 
+• 
+the subject of the complaint, 
+• 
+Reference or code of the application form 
+
+Guidelines for Applicants 
+32 
+ 
+• 
+information and evidence regarding the alleged breach. 
+Complaints should also be made within five (calendar) days since the evaluation results are presented 
+to the applicants. 
+As a standard procedure, the AI Challenge Competition office will thoroughly investigate any 
+complaints with the aim of reaching a decision to either issue a formal notice or close the case. This 
+process will typically be completed within twenty days from the date of receiving the complaint, 
+assuming that all necessary information has been provided by the complainant. In the event that this 
+time frame is exceeded, the AI-BOOST will promptly notify the complainant via email. 
+ 
+ 
+
+Guidelines for Applicants 
+33 
+ 
+6 
+ADDITIONAL INFORMATION 
+No commitment for prize: Invitation to the Advance Phase does NOT constitute a formal commitment 
+for prize award. The AI-BOOST will still need to make various legal checks before prize award: legal 
+entity validation, financial capacity, etc. 
+6.1 
+REQUIRED DOCUMENTS TO ENTER THE ADVANCE PHASE 
+Selected beneficiaries to enter the advance phase will be requested to provide the following 
+documentation: 
+• 
+Legal Entity Form: All selected beneficiaries need to provide the Legal Entity Form dully filled and 
+signed by the legal representative. In addition, the beneficiary must attach copies of official 
+supporting documents to proof the data provided in the form. The editable form can be 
+downloaded in all EU languages from the following website3. 
+• 
+Financial Identification Form: All selected beneficiaries need to provide the Financial Entity Form 
+dully filled and signed according to the instructions provided in the form4.  
+• 
+Additional documents: In the specific cases additional documents to prove the SME condition. 
+6.2 
+PRIZE PAYMENT PROCEDURE  
+Prize payments will be made by bank transfer and are subject to the successful completion of the 
+corresponding competition phase, compliance with the participation requirements, and the 
+submission of all requested administrative and legal documentation. 
+For the SPARK Phase winners, the prize will be disbursed in two instalments: 
+• 
+First instalment (50%): upon signature of the Advance Phase participation agreement with the 
+AI-BOOST consortium and the corresponding Challenge Owner.  
+• 
+Second instalment (50%): upon successful completion of the Mid-Term Checkpoint during the 
+Advance Phase.  
+The final challenge prize will be awarded to the winning participant of each challenge following the 
+completion of the Advance Phase, the final evaluation process, and the official approval of the 
+competition results by AI-BOOST. 
+AI-BOOST reserves the right to suspend or withhold payments in cases where participants fail to 
+comply with the competition requirements, fail to submit the required deliverables, fail to actively 
+participate in the competition activities, or do not provide the necessary documentation required for 
+payment processing. 
+ 
+ 
+ 
+3 https://commission.europa.eu/publications/legal-entities_en  
+4 https://commission.europa.eu/publications/financial-identification_en  
+
+Guidelines for Applicants 
+34 
+ 
+6.3 
+DISSEMINATION AND COMMUNICATION DUTIES 
+The prize-winners must actively promote the action and its results by providing targeted information 
+to multiple audiences (including the media and the public). 
+Unless otherwise agreed with the AI-BOOST, communication activities of the winners related to the 
+action (including media relations, conferences, seminars, information material, such as brochures, 
+leaflets, posters, presentations, etc., in electronic form, via traditional or social media, etc.), 
+dissemination activities and any infrastructure, equipment, vehicles, supplies or major result funded 
+by the grant must acknowledge EU support and display the European flag (emblem) and funding 
+statement (translated into local languages, where appropriate)5. 
+The emblem must remain distinct and separate and cannot be modified by adding other visual marks, 
+brands or text. 
+Apart from the emblem, no other visual identity or logo may be used to highlight the EU support. 
+When displayed in association with other logos (e.g. of beneficiaries or challenge owner), the emblem 
+must be displayed at least as prominently and visibly as the other logos. 
+For the purposes of their obligations under this Article, the beneficiaries may use the emblem without 
+first obtaining approval from the granting authority. This does not, however, give them the right to 
+exclusive use. Moreover, they may not appropriate the emblem or any similar trademark or logo, either 
+by registration or by any other means. 
+Any communication or dissemination activity related to the action must use factually accurate 
+information. 
+Moreover, it must indicate the following disclaimer (translated into local languages where appropriate): 
+“Funded by the European Union under GA No 101135737. Views and opinions expressed are however 
+those of the author(s) only and do not necessarily reflect those of the European Union. Neither the 
+European Union nor the granting authority can be held responsible for them.” 
+6.4 
+INTELLECTUAL PROPERTY RIGHTS (IPR) 
+The awarding entity does not acquire ownership of the outcomes generated within the framework of 
+the prize. 
+The granting authority has the right to use non-sensitive information relating to the action and 
+materials and documents received from the prize-winners (notably summaries for publication 
+deliverables, as well as any other material, such as pictures or audio-visual material, in paper or 
+ 
+ 
+ 
+5 https://ec.europa.eu/regional_policy/information-sources/logo-download-center_en  
+
+Guidelines for Applicants 
+35 
+ 
+electronic form) for policy, information, communication, dissemination and publicity purposes — during 
+the action or afterwards. 
+By submitting an application, applicants acknowledge and accept that, for the specific challenge in 
+which they participate, the corresponding challenge owner shall have the exclusive right, for a period 
+of six (6) months following the end of the competition, to use, test, evaluate and implement, free of 
+charge, the solutions developed within that challenge. Following this period, any further collaboration, 
+commercial exploitation, licensing arrangements, or intellectual property sharing agreements between 
+the selected applicant and the challenge owner shall be subject to a separate agreement negotiated 
+directly between the parties. 
+Photos and videos taken by the awarding authority either in preparation of the award ceremony or 
+during the award ceremony are the sole property of the awarding authority. 
+Regarding the evaluation and the review processes, each evaluator will sign an Agreement including 
+confidentiality clauses before receiving access to the applications database to protect the applicants' 
+intellectual property and sensitive non-disclosed information. 
+6.5 
+ON CONFLICTS OF INTEREST 
+Applicants must not have any actual and/or potential conflict of interest with the AI-BOOST selection 
+process and during the project implementation. All cases of conflict of interest will be assessed case 
+by case.  
+6.6 
+ETHICAL ISSUES 
+AI-BOOST is committed to upholding the highest ethical standards and complies with the principles 
+set out in the European Code of Conduct for Research Integrity, as well as applicable European 
+legislation and guidelines related to Artificial Intelligence, data protection, and research ethics. 
+AI-BOOST is committed to promoting trustworthy, human-centric, and responsible AI development. To 
+support this objective, AI-BOOST has established an Ethical Committee, which provides independent 
+oversight and guidance on ethical, legal, societal, and Responsible AI matters. The Committee ensures 
+that the competition and the solutions developed within it are aligned with European values and 
+principles, including fairness, transparency, non-discrimination, accountability, explainability, human 
+oversight, privacy, and sustainability. 
+Applicants are required to identify and disclose any potential ethical issues associated with their 
+proposed solution. In particular: 
+• 
+If the applicant identifies potential ethical issues related to their proposal, they should contact the 
+AI-BOOST Ethical Committee at ethics@aiboost-project.eu for guidance. 
+• 
+AI-BOOST will review the consistency between the ethical declarations provided and the content 
+of the application and may contact applicants for clarification or to request additional information.  
+• 
+Applications that fail to adequately address ethical issues, data protection requirements, privacy 
+concerns, or other relevant ethical considerations may be deemed ineligible and rejected.  
+
+Guidelines for Applicants 
+36 
+ 
+All members of the AI-BOOST ecosystem, including participants, evaluators, sponsors, Challenge 
+Owners, and consortium partners, are expected to adhere to the following principles: 
+• 
+Respect: Treat all individuals with dignity and courtesy, regardless of gender, age, ethnicity, 
+nationality, ability, religion, sexual orientation, gender identity, language, or professional background.  
+• 
+Inclusion: Foster an environment that promotes equity, diversity, accessibility, and equal 
+opportunities.  
+• 
+Integrity: Act with honesty, fairness, transparency, and accountability in all activities and 
+interactions.  
+• 
+Care: Contribute to an environment free from harassment, discrimination, intimidation, or any form 
+of abusive behaviour.  
+Additional information on the AI-BOOST Responsible AI framework and the Ethical Committee can be 
+found at: https://aiboost-project.eu/ethics-responsible-ai/  
+6.7 
+DATA PROTECTION 
+In order to process and evaluate applications, and manage project implementation, the AI-BOOST 
+consortium will need to collect Personal and Industrial Data.  
+• 
+F6S Network Ireland Limited, will act as Data Controller for data submitted through the F6S platform 
+for these purposes. Please see our privacy policy here.  
+• 
+A Data Protection Officer (DPO) has been appointed by F6S generally, to ensure compliance with 
+data protection regulations, such as the General Data Protection Regulation (GDPR), and that 
+personal data is collected, processed, and stored in a secure manner.  
+• 
+The F6S platform's system design and operational procedures ensure that data is managed in 
+compliance with the General Data Protection Regulation (EU) 2016/679 (GDPR).  
+• 
+Each applicant will accept the F6S terms to ensure compliance. Please refer to 
+https://www.f6s.com/privacy-policy to review the F6S platform’s privacy policy and data security 
+policy.  
+• 
+Apart from the F6S platform, data will also be stored in the F6S Google Drive, and in the project 
+repository on Microsoft Sharepoint managed by the project coordinator Zabala Innovation.  
+• 
+Note that the AI-BOOST consortium must retain generated data until five years after the balance 
+of the AI-BOOST  project is paid or longer if there are ongoing procedures (such as audits, 
+investigations or litigation). In this case, the data must be kept until their conclusion. 
+6.8 
+CONFIDENTIALITY 
+Confidentiality obligations: 
+• 
+Selected applicants are required to maintain confidential any project data, documents, invoices 
+and other materials (in any form) during the implementation of the activities and for 5 years after 
+project completion. 
+
+Guidelines for Applicants 
+37 
+ 
+• 
+This confidentiality period can be extended by agreement with the EC and the AI-BOOST 
+consortium. 
+• 
+Information shared during the project, whether written or spoken, is only considered confidential 
+if the AI-BOOST agrees and confirms it in writing within 15 days. 
+• 
+Confidential information must only be used for project implementation, unless otherwise agreed 
+upon. 
+• 
+Any information shared during the application stage will be treated as confidential. 
+6.9 
+GENERAL PRIZE TERMS 
+General Prize Terms – Delays or Cancellation 
+The Participants acknowledge and accept that all or part of the prizes: 
+• 
+might not be granted in case of termination of the competition; 
+• 
+might be granted with delays in case of extension of the competition; 
+• 
+might not be granted or granted with delays if the requirements are not fulfilled. 
+In case the Competition is terminated for any reason, no further prize(s) shall be awarded. AI-BOOST 
+may cancel the contest or decide not to award the prizes without any obligation to compensate 
+participants, in particular where its objectives cannot be fulfilled. 
+The prize(s) already awarded at that time may not be revoked. 
+The monetary prize to be paid will always be subject to the availability of EC funds to be transferred 
+by the AI-BOOST Coordinator in the bank account during the relevant payment period. 
+ 
+ 
+ 
+ 
+ 
+
+Guidelines for Applicants 
+38 
+ 
+7 
+ANNEX 1 - CONCEPT NOTE / APPLICATION FORM 
+Admin 
+1. 
+Full Name / Team Name / Organization Name 
+2. Email Address 
+3. Phone Number 
+4. Country of Residence / Registration 
+5. Legal Status (Individual, SME, University, Research Institution, NGO) 
+6. In case you are applying as a consortium, please elaborate on the consortium structure 
+ 
+ 
+EXCELLENCE  
+1. 
+Project Title 
+2. What specific problem does your AI solution aim to solve? 
+ 
+> Challenge 1: GenAI-Based Natural Language Mission Generator for Autonomous Robots in 
+Agriculture _ Intellimech 
+> Challenge 2: Agentic AI for Automated CAD Generation and Autonomous Simulation _ SIAD 
+Group 
+> Challenge 3: Generative-AI-for-enhancement-of-clinical-datasets 
+> Challenge 4: Generative-AI-for-automatic-test-case-generation-from-crash-databases-
+and-standards 
+3. Problem Fit & Contribution (Max 1500 characters) 
+Explain how your AI solution effectively addresses the identified problem/challenge and 
+benefits key stakeholders, ensuring alignment with industry needs. 
+4. Quantifiable Outcomes (Max 1500 characters) 
+Define KPIs, performance benchmarks, and measurable improvements expected from your 
+solution. Provide data-driven projections demonstrating impact on efficiency, accuracy, or 
+scalability. (KPIs, benchmarks, performance improvement, etc.). 
+5. Innovation & Novelty (Max 1300 characters) 
+Describe the unique elements of your approach compared to existing technologies. Highlight 
+the novelty in methods, algorithms, applications, or integrations. Specify how your solution 
+overcomes limitations of current systems or introduces groundbreaking improvements in AI 
+methodologies. 
+6. Technology Readiness (Max 1500 characters)  
+Describe your current TRL (e.g., TRL2) and justify your ability to reach TRL5.  
+7. AI Technology & Justification (Max 2000 characters)  
+Detail the specific AI techniques, architectures, or models supporting your proposal. Explain 
+why these technologies are ideal for your solution and how they will enhance efficiency, 
+
+Guidelines for Applicants 
+39 
+ 
+accuracy, and scalability. Discuss how AI interacts with complementary technologies, such as 
+cloud computing or edge AI, to boost performance. 
+8. Trustworthy, Responsible AI & Compliance (Max 2000 characters) 
+Summarize how your AI model ensures robustness, transparency, and explainability. 
+Demonstrate adherence to EU AI risk classification and regulatory frameworks, including 
+responsible AI principles such as human-in-the-loop oversight, bias mitigation, and ethical 
+evaluation. 
+9. Ethics & Data Governance (Max 1500 characters) 
+Explain how your solution manages data ethically and complies with GDPR. Provide insights 
+into data collection, processing, security, and privacy-by-design principles. Address bias 
+mitigation, informed consent procedures, and dataset integrity to ensure responsible AI 
+development. 
+ 
+IMPACT  
+1. 
+Sustainability & Scalability AI (Max 2000 characters) 
+What steps will ensure sustainability and continued impact of the AI model? Discuss plans for 
+continued retraining, ethical data reuse, community engagement, and legal compliance (e.g., 
+GDPR, AI Act). Provide a roadmap for exploitation and adaptation to evolving challenges. 
+Include references to transparency, accountability, and data privacy in design, deployment, 
+and stakeholder interactions. 
+2. Social & Environmental Impact (Max 1500 characters) 
+What are the expected societal, environmental, and economic benefits of your solution?  
+Connect your project to EU Green Deal policies or SDGs, demonstrating contributions to 
+economic, social, or environmental sustainability. Include AI-driven energy efficiency 
+strategies, emissions reduction, or infrastructure enhancements. 
+3. Fairness, Diversity & Open Science (Max 1500 characters) 
+How are gender, diversity, and inclusion considered in the dataset of your project?  
+Mention inclusive team composition, stakeholder engagement, and accessibility of data or 
+results through open science principles. 
+4. Exploitation, and Potential for Collaboration (max 2000 characters)  What are your plans to 
+exploit and scale the solution beyond TRL 5? Explain how the AI solution is structured for 
+adaptability and industry-wide adoption, including plans for cross-sector collaborations, 
+open-access research contributions, and public-private partnerships.  
+QUALITY OF IMPLEMENTATION 
+ 
+1. 
+Work Plan (ADVANCE Phase) (max 3000 characters) 
+Outline the roadmap for AI solution development, detailing key milestones and validation 
+strategies. Explain how each phase contributes to reaching TRL5, ensuring feasibility and 
+scalability. 
+2. Do you need access to CINECA Infrastructure? 
+Yes/no 
+
+Guidelines for Applicants 
+40 
+ 
+3. Resources/Infrastructure (max 1500 characters) 
+Please indicate CINECA resources and infrastructure you will use.  (if needed). 
+• 
+Partition name 
+• 
+Wall clock time of a typical job execution 
+• 
+Amount of GPU/CPU hours requested 
+• 
+Max TB storage needed 
+• 
+Software requirements  
+• 
+How many models do you need to train? Parameters? 
+• 
+Are there previous tests available on scalability and performance computed on similar 
+devices as the ones available on CINECA infrastructure? 
+4. Team Credentials & Expertise (Max 1750 words) 
+Provide evidence of the team's technical experience, achievements, and domain expertise. 
+Highlight participation in AI research, industry collaborations, publications, competitions, and 
+previous impactful projects. 
+5. Risk Management & Mitigation (Max 1500 characters) 
+Identify key risks to implementation and how you'll address them. 
+ 
+DECLARATION 
+ 
+1. 
+Please check the following boxes 
+ 
+ 
+I declare that my organization is not subject to exclusion grounds under EU Financial Regulation 
+2018/1046. 
+ 
+I acknowledge that selected beneficiaries may be subject to audits and controls by the 
+European Commission, ECA, EPPO and OLAF. 
+ 
+If selected as a prize-winner, agree to sign the official Declaration of Honour available on the 
+Al-BOOST website. 
+ 
+ 

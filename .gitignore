@@ -1,0 +1,14 @@
+# heavy stuff lives on anvme (symlinks)
+/anvme
+/data
+/ros_ws
+/sim
+/rosbags
+/tools
+/envs
+/checkpoints
+/experiments
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

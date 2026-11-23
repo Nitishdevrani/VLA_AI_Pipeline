@@ -1,0 +1,772 @@
+[
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 1,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.94531091543530665,
+						"x" : 8.4031455577538357e-06,
+						"y" : 2.9339375898593622e-06,
+						"z" : -0.32617061958374127
+					},
+					"position" : 
+					{
+						"x" : -0.83133999272139025,
+						"y" : 0.59511905432229972,
+						"z" : -1.2480457793673239e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 2,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.9998829962927388,
+						"x" : 7.2394601367032535e-06,
+						"y" : 7.6741373320804574e-06,
+						"z" : 0.015296849785258955
+					},
+					"position" : 
+					{
+						"x" : -1.5044112100516198,
+						"y" : 0.99031927970797473,
+						"z" : -1.3182183367821398e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 3,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.99999409783834381,
+						"x" : 5.89682483288774e-06,
+						"y" : 5.8343465994347332e-06,
+						"z" : -0.003435726948495357
+					},
+					"position" : 
+					{
+						"x" : -12.540508915557069,
+						"y" : 1.2798080308973478,
+						"z" : -1.348591412317357e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 4,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.71664069921042939,
+						"x" : 5.2351192904839645e-06,
+						"y" : 8.8816502783858416e-06,
+						"z" : 0.69744254826393892
+					},
+					"position" : 
+					{
+						"x" : -13.916146937320956,
+						"y" : -0.081420035574132132,
+						"z" : -1.4332516537374218e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 5,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.020490178781625765,
+						"x" : -1.0200788238268453e-05,
+						"y" : 6.4884049694773184e-06,
+						"z" : 0.99979005417504607
+					},
+					"position" : 
+					{
+						"x" : -12.308142263862022,
+						"y" : -1.7846694623010992,
+						"z" : -1.4655770354143893e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 6,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.0074058842024363478,
+						"x" : -5.2887100623356996e-06,
+						"y" : 7.1014875659557786e-06,
+						"z" : 0.99997257602435208
+					},
+					"position" : 
+					{
+						"x" : -0.74540191376294462,
+						"y" : -1.7903584015837279,
+						"z" : -1.2365479704290472e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 7,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.71253355661025886,
+						"x" : 1.0210575143648587e-05,
+						"y" : 1.2004472010820049e-06,
+						"z" : -0.70163803388829926
+					},
+					"position" : 
+					{
+						"x" : -0.31896887139131724,
+						"y" : -0.38211308388664778,
+						"z" : -1.4204857303995455e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 8,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.69916211435766829,
+						"x" : 8.5704266570580444e-06,
+						"y" : -1.5879985775850608e-06,
+						"z" : -0.71496317231794582
+					},
+					"position" : 
+					{
+						"x" : -0.35014307619670859,
+						"y" : 2.8701894779320685,
+						"z" : -1.2283357327252942e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 9,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.99999894095037301,
+						"x" : 6.6413154163009943e-06,
+						"y" : 5.9694608462122248e-06,
+						"z" : 0.0014553413313797637
+					},
+					"position" : 
+					{
+						"x" : -1.0738813054783689,
+						"y" : 4.1224360995294465,
+						"z" : -1.2316458859462642e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 10,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.99998749794671293,
+						"x" : 6.2525847683220613e-06,
+						"y" : 6.9103486012509921e-06,
+						"z" : 0.0050003863275859192
+					},
+					"position" : 
+					{
+						"x" : -13.724742772519178,
+						"y" : 4.2626440461075257,
+						"z" : -1.3672408026188521e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 11,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.68808611990122193,
+						"x" : -1.4036600246907616e-06,
+						"y" : 8.3212931814650067e-06,
+						"z" : 0.72562903161882042
+					},
+					"position" : 
+					{
+						"x" : -13.978709195180192,
+						"y" : 2.5459936718214777,
+						"z" : -1.1726432208175597e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 12,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : -0.0021736752235472739,
+						"x" : -5.8068544222983439e-06,
+						"y" : 7.9795001479101337e-06,
+						"z" : 0.9999976375165246
+					},
+					"position" : 
+					{
+						"x" : -13.055156693135569,
+						"y" : 1.2804899524542606,
+						"z" : -1.3139211675783358e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 13,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : -0.00025056549113963402,
+						"x" : -5.344199159859351e-06,
+						"y" : 8.2266879910974491e-06,
+						"z" : 0.99999996856034756
+					},
+					"position" : 
+					{
+						"x" : -0.58242943890718557,
+						"y" : 1.4003434126200571,
+						"z" : -1.3150974818909589e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 14,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.73887006410386946,
+						"x" : 9.399640434399341e-06,
+						"y" : -1.1045749708142748e-06,
+						"z" : -0.67384792667305171
+					},
+					"position" : 
+					{
+						"x" : -0.30785749478694591,
+						"y" : 2.5253198240159791,
+						"z" : -1.3161668578370866e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 15,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.69150383084366751,
+						"x" : 9.2256933080598008e-06,
+						"y" : 3.5139265368633064e-07,
+						"z" : -0.72237279284542244
+					},
+					"position" : 
+					{
+						"x" : -0.31618955100351354,
+						"y" : 5.7851094620027599,
+						"z" : -1.255584416373634e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 16,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.99713295024106929,
+						"x" : 4.6773294729759669e-06,
+						"y" : 8.7758758260342027e-06,
+						"z" : 0.075669541062754878
+					},
+					"position" : 
+					{
+						"x" : -0.47858368639304771,
+						"y" : 6.9206259541774706,
+						"z" : -1.2874052659872515e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 17,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.99996283609486281,
+						"x" : 4.8264529524044784e-06,
+						"y" : 8.3542280339169868e-06,
+						"z" : 0.0086212722976826278
+					},
+					"position" : 
+					{
+						"x" : -13.713403861330086,
+						"y" : 6.8121621068937745,
+						"z" : -1.3379239858973824e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 18,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.67692559233575011,
+						"x" : 3.232639001280866e-08,
+						"y" : 9.1865046149402515e-06,
+						"z" : 0.73605145360667612
+					},
+					"position" : 
+					{
+						"x" : -14.039219620263426,
+						"y" : 5.7316141710420938,
+						"z" : -1.3692004617010811e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 19,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.005765478881757013,
+						"x" : -8.5643684771704489e-06,
+						"y" : 5.8655124575314994e-06,
+						"z" : 0.99998337943463411
+					},
+					"position" : 
+					{
+						"x" : -12.953519147792964,
+						"y" : 4.2571376586541838,
+						"z" : -1.2886387654703624e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 20,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : -0.023812164877977601,
+						"x" : -5.7576210358945921e-06,
+						"y" : 6.5807104449503724e-06,
+						"z" : 0.99971645016342914
+					},
+					"position" : 
+					{
+						"x" : -1.1269643450468836,
+						"y" : 4.3229050900580912,
+						"z" : -1.235094398410741e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 21,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.67008997024910344,
+						"x" : -1.7951963673066978e-06,
+						"y" : 9.9479694611722318e-06,
+						"z" : 0.74227988769019659
+					},
+					"position" : 
+					{
+						"x" : -0.40166034466107625,
+						"y" : 3.7414274021065586,
+						"z" : -1.3066064890043805e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	},
+	{
+		"gripper_rec" : 
+		{
+			"effort" : [],
+			"name" : [],
+			"position" : [],
+			"velocity" : []
+		},
+		"id_step" : 22,
+		"interpolation" : false,
+		"target2src" : 
+		[
+			{
+				"child_frame" : "EE_3",
+				"parent_frame" : "world",
+				"pose" : 
+				{
+					"orientation" : 
+					{
+						"w" : 0.75337546423316082,
+						"x" : 2.8567213528113949e-06,
+						"y" : 8.4810392692379559e-06,
+						"z" : 0.65759060958272553
+					},
+					"position" : 
+					{
+						"x" : -0.30411960920634939,
+						"y" : -0.52975330297919188,
+						"z" : -1.3246639523900594e-05
+					}
+				}
+			}
+		],
+		"vision_timeout" : 0
+	}
+]

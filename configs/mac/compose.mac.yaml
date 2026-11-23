@@ -1,0 +1,37 @@
+# Mac (Apple Silicon) variant of the organizers' compose.yaml.
+# Copy this file and start_sim_mac.sh into the Frasky_Vineyard_simulator folder on the Mac.
+#
+# Changes vs. the original, and why:
+#   - platform linux/amd64            image is x86; Docker Desktop runs it via Rosetta
+#   - removed deploy.nvidia GPU       no NVIDIA on Mac -> "could not select device driver" error
+#   - removed /dev/dri, /dev/input, /dev:/dev   those devices don't exist in Docker Desktop's VM
+#   - removed NVIDIA/PRIME env vars   __GLX_VENDOR_LIBRARY_NAME=nvidia would break Mesa software GL
+#   - removed /tmp/.X11-unix mount    X goes over TCP to XQuartz (Plan A) or to Xvfb inside (Plan B)
+#   - removed network_mode: host      not needed: ROS master and all nodes live inside the container
+#   - added LIBGL_ALWAYS_SOFTWARE=1   CPU (llvmpipe) rendering for Gazebo GUI + camera sensors
+#   - added port 5900                 VNC for Plan B
+services:
+  frasky_test:
+    image: frasky_test:latest
+    platform: linux/amd64
+    container_name: frasky_test
+    init: true
+    ipc: host
+    privileged: true
+    stdin_open: true
+    tty: true
+    shm_size: "2gb"
+    ports:
+      - "127.0.0.1:5900:5900"
+    volumes:
+      - ./test_mapping.json:/home/frasky_ws_container/catkin_ws/src/frasky_ws/frasky_detection/crop_map_db/test_mapping.json
+      - ./mapping_first_row.json:/home/frasky_ws_container/catkin_ws/src/frasky_ws/frasky_detection/crop_map_db/mapping_first_row.json
+      - ./my_pkgs:/home/frasky_ws_container/catkin_ws/src/my_pkgs
+      - ./husky_nav_out.json:/home/frasky_ws_container/catkin_ws/src/frasky_ws/autonomous_task/robots/frasky/tasks/husky_nav_out.json
+      - ./captures:/captures            # monitoring images + recordings land here on the Mac
+    environment:
+      - DISPLAY=${FRASKY_DISPLAY:-host.docker.internal:0}
+      - LIBGL_ALWAYS_SOFTWARE=1
+      - QT_X11_NO_MITSHM=1
+      - LIBGL_ALWAYS_INDIRECT=${FRASKY_INDIRECT:-1}
+    command: bash

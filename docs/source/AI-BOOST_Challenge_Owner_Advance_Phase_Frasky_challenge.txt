@@ -1,0 +1,180 @@
+
+=== page 1 ===
+GENAI-BASED NATURAL LANGUAGE MISSION GENERATOR 
+FOR AUTONOMOUS ROBOTS IN AGRICULTURE
+1
+
+
+=== page 2 ===
+Why Autonomous Robots in Agriculture
+2
+Experiences from the field
+
+
+=== page 3 ===
+Frasky Robot Platform
+3
+Reference: E. Khiali, A. Marchetti, G. Ribolla, F. Negrello, et al. "Towards a Robotic Platform for Precision Vineyard Operations." IEEE Access (2026).
+Field experiments and main robot functions: https://www.youtube.com/watch?v=QEaptETRRG4
+User input
+
+
+=== page 4 ===
+4
+
+
+=== page 5 ===
+Challenge Description
+5
+1. Grape mapping: generate the correct sequence 
+of navigation-perception-manipulation actions to 
+identify and localize all the grapes present in the 
+vineyard. 
+2. Monitoring Task: collect an image of each grape 
+in the vineyard (based on grape mapping data 
+collected).
+3. Precision Task: Execute a dedicated treatment 
+on a specific grape ID.
+Generate the following Frasky Missions
+Note:
+A partial grape mapping will  be provided for baseline development
+
+
+=== page 6 ===
+KPI and Evaluation Metrics
+6
+KPI 1 – Intent Recognition Accuracy: ≥ 90% correct identification of user intents and associated 
+parameters (task, objects, location, constraints) from voice/text instructions, evaluated against 
+ground-truth annotations for predefined tasks and actions.
+KPI 2 – Task Planning and Execution Success: ≥ 85% successful mission completion, assessed by 
+comparing generated ROS-compatible task sequences with reference plans and validating execution 
+in simulation or a controlled ROS environment.
+KPI 3 – Robustness to Language Variability: ≥ 85% task success across 3–5 semantically equivalent 
+instruction variants per mission, evaluating consistency across different linguistic formulations.
+KPI 4 – End-to-End Processing Latency (bonus): Average processing time from speech input to 
+ROS-compatible mission generation within a 5–10-second target, measured across multiple test 
+scenarios.
+KPI 5 Task Completion Time (bonus): Overall time between user input and task completion.
+
+
+=== page 7 ===
+KPI and Evaluation Metrics
+7
+KPI 1 – Intent Recognition Accuracy: ≥ 90% correct identification of user intents and associated 
+parameters (task, objects, location, constraints) from voice/text instructions, evaluated against 
+ground-truth annotations for predefined tasks and actions.
+KPI 2 – Task Planning and Execution Success: ≥ 85% successful mission completion, assessed by 
+comparing generated ROS-compatible task sequences with reference plans and validating execution 
+in simulation or a controlled ROS environment.
+KPI 3 – Robustness to Language Variability: ≥ 85% task success across 3–5 semantically equivalent 
+instruction variants per mission, evaluating consistency across different linguistic formulations.
+KPI 4 – End-to-End Processing Latency (bonus): Average processing time from speech input to 
+ROS-compatible mission generation within a 5–10-second target, measured across multiple test 
+scenarios.
+KPI 5 Task Completion Time (bonus): Overall time between user input and task completion.
+1.
+Grape mapping: % of grapes correctly identified and located on the map.
+2. Monitoring Task:  % of grapes correctly monitored, among those identified during 
+grape mapping.
+3. Precision Task: binary 0/1 evaluation based on task completion. (PASS-FAIL task).
+
+
+=== page 8 ===
+WHAT WE PROVIDE
+8
+1. Vineyard Simulated Environment for Training
+2. Frasky Digital Twin 
+3. Grape Dataset
+
+
+=== page 9 ===
+Vineyard Simulated Environment
+9
+• Virtual vineyard 
+ integrating the robot’s digital twin for 
+testing robot operation and control
+• 3 Vineyard rows (16x10m) with 270 
+grapes
+• Real Grapes images randomly 
+chosen to introduce visual variability
+
+
+=== page 10 ===
+Frasky Digital Twin
+10
+•
+Robot kinematic model (URDF): Definition of 
+the robot’s links, joints, reference frames and joint limits, 
+describing its mechanical structure and allowable 
+motion.
+•
+Robot geometry (CAD meshes): CAD-derived 
+3D meshes associated with the URDF links to reproduce 
+the robot’s geometry and support visualization and 
+collision checking.
+•
+Containerized robot control (Docker): 
+Robot control modules and software dependencies 
+packaged in a Docker container, providing a 
+reproducible execution environment interfaced with the 
+simulated robot.
+Control modules
+
+
+=== page 11 ===
+Grape Dataset
+11
+Sources
+[1] Embrapa WGISD, Embrapa SEG Project 01.14.09.001.05.04, *Image-based metrology for Precision Agriculture and Phenotyping*, and the CNPq PIBIC Program.
+[2] J. Ramon Morros, T. Pariente Lobo, S. Salmeron-Majadas, J. Villazan, D. Merino, A. Antunes, M.Datcu, C.Karmakar, E. Guerra, D. Pantazi & G. Stamoulis. (2021). 
+AI4Agriculture Grape Dataset (Version 1.0.0) [Dataset]. 
+[3] Isabel Pinheiro. (2023). Grapevine Bunch Condition Detection Dataset [Dataset].
+[4] Sozzi M, Cantalamessa S, Cogato A, Kayad A, Marinello F. wGrapeUNIPD-DL: An open dataset for white grape bunch detection. Data Brief. 2022 Jul 13;43:108466. 
+•
+11007 RGB Images and related annotation (txt files)
+•
+Single-class grape-cluster bounding boxes in normalized YOLO format 
+(class_id, cx, cy, w, h)
+•
+Dataset includes: 
+•
+Single and multiple grape clusters,
+•
+multiple grape varieties, 
+•
+various image resolutions,
+•
+different illumination conditions and partial occlusions, 
+•
+grape-free images.
+
+
+=== page 12 ===
+Milestones and timing
+12
+KICK-OFF
+Mid October 2026
+MID-TERM
+December 2026
+Assessment
+on training 
+environment
+FINAL EVENT
+End-February 
+target
+Brussels · date TBC
+Release of the 
+challenge 
+materials
+Final competition 
+on a Challenge 
+dedicated 
+environment
+
+
+=== page 13 ===
+Funded by the European Union under GA No 101135737. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European 
+Union. Neither the European Union nor the granting authority can be held responsible for them.
+www.aiboost-project.eu
+Contact us: info@aiboost-project.eu
+Thank you

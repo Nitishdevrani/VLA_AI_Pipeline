@@ -1,0 +1,525 @@
+
+=== page 1 ===
+AI-BOOST Challenge 1 | Working draft v2
+VinePilot
+VinePilot
+Steerable Vision-Language Mission Generation
+for Safe Agricultural Robots
+AI-BOOST AI Challenge Competition - Challenge 1
+GenAI-Based Natural Language Mission Generator for Autonomous Robots in Agriculture
+Applicant: University of Technology Nuremberg (UTN) - Fundamental AI Lab (FunAI)
+Scientific lead: Prof. Yuki M. Asano
+Submission note. This document mirrors Annex 1 and the live F6S form. Copy the answer text into F6S; the
+online form prevails. Deadline: 25 August 2026, 17:00 Brussels time. Replace every red confirmation marker before
+submission. Character counts refer to plain-text answers and exclude field prompts.
+Admin
+1. Full Name / Team Name / Organization Name / Consortium Name
+University of Technology Nuremberg (UTN) - Fundamental AI Lab (FunAI)
+2. Email Address
+yuki.asano@utn.de
+3. Phone Number
+[CONFIRM: insert applicant telephone number]
+4. Country of Residence / Registration
+Germany
+5. Legal Status
+University
+6. Consortium structure
+In case you are applying as a consortium, please elaborate on the consortium structure.
+Not applicable. The University of Technology Nuremberg is the single applicant. The delivery team is drawn from
+two UTN chairs: the Fundamental AI Lab (Prof. Yuki M. Asano, scientific lead) and the Artificial Intelligence and
+Robotics group (Prof. Wolfram Burgard). Both are within the same legal entity, so no consortium agreement is
+required.
+Excellence
+1. Project Title
+VinePilot: Steerable Vision-Language Mission Generation for Safe Agricultural Robots
+1
+
+
+=== page 2 ===
+AI-BOOST Challenge 1 | Working draft v2
+VinePilot
+2. Specific problem / challenge selected
+Challenge 1: GenAI-Based Natural Language Mission Generator for Autonomous Robots in Agriculture - Intellimech
+/ JOiiNT LAB
+3. Problem Fit & Contribution
+Explain how the solution addresses the challenge and benefits key stakeholders while aligning with industry needs.
+Every new vineyard mission needs a ROS programmer. VinePilot replaces that with a language layer an operator can
+use and an integrator can audit. A grower says “check the third row and tell me which clusters look ripe.” Streaming
+ASR returns text with per-span confidence; an instruction-tuned LLM resolves intent against an explicit catalogue of
+robot actions and emits a typed plan: navigate(row=3) -> survey(target=“ripe cluster”) -> report(map_overlay)
+- never raw motor commands. Perception is steered by the same language: our ECCV 2026 oral paper “Steerable
+Visual Representations” uses gated cross-attention to make a frozen ViT respond to the mission phrase, so “ripe
+cluster”, “trunk” or “obstacle” each redirect one backbone rather than a detector per concept. A topological row
+map and live pose ground every spatial reference. A deterministic validator checks types, preconditions, geofences,
+confidence and safety rules before compiling to ROS1 actions; uncertain or safety-critical plans go to a human. This
+covers all five challenge objectives - speech to text, LLM intent and task decomposition, executable ROS plans, visual
+and map context, platform validation - and is measured throughout against the Challenge Owner’s GUI/manual
+baseline. Growers gain access without scripting and integrators gain an inspectable interface extended by editing a
+schema, without retraining a policy; the Challenge Owner gains a VLA proof of concept transferable to inspection
+and maintenance.
+1500 / 1500 characters
+4. Quantifiable Outcomes
+Define KPIs, benchmarks and measurable improvements.
+All targets follow the Challenge Owner’s protocol (70/15/15 split, 3-5 paraphrases per mission, GUI/manual baseline)
+and are submitted monthly to the automatic-scoring leaderboard. KPI1, intent and slot accuracy >=92% (target
+>=90%): grammar-constrained decoding removes malformed-plan errors, so residual error is semantic, not syntactic.
+KPI2, plan correctness and mission completion >=87% in simulation and >=85% on the physical platform (target
+>=85%). KPI3, >=87% success across 3-5 paraphrases per mission, reporting the worst paraphrase rather than the
+mean. KPI4, median end-to-end latency <=5 s and p95 <=10 s, from speech onset to first ROS goal. Safety: 100% of
+executed plans pass schema, capability, precondition and geofence validation; zero unvalidated model output reaches
+ROS; >=95% correct refusal on a held-out suite of unsafe, out-of-scope and prompt-injection instructions, reported
+with the false-refusal rate so abstention cannot be gamed. Perception: grounding F1 and mask IoU per stratum
+(cultivar, colour, growth stage, lighting, occlusion), <=5-point worst-group gap where data supports the stratum,
+plus expected calibration error. Efficiency: under 1% trainable parameters and >=40% lower adapter-training energy
+than end-to-end VLA fine-tuning (OpenVLA / pi-zero class), measured on identical hardware with our Robot Control
+Stack harness. Usability: >=50% lower median mission-authoring time than the GUI baseline, over >=5 operators
+and >=10 missions.
+1494 / 1500 characters
+5. Innovation & Novelty
+Describe novelty relative to existing approaches and how the solution overcomes current limitations.
+Three claims separate VinePilot from current practice. (1) Steer vision with language before planning. Monolithic
+VLAs (RT-2, OpenVLA, pi-zero) and LLM-planner stacks (SayCan, Code-as-Policies) both read a visual encoder
+fixed before the mission is known. Our ECCV 2026 oral paper “Steerable Visual Representations” injects gated
+cross-attention into a frozen ViT so the mission phrase determines which evidence is encoded, training only 21M
+multimodal parameters. One backbone attends to small, non-salient clusters, trunks, row ends or obstacles with no
+detector per concept. (2) Generate a plan, not an action. The LLM emits a typed, human-readable mission DSL
+under grammar-constrained decoding; a deterministic compiler binds every symbol to a whitelisted ROS1 capability
+with preconditions, ordering and geofences. Code-as-Policies emits code whose only check is running it; we make
+the checkable artefact the output, with evidence and calibrated confidence per step. (3) Adapt by editing schemas.
+New crops, actions or robots enter through the capability catalogue, prompt vocabulary and a small adapter, not a
+retrained policy. The result is a compute-efficient VLA stack whose failure modes are inspectable.
+1216 / 1300 characters
+2
+
+
+=== page 3 ===
+AI-BOOST Challenge 1 | Working draft v2
+VinePilot
+6. Technology Readiness
+Describe the current TRL and justify the ability to reach TRL5.
+The integrated system is TRL2; its hardest component is already validated. Text-steerable visual representation
+is published with code and checkpoints (ECCV 2026 oral). We also hold working code for multimodal grounding
+(TWIST & SCOUT; PIN), parameter-efficient adaptation and compression (VeRA; The LLM Surgeon), compact
+long-CoT SFT, robustness under domain shift, and 3D/spatial pre-training. What does not exist is the integrated
+mission generator on the Challenge Owner’s ROS1 platform - precisely the Advance Phase work. Route to TRL5,
+mapped to the competition calendar: by the December 2026 Mid-Term Checkpoint, speech-or-text to validated ROS1
+plan executing in containerised simulation, with task-conditioned grape perception, safety validation and the first
+leaderboard submissions; January 2027, integration on the physical platform in controlled conditions; February 2027,
+repeated end-to-end trials in the JOiiNT LAB vineyard row on unseen instructions and live outdoor imagery. TRL5
+evidence is the logged record of those trials against KPI1-4, the GUI/manual baseline, safety events, latency traces
+and per-stratum perception results, plus a reproducible container and the Final Report. Integration risk is reduced
+three ways: backbones stay frozen, so no large training run sits on the critical path; platform interfaces are mirrored
+as simulator stubs from month one; and the capability catalogue is co-designed with the Challenge Owner from
+kick-off rather than inferred later.
+1497 / 1500 characters
+7. AI Technology & Justification
+Detail the AI architectures and complementary technologies, and explain their efficiency, accuracy and scalability.
+Five independently testable modules. (1) Speech: locally hosted streaming multilingual ASR (Whisper-class) with
+word-level confidence and a lexicon of cultivar and row names; low-confidence spans trigger clarification. (2) Planning:
+an open-weight 7-14B instruction model (European candidates prioritised), 4-bit QLoRA (or our more efficient VeRA
+variant) on verified mission traces, paraphrases, clarifications and negative safety examples. Grammar-constrained
+decoding emits a typed mission DSL of goals, entities, spatial references, preconditions and recovery. The model
+calls tools instead of inventing state: capabilities, pose, map, perception. (3) Perception: SteerViT from our ECCV
+2026 oral paper - gated cross-attention over a frozen DINOv3-class ViT makes patch and global features respond to
+the mission phrase; a head returns masks, map-frame coordinates and calibrated confidence. Only 21M multimodal
+parameters are post-trained: new vocabulary costs GPU-hours, not weeks. (4) Grounding: a topological row graph
+(row IDs, entry, exit, headland) over a metric occupancy and semantic layer from the provided maps, resolving “the
+third row” or “the row end”. (5) Validation and execution: a deterministic parser, capability-graph planner and
+ROS1 compiler check the DSL against action signatures, preconditions, ordering and geofences, then emit ROS1
+goals; a runtime monitor compares expected with observed state and triggers clarification, replanning or safe stop.
+The principle: what changes (prompts, schemas, adapters) sits where change is cheap; what is safety-critical sits
+where behaviour is provable. Edge feasibility: frozen backbones, 4-bit weights, cached text embeddings, selective
+crops. Training uses the provided grape data, licence-audited WGISD, AI4Agriculture and wGrapeUNIPD-DL,
+synthetic paraphrases and simulation traces; final numbers use held-out vineyard data. Containerised ROS1 nodes
+with versioned schemas decouple models from hardware, easing a ROS2 port.
+1976 / 2000 characters
+8. Trustworthy, Responsible AI & Compliance
+Address robustness, transparency, explainability, human oversight, bias mitigation and EU regulatory alignment.
+The generative model is advisory; a deterministic layer decides what executes. It cannot publish arbitrary ROS
+commands: every step must match a typed schema and a whitelisted capability, satisfy preconditions, stay inside
+geofences and pass collision and operational checks. Human approval is mandatory before first execution of a new
+mission, after material plan changes, and whenever ASR, perception or planning confidence falls below calibrated
+thresholds. Runtime monitoring, pause, safe stop and the physical emergency stop are independent of the model.
+Every mission stores instruction, transcript, retrieved state, perception evidence, structured plan, validation result,
+operator decision and execution trace, so any behaviour can be replayed and attributed. Because the plan is a typed
+DSL, the interface explains the intended action sequence in plain language and flags assumptions and unresolved
+references before, not after, motion. Robustness testing covers paraphrase, accent and speaking-rate variation,
+prompt injection, out-of-distribution scenes, occlusion, lighting, weather and sensor dropout, and deliberately unsafe
+instructions; we report calibration and worst-group performance and prefer abstention, clarification and conservative
+fallback plans to forced predictions. On regulation: an agricultural mobile robot is machinery, so we will run the
+classification jointly under the AI Act and Regulation (EU) 2023/1230 with the Challenge Owner. Competition work
+falls under the AI Act research and testing provisions, but we will build to the high-risk obligations regardless - risk
+management, data governance, logging, human oversight, accuracy and cybersecurity - and structure the safety case
+using ISO 12100 hazard analysis. GDPR, dataset licences and machinery safety obligations are documented in model
+and system cards delivered with the Final Report.
+3
+
+
+=== page 4 ===
+AI-BOOST Challenge 1 | Working draft v2
+VinePilot
+1948 / 2000 characters
+9. Ethics & Data Governance
+Explain ethical data handling, GDPR compliance, privacy by design, integrity and bias mitigation.
+A data register records source, licence, permitted use, provenance, checksums, annotations, transformations, model
+access and retention for every asset. WGISD (CC BY-NC 4.0), AI4Agriculture (MIT), wGrapeUNIPD-DL (CC BY
+4.0) and Challenge Owner data are stored separately where licences differ; no output is relicensed beyond source
+permissions, and the WGISD non-commercial clause is tracked through to which checkpoints it touches. The challenge
+imagery contains no personal data. Voice does: operator recordings are personal data, handled with informed consent,
+a documented lawful basis, local processing where practical, purpose limitation, short retention and deletion on
+request. Raw audio is discarded once the transcript is verified; a DPIA and registration with UTN’s data protection
+officer precede any operator session. Access is role-based and encrypted in transit and at rest; experiment logs avoid
+unnecessary identifiers. The Challenge Owner’s 70/15/15 split is the primary protocol; we additionally report a
+scene-grouped split to quantify near-duplicate leakage, since consecutive vineyard frames overlap heavily. Dataset
+and model cards report class balance, cultivar, lighting, season and annotation uncertainty. Stratified evaluation,
+targeted augmentation, reweighting and confidence calibration mitigate the environmental and red-grape imbalance
+the Challenge Owner flags. Synthetic language and mission data are labelled as such and validated before SFT.
+1477 / 1500 characters
+Impact
+1. Sustainability & Scalability AI
+Explain continued impact, retraining, ethical reuse, community engagement, compliance and adaptation.
+VinePilot is designed as a maintained system, not a one-off model. Stable interfaces separate speech, planning,
+perception, safety validation and ROS execution, so new crops, actions or robots arrive through versioned capability
+schemas, prompt vocabularies and small adapters rather than a full retrain. The visual module freezes its backbone
+and trains only text-conditioning layers; the planner uses PEFT, 4-bit quantization and compact verified SFT sets.
+That keeps update cost low enough that maintenance survives the end of the prize funding, and keeps inference
+feasible on the robot. Deployment monitoring tracks drift in intent accuracy, perception, calibration, latency and
+mission success against thresholds agreed with the Challenge Owner; a documented trigger policy initiates retraining
+when those degrade, while a model registry, dataset lineage, regression tests and rollback preserve accountability. Data
+reuse follows original licences, purpose limitation and the register; voice data is not retained by default. European
+open-weight models keep the stack deployable without dependence on a non-EU API provider - which matters for
+farms and SMEs that cannot send field imagery to a third party. We will engage fully with the AI-BOOST programme
+- kick-off, CINECA onboarding and training, monthly leaderboard submissions, Mid-Term Checkpoint, technical
+webinars and the Brussels final - and co-design mission vocabulary and explanations with JOiiNT LAB, integrators
+and operators. Reproducible protocols, interfaces and non-sensitive code will be published where the Participation
+Agreement and six-month exclusivity permit, and disseminated through ELLIS and our CVPR/ICCV workshop
+series. Beyond the competition, maintenance is sustained through joint research, integration licences and follow-on
+public-private projects; the typed planner and steerable perception layer carry over to inspection and other field
+robotics with domain-specific safety rules swapped in.
+1985 / 2000 characters
+2. Social & Environmental Impact
+Connect societal, environmental and economic benefits to EU Green Deal priorities or SDGs.
+Natural-language mission authoring lowers the specialist-programming barrier for farms and robotics SMEs, shortens
+configuration time and lets the person who knows the vineyard state the goal directly while keeping human control
+over what executes. Under the European Green Deal and the Farm to Fork strategy, the binding constraint on
+reduced pesticide and input use is knowing precisely where intervention is needed; reliable cluster-level localisation
+and context-aware missions make targeted scouting and treatment cheap enough to replace blanket passes, cutting
+fuel, inputs and soil compaction. The project contributes to SDG 2 (resilient, efficient agriculture), SDG 8 (safer,
+higher-value agricultural work), SDG 9 (accessible industrial innovation), SDG 12 (resource-efficient production) and
+SDG 13 (avoided emissions). Environmental benefit is measured rather than asserted: we report adapter-training
+energy, end-to-end inference energy per mission, mission duration and estimated avoided travel or repeated scans, all
+against the GUI/manual baseline on identical hardware. Frozen-backbone steerable perception, PEFT, quantization
+and query-selective high-resolution processing target substantially lower compute and embodied deployment cost
+than full VLA fine-tuning, and we will publish the comparison whichever way it falls. Human oversight, clarification
+4
+
+
+=== page 5 ===
+AI-BOOST Challenge 1 | Working draft v2
+VinePilot
+instead of silent failure, and fail-safe execution protect workers, equipment and crops through the transition.
+1482 / 1500 characters
+3. Fairness, Diversity & Open Science
+Describe gender, diversity, inclusion, stakeholder engagement and open-science practices.
+Two datasets carry fairness risk. Speech data involves people: operator recordings follow a coverage plan spanning
+gender, age, speaking rate, regional accent and non-native English, since ASR error rates vary along these axes
+and a misheard command becomes a wrong mission. We report intent and transcription accuracy by stratum,
+aggregated where samples are too small to protect participants, and cap the worst-group gap rather than optimising
+the mean. The imagery involves the vineyard: the Challenge Owner flags over-representation of red grapes and of
+particular lighting and seasons, so we audit coverage across cultivar, colour, growth stage, occlusion, weather and
+row geometry, publish disaggregated metrics, and direct new collection at weak strata. Inclusion is also an interface
+property: text is a first-class input alongside speech, clarification replaces silent failure, and plans are in plain language.
+Operator sessions draw on growers, technicians and safety stakeholders, not only engineers. delivery team spans
+PhD, postdoctoral and professorial career stages, and new research-associate posts follow UTN’s equal-opportunity
+recruitment. Open-science outputs, subject to dataset licences, security review and the six-month exclusivity, will
+include non-sensitive code, the mission schema, evaluation scripts, model and data cards, energy measurements and
+benchmark definitions, released FAIR with DOIs. Negative results and limitations are documented alongside headline
+KPIs.
+1498 / 1500 characters
+4. Exploitation and Potential for Collaboration
+Explain exploitation and scaling beyond TRL5, cross-sector adoption, open research and public-private partnerships.
+After TRL5 we will harden VinePilot as a vendor-neutral mission-generation layer with three separable assets: a
+typed mission DSL with its validator and compiler, a prompt-steerable perception service, and ROS1 adapters
+with a ROS2 migration path. Each can be adopted independently, which lowers the barrier for an integrator who
+already has a navigation stack. Intellimech and JOiiNT LAB are the primary exploitation partners: together we
+will capture integrator requirements during the Advance Phase, validate the vineyard use case, and define a route
+to pilots with agricultural-robotics SMEs through Intellimech’s network of more than seventy member enterprises.
+We accept the six-month foreground exclusivity for the Challenge Owner; subsequent exploitation and licensing
+follow the Participation Agreement and each component’s background-IP and dataset-licence constraints, which we
+have already mapped per module. UTN’s technology transfer office will assess protectable elements; the lead holds
+three granted patents and eight pending deep-learning filings, so this route is realisable. Cross-sector transfer reuses
+the core stack with capability schemas and safety rules replaced: industrial inspection, infrastructure maintenance,
+greenhouse and orchard operations, and autonomous field logistics all share the structure of “grounded language in,
+validated plan out”. Scientific exploitation includes evaluation protocols for steerable perception in embodied tasks,
+safety-constrained LLM planning, and compute-aware VLA adaptation; these will be submitted to CVPR, CoRL or
+ICRA and disseminated through the BigMAC and LIMIT workshop series we organise and through ELLIS. Subject
+to IP and security review we release schemas, interfaces and benchmark scripts. Follow-on pathways include Horizon
+Europe and agri-robotics calls, DFG and Bavarian instruments, direct industry contracts of the kind the lead already
+runs, and researcher exchange with JOiiNT LAB and IIT.
+1999 / 2000 characters
+Quality of Implementation
+1. Work Plan (ADVANCE Phase)
+Provide the five-month roadmap, milestones and validation strategy leading to TRL5.
+Five months, October 2026 to February 2027, on the AI-BOOST calendar. Algorithms go to the leaderboard monthly
+from M1.
+M1 (October) - Requirements, baselines, interfaces. From kick-off, co-design mission vocabulary, capability graph,
+safety constraints and evaluation scenarios with the Challenge Owner; obtain the robot interface specification. Audit
+and split data; containerise ROS1 simulation; complete CINECA onboarding. Deliver an ASR-to-DSL baseline,
+the parser and compiler, the GUI/manual baseline and the KPI dashboard. Gate: predefined missions execute in
+simulation; system and safety specification agreed in writing.
+M2 (November) - Steerable perception and grounded planning. Adapt the text-steerable encoder to clusters, rows,
+5
+
+
+=== page 6 ===
+AI-BOOST Challenge 1 | Working draft v2
+VinePilot
+trunks and obstacles, backbone frozen. Build the topological row map and the pose/map/perception tools. Generate
+and verify mission traces and paraphrases; PEFT the planner with constrained decoding. Gate: held-out intent
+>=90%, perception reported per stratum, valid ROS plans for all core scenarios.
+M3 (December) - Closed loop, safety, Mid-Term Checkpoint. Integrate state feedback, recovery actions, confidence
+calibration, human approval, geofences and command validation. Red-team ambiguous, injected, unsafe and OOD
+inputs; test sensor dropout and navigation failure. Cut latency by quantization and caching. Deliver the Mid-Term
+Checkpoint presentation: specification, progress, leaderboard results. Gate: pass the checkpoint; >=85% simulated
+mission success; zero unvalidated commands reaching ROS; median latency <=5 s.
+M4 (January) - Robot integration and controlled validation. Integrate with the provided ROS1 stack on site and on a
+mirrored rig at UTN; calibrate cameras, maps and interfaces. Run controlled indoor and outdoor trials, fix interface
+and timing failures, hold operator usability sessions against the GUI baseline. Gate: safe end-to-end execution on the
+physical platform; signed readiness review with the Challenge Owner.
+M5 (February) - Vineyard demonstration and final deliverables. Freeze a release candidate; evaluate unseen instructions,
+3-5 paraphrases per mission, live vineyard imagery and environmental variation. Record mission success, latency,
+calibration, energy and safety events vs the GUI baseline. Submit the Final Report, final algorithm and container 15
+days before the event; rehearse the Brussels pitch and live demo. Gate: KPI targets met, or deviations explained
+with evidence and mitigation.
+Management: weekly sprint, fortnightly risk/KPI review with the Challenge Owner, versioned releases, CI tests,
+monthly demo. Owners: Yuki M. Asano (scientific lead); Wolfram Burgard (robotics and mapping advisor); Dr
+Yannik Blei, postdoc (robot/VLA integration, ROS1 advisor/lead); Jona Ruthardt, PhD, first author of SteerViT
+(perception); Zahra Dehghanighobadi, PhD (LLM planning, constrained decoding); research associate(s) hired for
+integration, safety validation and field testing.
+3000 / 3000 characters
+2. Do you need access to CINECA Infrastructure?
+Yes.
+3. Resources / Infrastructure
+If CINECA is requested, state partition, wall-clock time, GPU/CPU hours, storage, software and model details.
+Partition: Leonardo boost_usr_prod, one Booster node per job (4x A100 64GB, 32 CPU cores). Wall clock: 12 h
+typical, 24 h maximum. Request: 1,500 A100 GPU-hours, 12,000 CPU-core-hours, 2 TB peak storage (under 0.5 TB
+retained).
+Models: two families, none pre-trained from scratch. (a) Steerable visual encoder - frozen DINOv2-class ViT-B/14 plus
+frozen 355M RoBERTa-Large, with only a 21.2M-parameter text-conditioning adapter trained. (b) Two open-weight
+planner candidates, 7-14B parameters, 4-bit QLoRA, under 1% trainable.
+Basis: our ECCV 2026 oral paper reports this encoder at 336x336, batch 12, 500k iterations, in 84 H100 GPU-hours.
+A 2x H100-to-A100 planning factor gives 168 A100 GPU-hours per full run; six runs for vineyard adaptation, seeds
+and ablations = 1,008. Planners: 2 candidates x 2 runs x 15 h x 4 GPUs = 240. The remaining 252 cover profiling,
+interrupted jobs and final verification. At 32 cores per four-GPU node, 1,500 GPU-hours imply 12,000 coupled
+CPU-core-hours.
+Software: Slurm, Apptainer, Python, PyTorch, CUDA, NCCL, Hugging Face, OpenCV, experiment and data version
+tracking.
+Prior scalability evidence: the 84-H100-hour run is a same-class test, and the lead is co-PI on a Gauss AI Compute
+Competition award for JUPITER GPU time, so multi-node accelerator scaling is familiar. Exact A100 throughput
+will be benchmarked in M1 and the run matrix resized within the fixed allocation. ROS1 integration and robot testing
+stay on the Challenge Owner’s platform.
+1497 / 1500 characters
+4. Team Credentials & Expertise
+Evidence of AI, domain and implementation expertise. Annex 1: “Max 1750 words”; verify the live F6S counter before
+pasting.
+Scientific lead. Prof. Yuki M. Asano is Full Professor (W3) and Head of the Fundamental AI Lab at the University of
+Technology Nuremberg, and Dean of Studies. He holds a DPhil from the Visual Geometry Group, University of Oxford
+(supervisor Andrea Vedaldi; passed with no corrections), was Tenure-Track Assistant Professor at the University of
+Amsterdam and Head of the Qualcomm-UvA Lab, and has been an external machine learning consultant to Qualcomm
+6
+
+
+=== page 7 ===
+AI-BOOST Challenge 1 | Working draft v2
+VinePilot
+AI since 2023. His work has approximately 5,300 citations with an h-index of 33. Recognition includes a best-paper
+honourable mention at ICLR 2024 (top 15 of roughly 7,000 submissions), ELLIS Scholar status, the Henriette Herz
+Scout Award of the Alexander von Humboldt Foundation, election to the Junge Akademie der Wissenschaften, and
+Associate Editor of IEEE TPAMI. He has served as Lead Area Chair at CVPR (awarded outstanding AC), and as an
+evaluator for the DFG, the Swiss National Science Foundation and the Israel Science Foundation. He holds three
+granted patents with eight further deep-learning filings pending in the US, EU and Japan.
+Direct technical foundations. Every component of VinePilot rests on a specific prior output of this lab.
+Steerable perception: “Steerable Visual Representations” (Ruthardt et al., ECCV 2026 oral) introduces SteerViT,
+the text-conditioned image encoder at the centre of this proposal, producing local and global features from a frozen
+backbone with only 21M trainable multimodal parameters. “Better language models exhibit higher visual alignment”
+(TMLR 2025) established the language-vision alignment result underpinning it.
+Grounding and localisation: “TWIST & SCOUT: grounding multimodal LLM-experts by forget-free tuning” (ICCV
+2025) and “PIN: positional insert unlocks object localisation abilities in VLMs” (CVPR 2024) address exactly the
+problem of getting a vision-language model to say where something is, not merely that it is present. “Learning to
+count without annotations” (CVPR 2024) is directly relevant to cluster-level reporting.
+Dense scene understanding for outdoor imagery: “Near, far: patch-ordering enhances vision foundation models’ scene
+understanding” (ICLR 2025), “MoSiC: optimal-transport motion trajectory for dense self-supervised learning” (ICCV
+2025), “Time does tell” (ICCV 2023) and “SIGMA: Sinkhorn-guided masked video modeling” (ECCV 2024).
+Robustness under environmental shift - the principal perception risk in a vineyard: “Test-time modification: inverse
+domain transformation for robust perception” (2026), plus “Self-masking networks for unsupervised adaptation”
+(GCPR 2024) and “Unsupervised parameter-efficient source-free post-pretraining”.
+Efficient adaptation and deployment, which is what makes the compute budget credible: “VeRA: vector-based random
+matrix adaptation” and “The LLM Surgeon” (both ICLR 2024), “Bitune: bidirectional instruction-tuning” (EMNLP
+2025), “Elastic ViTs from pretrained models without retraining” (NeurIPS 2025), and “Skip-attention” (ICLR 2024).
+LLM post-training: “Data repetition beats data scaling in long-CoT supervised fine-tuning” informs how we build a
+compact, verified SFT set for the planner rather than scaling data indiscriminately.
+Spatial and 3D reasoning: “3D sans 3D scans: scalable pre-training from video-generated point clouds” (CVPR 2026)
+and “Self-ordering point clouds” (ICCV 2023).
+Reliability and evaluation of multimodal systems: “Same content, different answers: cross-modal inconsistency in
+MLLMs” (CVPR 2026) and “TVBench: redesigning video-language evaluation” (BMVC 2025) reflect a sustained
+record of finding where multimodal systems silently fail - the discipline this safety-critical application requires. Privacy
+work includes “Privacy-aware visual language models” and “Private poetry: private in-context learning via product of
+experts”.
+Code has been released across these projects, and the lab teaches Multimodal Foundation Models, Machine Learning
+and Computer Vision within UTN’s MSc in AI & Robotics, giving direct access to a trained student pipeline.
+Robotics capacity. Prof. Wolfram Burgard, Professor of Artificial Intelligence and Robotics at UTN, is among the
+most cited researchers in robotics and a co-author of the standard reference on probabilistic robotics. He advises on
+semantic perception, mapping, localisation and SLAM, and robot action generation - the spatial-grounding layer of
+VinePilot.
+Dr Yannik Blei, postdoctoral researcher in UTN AI & Robotics, brings hands-on robot learning and ROS integration.
+He co-developed Robot Control Stack (ICRA 2026), a sim-to-real framework that evaluates Octo, OpenVLA and
+pi-zero on both simulated and physical robots; this is the harness we use for the VLA efficiency comparison and the
+reason our baseline claims are measurable rather than cited. He has also worked on real-world semantic grasping
+(Lan-grasp) and bimanual manipulation benchmarking (DuoBench). This addresses the challenge’s stated requirement
+for a team comfortable with ROS and robotics middleware on a physical platform.
+Delivery team.
+Jona Ruthardt (PhD researcher, Fundamental AI Lab) is first author of “Steerable Visual
+Representations” and leads the perception workstream: the person who built SteerViT will adapt it to vineyard
+targets, which removes the usual gap between a published method and its reimplementation. Zahra Dehghanighobadi
+(PhD researcher, Fundamental AI Lab) works on large language models and leads intent recognition, constrained
+decoding and the mission DSL. Dr Yannik Blei (postdoctoral researcher, AI & Robotics) leads robot and VLA
+integration and acts as ROS1 lead. On entering the Advance Phase, UTN will recruit a dedicated research associate
+(wissenschaftlicher Mitarbeiter) for system integration, safety validation and field testing, extended to a second
+position if the final challenge prize is awarded; the posts are already scoped, and UTN’s MSc in AI & Robotics
+provides a short recruitment pipeline. All members sit within the same legal entity at UTN, so integration between
+the language-vision and robotics stacks needs no inter-institutional agreement and no data transfer outside UTN.
+Together the team covers speech and LLM post-training, steerable and grounded perception, 3D and spatial reasoning,
+robot learning and sim-to-real, ROS integration, safety engineering, and rigorous evaluation.
+Programme fit. The lab has run large collaborative efforts before: co-organiser of the ELLIS Winter School on
+Foundation Models and of the BigMAC (CVPR/ICCV) and LIMIT workshop series; advisory board member of the
+EU CERV project on fairness in AI; co-PI on a Gauss AI Compute Competition award for JUPITER GPU time,
+evidencing prior large-scale accelerator use directly relevant to the CINECA request. We commit to full participation
+7
+
+
+=== page 8 ===
+AI-BOOST Challenge 1 | Working draft v2
+VinePilot
+in AI-BOOST kick-off, CINECA onboarding and training, monthly algorithm submissions, the Mid-Term Checkpoint,
+and the Brussels Final Live Competition.
+990 words; Annex limit: 1750 words, verify live form
+5. Risk Management & Mitigation
+Identify the key implementation risks and their mitigations.
+Robot access and distance (high): team in Nuremberg, platform in Bergamo. Interface specs in M1, platform
+mirrored in simulation, on-site visits, remote execution and log replay between visits. ROS1/hardware mismatch
+(high): contract tests against stubs, a named ROS1 lead, integration from M4, weekly reviews; ROS1 is end-of-
+life, so nodes ship containerised with pinned dependencies. Hallucination or unsafe decomposition (high): typed
+constrained output, whitelisted capabilities, deterministic precondition and geofence checks, adversarial tests, human
+approval, independent stops. Physical safety (high): controlled trials, speed and workspace limits, safe stop and
+emergency stop; no autonomous outdoor run without prior approval. Visual domain shift (cultivar, occlusion, lighting,
+weather; medium-high): stratified testing, augmentation, calibration, abstention, targeted collection. Speech or
+reference ambiguity (medium): ASR confidence, map-based entity resolution, clarification first. Latency or edge
+limits (medium): frozen backbones, adapters, quantization, caching, fallback missions. Data leakage or licence conflict
+(medium): provenance register, scene-grouped split alongside the mandated one, licence-separated storage, audit.
+Automatic-scoring mismatch (medium): treat the leaderboard metric as a first-class target, clarified at kick-off.
+Schedule/personnel (medium): modular packages, two-deep ownership, monthly gates, pre-agreed scope cuts if one
+slips.
+1500 / 1500 characters
+8
+
+
+=== page 9 ===
+AI-BOOST Challenge 1 | Working draft v2
+VinePilot
+Declarations
+□I declare that my organization is not subject to exclusion grounds under EU Financial Regulation 2018/1046.
+□I acknowledge that selected beneficiaries may be subject to audits and controls by the European Commission,
+ECA, EPPO and OLAF.
+□If selected as a prize-winner, I agree to sign the official Declaration of Honour available on the AI-BOOST
+website.
+Optional visual - not part of the text fields
+Use only if F6S or a later pitch/report accepts an attachment. Replace this placeholder with a vineyard frame and a
+heatmap from the ECCV 2026 oral method conditioned on “ripe grape cluster”.
+FIGURE PLACEHOLDER
+Vineyard image + SteerViT attention/grounding map
+Prompt: ripe grape cluster
+Suggested panels: (a) input image; (b) unconditioned backbone attention;
+(c) SteerViT prompt-conditioned heatmap; (d) grounded cluster/mask and confidence;
+(e) the resulting mission DSL snippet, to show language in and validated plan out.
+Suggested caption. SteerViT (“Steerable Visual Representations”, ECCV 2026 oral) turns a general frozen
+visual backbone into mission-conditioned perception. Given the same vineyard frame, the prompt steers both
+patch and global features toward the named target, including small or non-salient instances, while lightweight
+adaptation limits training compute. The same phrase that steers perception is the phrase that generates the
+plan.
+Pre-submission checks
+□Conflict of interest. The CV lists “Evaluator for the European Union AI-BOOST Large AI Challenge
+(2024)”. Guidelines section 6.5 requires applicants to have no actual or potential conflict of interest with the
+AI-BOOST selection process. Email info@aiboost-project.eu before submitting, disclose the prior evaluator
+role, and keep the written reply. Do not leave this to be discovered at eligibility check.
+□Venue claims. The CV lists “Steerable visual representations” as arXiv 2026 and “Data repetition beats
+data scaling” as arXiv 2026, while this draft claims ECCV 2026 oral and COLM 2026. Confirm acceptance
+before asserting either. The same applies to Robot Control Stack (ICRA 2026).
+□Replace the telephone number and confirm FTE per named team member; add explicit prior ROS1 /
+field-robot deployment evidence if the live form leaves room.
+□Confirm in writing the time commitments of Prof. Wolfram Burgard, Dr Yannik Blei, Jona Ruthardt and
+Zahra Dehghanighobadi, and that UTN will fund/authorise the planned research-associate post(s).
+□Confirm UTN is the sole legal applicant and that “University” is the correct F6S legal status.
+□Confirm no EU prize or grant already covers the same activities (background IP from published work is not
+double funding; an active grant funding the same workplan would be).
+9
+
+
+=== page 10 ===
+AI-BOOST Challenge 1 | Working draft v2
+VinePilot
+□Perception backbone is described as DINOv3-class in AI Technology but DINOv2-class ViT-B/14 in the
+CINECA justification; make these consistent, and note the 84-H100-hour figure was measured on the
+configuration actually used.
+□Recheck every live F6S counter. Annex 1 states 1750 words for Team Credentials and characters for all other
+fields.
+□Confirm the 1,500 A100 GPU-hour request and the 2x H100-to-A100 planning factor with CINECA at
+onboarding; note that 2x is a planning estimate, not a conservative bound, for ViT training.
+□Replace projected KPIs with preliminary measured values if any become available before 25 August.
+□Review background IP, open-source obligations and the six-month foreground exclusivity in the Participation
+Agreement.
+□Submit through the official F6S form in English before 25 August 2026, 17:00 Brussels time.
+10
+
+
+=== page 11 ===
+AI-BOOST Challenge 1 | Working draft v2
+VinePilot
+Evidence and links used for this draft
+AI-BOOST Guidelines
+https://aiboost-project.eu/wp-content/uploads/2026/08/AI-BOOST_AICom
+petition_Challenge_Guidelines-for-Applicants.pdf
+Challenge 1 description
+https://aiboost-project.eu/wp-content/uploads/2026/07/AI-BOOST-Chall
+enge-1-GenAI-based-Natural-Language-Mission-Generator-for-Autonomou
+s-Robots-in-Agriculture.pdf
+Info webinar deck
+https://aiboost-project.eu/wp-content/uploads/2026/07/AI-BOOST_AI_Ch
+allenge_Competition_Info_Webinar-1.pdf
+Live F6S application
+https://www.f6s.com/ai-challenge-competition/apply
+Steerable Visual Representations
+https://arxiv.org/abs/2604.02327
+CINECA Leonardo
+https://docs.hpc.cineca.it/hpc/leonardo.html
+Asano publications
+https://yukimasano.github.io/publications/
+Long-CoT SFT
+https://arxiv.org/abs/2602.11149
+TWIST & SCOUT
+https://arxiv.org/abs/2410.10491
+3D sans 3D Scans
+https://arxiv.org/abs/2512.23042
+PIN
+https://arxiv.org/abs/2402.08657
+VeRA / LLM Surgeon
+https://arxiv.org/abs/2310.11454 / https://arxiv.org/abs/2312.17244
+UTN AI and Robotics
+https://www.utn.de/en/departments/department-computer-science-artific
+ial-intelligence/artificial-intelligence-and-robotics/
+Robot Control Stack
+https://arxiv.org/abs/2509.14932
+Lan-grasp
+https://arxiv.org/abs/2310.05239
+DuoBench
+https://arxiv.org/abs/2606.11901
+11
