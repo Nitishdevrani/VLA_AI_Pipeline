@@ -1,0 +1,1 @@
+{"id": 355, "target": [-6.061, 7.095, 0.0024, 1.0], "target_from": "robot_pose", "nav": true, "nav_wall_s": 111.7, "action": true, "action_wall_s": 95.7, "action_sim_s": 27.6, "frames_seen": 439, "ee_excursion_m": 0.598, "wall_s": 211.4}

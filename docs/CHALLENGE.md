@@ -239,6 +239,23 @@ monitoring_images/<id>.png      (one per mapped grape)
 task3_spray_id<N>.mp4
 ```
 
+**Status 24 Nov, 14:00: submission package ready** (details in each `results/*/NOTES.md`):
+
+| Item | Result |
+|------|--------|
+| `mapping.json` | Laptop MAP run ([results](../results/20261124_0209_laptop_map/NOTES.md)): 246 entries, official 246/270 = 91.1 %; 230 distinct real grapes (85.2 %), 4 duplicates, 12 false positives. Cluster baseline: 226/270 |
+| `monitoring_images/` | 246/246 NAV + APPROACH + photo ([results](../results/20261124_0414_laptop_task2/NOTES.md)). Grape number clearly readable in **226/246 images (91.9 %)**; **224 of the 230 mapped grapes (97.4 %)** correctly monitored; 224/270 = 83.0 % of all grapes. Misses: 12 false-positive entries, 8 row-end images (sign cut by the edge or overlapping its neighbour) |
+| Task 3 video | `task3_spray_id355.mp4`, 67 s, entry 355 = sim grape 15, pass ([results](../results/20261124_0400_laptop_task3/NOTES.md)) |
+| Report | `VinePilot_Monthly_Report_Nov2026.docx`: page 1 abstract + Tasks 1-3, appendices A-D (method, figures, discussion, further work) |
+
+Heavy files are on the team Google Drive, not in git: the
+[submission zip](https://drive.google.com/file/d/1kUJ31BFYslvEWClTrcahWCgMSXswEWh2/view) (mapping.json,
+246 monitoring images, Task 3 video) and the full results folders with images and frames
+([20261124_0209_laptop_map](https://drive.google.com/drive/folders/1C9vrCHq39BbJMth2TT7bNxle2KuSmQga),
+[20261124_0414_laptop_task2](https://drive.google.com/drive/folders/1PIfYjUGBwE31Eadf6qX3J_yCBp0bPpYX),
+[20261124_0400_laptop_task3](https://drive.google.com/drive/folders/17w0rzBce8TavdgED1d0SYfyBzHcv2HQB)).
+The text files in those folders (NOTES, logs, metrics, sign checks) are also in git; git has the latest versions.
+
 ### Plan to hit 25 Nov
 
 | Day | Work |

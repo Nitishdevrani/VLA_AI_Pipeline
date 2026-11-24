@@ -12,3 +12,9 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# run outputs that live on the team Google Drive (see docs/CHALLENGE.md, "Status 24 Nov")
+results/*/frames/
+results/20261124_0414_laptop_task2/*.png
+submission/*/monitoring_images/
+submission/*/*.mp4

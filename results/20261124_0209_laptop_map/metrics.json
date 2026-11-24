@@ -1,0 +1,24 @@
+{
+ "file": "/home/kushal-deb/Downloads/ws_ai_boost-challenge_1/VLA_AI_Pipeline/results/20261124_0209_laptop_map/test_mapping.json",
+ "entries": 246,
+ "unique_ids": 246,
+ "official_pct": 91.1,
+ "verified_grapes": 230,
+ "verified_pct": 85.2,
+ "duplicate_entries": 4,
+ "unmatched_entries": 12,
+ "id_equals_sim_id": 0,
+ "matched_by": {
+  "grape_pose": 234
+ },
+ "mean_err_m": 0.056,
+ "max_err_m": 0.13,
+ "per_row_side": {
+  "1-45": 43,
+  "46-90": 44,
+  "91-135": 24,
+  "136-180": 44,
+  "181-225": 31,
+  "226-270": 44
+ }
+}

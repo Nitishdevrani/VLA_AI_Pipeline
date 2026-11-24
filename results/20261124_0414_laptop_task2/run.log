@@ -1,0 +1,1478 @@
+[INFO] [1795490093.788651, 5852.350000]: [1/246] id 1 -> NAV to (-2.55, 1.08) [robot_pose]
+[INFO] [1795490095.345630, 5852.823000]: calling NAV
+[INFO] [1795490157.442559, 5892.282000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 62.1, 'sim_s': 39.5}
+[INFO] [1795490159.015342, 5892.917000]: calling APPROACH
+[INFO] [1795490254.644999, 5920.584000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.6, 'sim_s': 27.7}
+[INFO] [1795490255.710813, 5920.891000]: {'id': 1, 'target': [-2.551, 1.082, -0.0735, 0.9973], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 62.1, 'action': True, 'action_wall_s': 95.6, 'action_sim_s': 27.7, 'frames_seen': 835, 'ee_excursion_m': 0.521, 'wall_s': 161.9}
+[INFO] [1795490255.715845, 5920.891000]: [2/246] id 11 -> NAV to (-2.68, 1.19) [from_grape_pose]
+[INFO] [1795490257.233301, 5921.381000]: calling NAV
+[INFO] [1795490278.273609, 5935.907000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 21.0, 'sim_s': 14.5}
+[INFO] [1795490279.865418, 5936.539000]: calling APPROACH
+[INFO] [1795490374.507655, 5964.254000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 27.7}
+[INFO] [1795490375.537728, 5964.559000]: {'id': 11, 'target': [-2.681, 1.195, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 21.0, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 27.7, 'frames_seen': 841, 'ee_excursion_m': 0.522, 'wall_s': 119.8}
+[INFO] [1795490375.538841, 5964.560000]: [3/246] id 12 -> NAV to (-2.92, 1.20) [from_grape_pose]
+[INFO] [1795490376.986149, 5964.994000]: calling NAV
+[INFO] [1795490381.506338, 5968.231000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.2}
+[INFO] [1795490382.929856, 5968.830000]: calling APPROACH
+[INFO] [1795490477.066495, 5996.465000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.1, 'sim_s': 27.6}
+[INFO] [1795490478.100424, 5996.774000]: {'id': 12, 'target': [-2.921, 1.197, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.1, 'action_sim_s': 27.6, 'frames_seen': 838, 'ee_excursion_m': 0.521, 'wall_s': 102.6}
+[INFO] [1795490478.101543, 5996.774000]: [4/246] id 2 -> NAV to (-3.27, 1.16) [robot_pose]
+[INFO] [1795490479.931536, 5997.380000]: calling NAV
+[INFO] [1795490484.455243, 6000.508000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.1}
+[INFO] [1795490485.833059, 6001.061000]: calling APPROACH
+[INFO] [1795490578.980260, 6028.708000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795490580.014814, 6029.015000]: {'id': 2, 'target': [-3.266, 1.157, -0.0481, 0.9988], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 838, 'ee_excursion_m': 0.521, 'wall_s': 101.9}
+[INFO] [1795490580.015768, 6029.015000]: [5/246] id 3 -> NAV to (-3.50, 1.17) [robot_pose]
+[INFO] [1795490581.436693, 6029.440000]: calling NAV
+[INFO] [1795490585.952217, 6032.808000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795490587.461691, 6033.429000]: calling APPROACH
+[INFO] [1795490681.613719, 6061.134000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.2, 'sim_s': 27.7}
+[INFO] [1795490682.657665, 6061.426000]: {'id': 3, 'target': [-3.502, 1.172, -0.0391, 0.9992], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.2, 'action_sim_s': 27.7, 'frames_seen': 838, 'ee_excursion_m': 0.521, 'wall_s': 102.6}
+[INFO] [1795490682.659235, 6061.427000]: [6/246] id 4 -> NAV to (-3.75, 1.19) [robot_pose]
+[INFO] [1795490684.317870, 6061.939000]: calling NAV
+[INFO] [1795490689.335496, 6065.262000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 5.0, 'sim_s': 3.3}
+[INFO] [1795490690.806402, 6065.889000]: calling APPROACH
+[INFO] [1795490784.936754, 6093.550000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.1, 'sim_s': 27.7}
+[INFO] [1795490785.973596, 6093.860000]: {'id': 4, 'target': [-3.746, 1.189, -0.0327, 0.9995], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 5.0, 'action': True, 'action_wall_s': 94.1, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.521, 'wall_s': 103.3}
+[INFO] [1795490785.974845, 6093.860000]: [7/246] id 6 -> NAV to (-3.96, 1.20) [robot_pose]
+[INFO] [1795490787.363205, 6094.277000]: calling NAV
+[INFO] [1795490791.880519, 6097.619000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795490793.313850, 6098.173000]: calling APPROACH
+[INFO] [1795490886.943715, 6125.837000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.7}
+[INFO] [1795490887.978950, 6126.140000]: {'id': 6, 'target': [-3.957, 1.201, -0.0313, 0.9995], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.521, 'wall_s': 102.0}
+[INFO] [1795490887.981138, 6126.141000]: [8/246] id 10 -> NAV to (-4.20, 1.21) [robot_pose]
+[INFO] [1795490889.440149, 6126.628000]: calling NAV
+[INFO] [1795490893.457166, 6129.682000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795490895.036864, 6130.316000]: calling APPROACH
+[INFO] [1795490988.160632, 6157.946000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795490989.195885, 6158.254000]: {'id': 10, 'target': [-4.198, 1.215, -0.028, 0.9996], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 838, 'ee_excursion_m': 0.521, 'wall_s': 101.2}
+[INFO] [1795490989.197113, 6158.254000]: [9/246] id 20 -> NAV to (-5.33, 1.26) [robot_pose]
+[INFO] [1795490990.591591, 6158.673000]: calling NAV
+[INFO] [1795490996.103981, 6162.676000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 5.5, 'sim_s': 4.0}
+[INFO] [1795490997.680373, 6163.336000]: calling APPROACH
+[INFO] [1795491090.794956, 6190.958000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795491091.830675, 6191.263000]: {'id': 20, 'target': [-5.334, 1.264, -0.0195, 0.9998], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 5.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 837, 'ee_excursion_m': 0.52, 'wall_s': 102.6}
+[INFO] [1795491091.831765, 6191.263000]: [10/246] id 19 -> NAV to (-5.57, 1.27) [robot_pose]
+[INFO] [1795491093.261983, 6191.685000]: calling NAV
+[INFO] [1795491097.774209, 6194.928000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.2}
+[INFO] [1795491099.213347, 6195.527000]: calling APPROACH
+[INFO] [1795491192.834183, 6223.123000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.6}
+[INFO] [1795491193.873542, 6223.426000]: {'id': 19, 'target': [-5.569, 1.273, -0.0194, 0.9998], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.6, 'frames_seen': 836, 'ee_excursion_m': 0.521, 'wall_s': 102.0}
+[INFO] [1795491193.876683, 6223.426000]: [11/246] id 39 -> NAV to (-6.04, 1.20) [from_grape_pose]
+[INFO] [1795491195.445144, 6223.888000]: calling NAV
+[INFO] [1795491199.959677, 6227.035000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.1}
+[INFO] [1795491201.484517, 6227.653000]: calling APPROACH
+[INFO] [1795491295.624253, 6255.236000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.1, 'sim_s': 27.6}
+[INFO] [1795491296.664737, 6255.545000]: {'id': 39, 'target': [-6.044, 1.203, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.1, 'action_sim_s': 27.6, 'frames_seen': 837, 'ee_excursion_m': 0.521, 'wall_s': 102.8}
+[INFO] [1795491296.666839, 6255.545000]: [12/246] id 23 -> NAV to (-6.71, 1.30) [robot_pose]
+[INFO] [1795491298.205728, 6256.044000]: calling NAV
+[INFO] [1795491302.717224, 6259.293000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.2}
+[INFO] [1795491304.157310, 6259.898000]: calling APPROACH
+[INFO] [1795491397.775343, 6287.538000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.6}
+[INFO] [1795491398.801548, 6287.844000]: {'id': 23, 'target': [-6.71, 1.304, -0.0101, 0.9999], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.6, 'frames_seen': 838, 'ee_excursion_m': 0.521, 'wall_s': 102.1}
+[INFO] [1795491398.802403, 6287.844000]: [13/246] id 24 -> NAV to (-6.94, 1.31) [robot_pose]
+[INFO] [1795491400.314529, 6288.343000]: calling NAV
+[INFO] [1795491404.833680, 6291.693000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795491406.373422, 6292.330000]: calling APPROACH
+[INFO] [1795491500.505160, 6320.016000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.1, 'sim_s': 27.7}
+[INFO] [1795491501.533241, 6320.316000]: {'id': 24, 'target': [-6.943, 1.309, -0.0098, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.1, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.521, 'wall_s': 102.7}
+[INFO] [1795491501.534718, 6320.316000]: [14/246] id 40 -> NAV to (-7.16, 1.31) [robot_pose]
+[INFO] [1795491502.908030, 6320.723000]: calling NAV
+[INFO] [1795491507.420693, 6323.883000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.2}
+[INFO] [1795491508.968369, 6324.520000]: calling APPROACH
+[INFO] [1795491603.101166, 6352.165000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.1, 'sim_s': 27.6}
+[INFO] [1795491604.143928, 6352.469000]: {'id': 40, 'target': [-7.157, 1.312, -0.0089, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.1, 'action_sim_s': 27.6, 'frames_seen': 838, 'ee_excursion_m': 0.521, 'wall_s': 102.6}
+[INFO] [1795491604.147154, 6352.470000]: [15/246] id 35 -> NAV to (-7.39, 1.32) [robot_pose]
+[INFO] [1795491605.705743, 6352.964000]: calling NAV
+[INFO] [1795491610.215139, 6356.136000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.2}
+[INFO] [1795491611.676282, 6356.754000]: calling APPROACH
+[INFO] [1795491705.304918, 6384.369000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.6}
+[INFO] [1795491706.339358, 6384.667000]: {'id': 35, 'target': [-7.393, 1.316, -0.0091, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.6, 'frames_seen': 837, 'ee_excursion_m': 0.521, 'wall_s': 102.2}
+[INFO] [1795491706.340588, 6384.668000]: [16/246] id 64 -> NAV to (-7.41, 1.20) [from_grape_pose]
+[INFO] [1795491707.809674, 6385.154000]: calling NAV
+[INFO] [1795491712.319169, 6388.283000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.1}
+[INFO] [1795491713.877269, 6388.912000]: calling APPROACH
+[INFO] [1795491807.522137, 6416.523000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.6}
+[INFO] [1795491808.559140, 6416.827000]: {'id': 64, 'target': [-7.41, 1.196, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.6, 'frames_seen': 837, 'ee_excursion_m': 0.521, 'wall_s': 102.2}
+[INFO] [1795491808.560499, 6416.827000]: [17/246] id 55 -> NAV to (-7.60, 1.20) [from_grape_pose]
+[INFO] [1795491809.975178, 6417.247000]: calling NAV
+[INFO] [1795491814.507171, 6420.440000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.2}
+[INFO] [1795491815.976608, 6421.054000]: calling APPROACH
+[INFO] [1795491909.115177, 6448.710000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795491910.151777, 6449.017000]: {'id': 55, 'target': [-7.599, 1.203, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.521, 'wall_s': 101.6}
+[INFO] [1795491910.152943, 6449.017000]: [18/246] id 78 -> NAV to (-8.08, 1.20) [from_grape_pose]
+[INFO] [1795491911.735070, 6449.580000]: calling NAV
+[INFO] [1795491916.256191, 6452.930000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795491917.805360, 6453.562000]: calling APPROACH
+[INFO] [1795492010.919833, 6481.233000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795492011.948750, 6481.540000]: {'id': 78, 'target': [-8.077, 1.199, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.522, 'wall_s': 101.8}
+[INFO] [1795492011.949766, 6481.540000]: [19/246] id 49 -> NAV to (-8.52, 1.34) [robot_pose]
+[INFO] [1795492013.369760, 6481.970000]: calling NAV
+[INFO] [1795492017.892159, 6485.338000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795492019.329293, 6485.915000]: calling APPROACH
+[INFO] [1795492112.449267, 6513.505000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795492113.492969, 6513.813000]: {'id': 49, 'target': [-8.523, 1.338, -0.0095, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 837, 'ee_excursion_m': 0.521, 'wall_s': 101.5}
+[INFO] [1795492113.495191, 6513.814000]: [20/246] id 51 -> NAV to (-8.74, 1.34) [robot_pose]
+[INFO] [1795492114.942208, 6514.251000]: calling NAV
+[INFO] [1795492119.465468, 6517.613000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795492120.953449, 6518.219000]: calling APPROACH
+[INFO] [1795492214.098417, 6545.889000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795492215.132960, 6546.199000]: {'id': 51, 'target': [-8.742, 1.342, -0.0089, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.521, 'wall_s': 101.6}
+[INFO] [1795492215.134109, 6546.199000]: [21/246] id 63 -> NAV to (-9.21, 1.35) [robot_pose]
+[INFO] [1795492216.547644, 6546.626000]: calling NAV
+[INFO] [1795492221.072724, 6549.973000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795492222.516489, 6550.593000]: calling APPROACH
+[INFO] [1795492315.642325, 6578.274000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795492316.670970, 6578.578000]: {'id': 63, 'target': [-9.206, 1.348, -0.0065, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 840, 'ee_excursion_m': 0.522, 'wall_s': 101.5}
+[INFO] [1795492316.672099, 6578.579000]: [22/246] id 76 -> NAV to (-9.40, 1.35) [robot_pose]
+[INFO] [1795492318.126665, 6579.062000]: calling NAV
+[INFO] [1795492322.639490, 6582.401000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795492324.087616, 6582.999000]: calling APPROACH
+[INFO] [1795492417.222942, 6610.679000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795492418.260023, 6610.990000]: {'id': 76, 'target': [-9.405, 1.35, -0.0054, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.521, 'wall_s': 101.6}
+[INFO] [1795492418.261139, 6610.990000]: [23/246] id 72 -> NAV to (-9.65, 1.35) [robot_pose]
+[INFO] [1795492419.712431, 6611.464000]: calling NAV
+[INFO] [1795492424.226948, 6614.842000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795492425.635379, 6615.445000]: calling APPROACH
+[INFO] [1795492518.742427, 6643.122000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795492519.770530, 6643.427000]: {'id': 72, 'target': [-9.653, 1.351, -0.0033, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 840, 'ee_excursion_m': 0.521, 'wall_s': 101.5}
+[INFO] [1795492519.771874, 6643.427000]: [24/246] id 106 -> NAV to (-10.12, 1.35) [robot_pose]
+[INFO] [1795492521.151419, 6643.841000]: calling NAV
+[INFO] [1795492525.665705, 6647.208000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795492527.214413, 6647.854000]: calling APPROACH
+[INFO] [1795492620.326152, 6675.524000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795492621.361281, 6675.833000]: {'id': 106, 'target': [-10.116, 1.353, -0.0016, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.521, 'wall_s': 101.6}
+[INFO] [1795492621.362818, 6675.834000]: [25/246] id 105 -> NAV to (-10.34, 1.35) [robot_pose]
+[INFO] [1795492622.878966, 6676.336000]: calling NAV
+[INFO] [1795492627.401256, 6679.706000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795492629.031521, 6680.373000]: calling APPROACH
+[INFO] [1795492722.159297, 6708.038000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795492723.195335, 6708.344000]: {'id': 105, 'target': [-10.336, 1.353, -0.0013, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.521, 'wall_s': 101.8}
+[INFO] [1795492723.197362, 6708.346000]: [26/246] id 114 -> NAV to (-10.76, 1.35) [robot_pose]
+[INFO] [1795492724.684796, 6708.841000]: calling NAV
+[INFO] [1795492729.198459, 6712.204000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795492730.657276, 6712.791000]: calling APPROACH
+[INFO] [1795492823.788171, 6740.423000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795492824.825613, 6740.727000]: {'id': 114, 'target': [-10.765, 1.353, 0.0004, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 838, 'ee_excursion_m': 0.521, 'wall_s': 101.6}
+[INFO] [1795492824.827165, 6740.728000]: [27/246] id 131 -> NAV to (-10.78, 1.20) [from_grape_pose]
+[INFO] [1795492826.200333, 6741.135000]: calling NAV
+[INFO] [1795492847.229956, 6756.937000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 21.0, 'sim_s': 15.8}
+[INFO] [1795492848.703878, 6757.528000]: calling APPROACH
+[INFO] [1795492941.820169, 6785.203000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795492942.851841, 6785.512000]: {'id': 131, 'target': [-10.784, 1.196, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 21.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.521, 'wall_s': 118.0}
+[INFO] [1795492942.852975, 6785.512000]: [28/246] id 109 -> NAV to (-11.23, 1.35) [robot_pose]
+[INFO] [1795492944.347022, 6786.008000]: calling NAV
+[INFO] [1795492949.363907, 6789.818000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 5.0, 'sim_s': 3.8}
+[INFO] [1795492950.893736, 6790.451000]: calling APPROACH
+[INFO] [1795493044.036279, 6818.125000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795493045.068879, 6818.431000]: {'id': 109, 'target': [-11.234, 1.352, 0.0012, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 5.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.519, 'wall_s': 102.2}
+[INFO] [1795493045.071193, 6818.433000]: [29/246] id 130 -> NAV to (-11.19, 1.21) [from_grape_pose]
+[INFO] [1795493046.417356, 6818.835000]: calling NAV
+[INFO] [1795493050.925354, 6822.180000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795493052.293977, 6822.733000]: calling APPROACH
+[INFO] [1795493145.425518, 6850.405000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795493146.455962, 6850.712000]: {'id': 130, 'target': [-11.194, 1.207, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 840, 'ee_excursion_m': 0.521, 'wall_s': 101.4}
+[INFO] [1795493146.456947, 6850.712000]: [30/246] id 135 -> NAV to (-11.43, 1.21) [from_grape_pose]
+[INFO] [1795493147.804482, 6851.113000]: calling NAV
+[INFO] [1795493153.319775, 6855.285000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 5.5, 'sim_s': 4.2}
+[INFO] [1795493154.685387, 6855.829000]: calling APPROACH
+[INFO] [1795493247.824180, 6883.530000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795493248.869204, 6883.840000]: {'id': 135, 'target': [-11.431, 1.215, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 5.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 840, 'ee_excursion_m': 0.521, 'wall_s': 102.4}
+[INFO] [1795493248.871341, 6883.840000]: [31/246] id 137 -> NAV to (-11.66, 1.22) [from_grape_pose]
+[INFO] [1795493250.376342, 6884.343000]: calling NAV
+[INFO] [1795493254.890081, 6887.737000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795493256.386397, 6888.365000]: calling APPROACH
+[INFO] [1795493349.510318, 6916.054000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795493350.542207, 6916.363000]: {'id': 137, 'target': [-11.656, 1.223, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 839, 'ee_excursion_m': 0.521, 'wall_s': 101.7}
+[INFO] [1795493350.543624, 6916.363000]: [32/246] id 123 -> NAV to (-12.18, 1.34) [robot_pose]
+[INFO] [1795493351.892637, 6916.769000]: calling NAV
+[INFO] [1795493356.413486, 6920.138000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795493357.771510, 6920.691000]: calling APPROACH
+[INFO] [1795493450.914240, 6948.335000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795493451.955550, 6948.648000]: {'id': 123, 'target': [-12.178, 1.339, 0.0181, 0.9998], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 839, 'ee_excursion_m': 0.521, 'wall_s': 101.4}
+[INFO] [1795493451.957272, 6948.649000]: [33/246] id 144 -> NAV to (-12.28, -1.55) [from_grape_pose]
+[INFO] [1795493453.405641, 6949.085000]: calling NAV
+[INFO] [1795493477.436226, 6967.215000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 24.0, 'sim_s': 18.1}
+[INFO] [1795493478.858645, 6967.841000]: calling APPROACH
+[INFO] [1795493571.985188, 6995.458000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795493573.010867, 6995.760000]: {'id': 144, 'target': [-12.28, -1.554, 1.0, 0.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 24.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 731, 'ee_excursion_m': 0.522, 'wall_s': 121.1}
+[INFO] [1795493573.011921, 6995.760000]: [34/246] id 139 -> NAV to (-12.09, -1.57) [from_grape_pose]
+[INFO] [1795493574.434064, 6996.176000]: calling NAV
+[INFO] [1795493578.945184, 6999.570000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795493580.412091, 7000.152000]: calling APPROACH
+[INFO] [1795493674.036204, 7027.887000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.7}
+[INFO] [1795493675.061079, 7028.184000]: {'id': 139, 'target': [-12.09, -1.566, 1.0, 0.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.7, 'frames_seen': 719, 'ee_excursion_m': 0.52, 'wall_s': 102.0}
+[INFO] [1795493675.062347, 7028.184000]: [35/246] id 145 -> NAV to (-12.03, -1.56) [from_grape_pose]
+[INFO] [1795493676.442835, 7028.602000]: calling NAV
+[INFO] [1795493680.954275, 7031.944000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795493682.336449, 7032.497000]: calling APPROACH
+[INFO] [1795493775.954071, 7060.188000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.7}
+[INFO] [1795493776.982809, 7060.493000]: {'id': 145, 'target': [-12.028, -1.562, 1.0, 0.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.7, 'frames_seen': 714, 'ee_excursion_m': 0.521, 'wall_s': 101.9}
+[INFO] [1795493776.983723, 7060.493000]: [36/246] id 147 -> NAV to (-12.25, -1.55) [from_grape_pose]
+[INFO] [1795493778.345518, 7060.896000]: calling NAV
+[INFO] [1795493782.867668, 7064.287000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795493784.244369, 7064.835000]: calling APPROACH
+[INFO] [1795493877.855165, 7092.535000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.7}
+[INFO] [1795493878.877834, 7092.833000]: {'id': 147, 'target': [-12.251, -1.551, 1.0, 0.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.7, 'frames_seen': 715, 'ee_excursion_m': 0.521, 'wall_s': 101.9}
+[INFO] [1795493878.879213, 7092.834000]: [37/246] id 146 -> NAV to (-12.05, -1.55) [from_grape_pose]
+[INFO] [1795493880.268063, 7093.250000]: calling NAV
+[INFO] [1795493884.782472, 7096.615000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795493886.271586, 7097.218000]: calling APPROACH
+[INFO] [1795493979.903041, 7124.939000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.7}
+[INFO] [1795493980.929938, 7125.241000]: {'id': 146, 'target': [-12.046, -1.55, 1.0, 0.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.7, 'frames_seen': 712, 'ee_excursion_m': 0.521, 'wall_s': 102.1}
+[INFO] [1795493980.931145, 7125.241000]: [38/246] id 149 -> NAV to (-12.42, -1.86) [from_grape_pose]
+[INFO] [1795493982.316411, 7125.646000]: calling NAV
+[INFO] [1795493992.336271, 7133.130000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 10.0, 'sim_s': 7.5}
+[INFO] [1795493993.793287, 7133.713000]: calling APPROACH
+[INFO] [1795494087.412265, 7161.303000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.6}
+[INFO] [1795494088.445089, 7161.601000]: {'id': 149, 'target': [-12.423, -1.861, 1.0, 0.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 10.0, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.6, 'frames_seen': 613, 'ee_excursion_m': 0.52, 'wall_s': 107.5}
+[INFO] [1795494088.446106, 7161.601000]: [39/246] id 148 -> NAV to (-12.59, -1.88) [from_grape_pose]
+[INFO] [1795494089.827487, 7162.014000]: calling NAV
+[INFO] [1795494094.350207, 7165.418000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795494095.812464, 7165.985000]: calling APPROACH
+[INFO] [1795494189.917347, 7193.714000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.1, 'sim_s': 27.7}
+[INFO] [1795494190.935900, 7194.012000]: {'id': 148, 'target': [-12.591, -1.875, 1.0, 0.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.1, 'action_sim_s': 27.7, 'frames_seen': 623, 'ee_excursion_m': 0.521, 'wall_s': 102.5}
+[INFO] [1795494190.936759, 7194.012000]: [40/246] id 151 -> NAV to (-12.44, -1.87) [from_grape_pose]
+[INFO] [1795494192.374199, 7194.437000]: calling NAV
+[INFO] [1795494196.893208, 7197.742000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795494198.285798, 7198.313000]: calling APPROACH
+[INFO] [1795494291.925156, 7225.979000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.7}
+[INFO] [1795494292.953600, 7226.284000]: {'id': 151, 'target': [-12.436, -1.871, 1.0, 0.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.7, 'frames_seen': 627, 'ee_excursion_m': 0.521, 'wall_s': 102.0}
+[INFO] [1795494292.954821, 7226.284000]: [41/246] id 150 -> NAV to (-12.59, -1.88) [from_grape_pose]
+[INFO] [1795494294.410098, 7226.718000]: calling NAV
+[INFO] [1795494298.931295, 7230.133000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795494300.433887, 7230.739000]: calling APPROACH
+[INFO] [1795494394.077612, 7258.416000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.7}
+[INFO] [1795494395.107790, 7258.721000]: {'id': 150, 'target': [-12.588, -1.881, 1.0, 0.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.7, 'frames_seen': 632, 'ee_excursion_m': 0.521, 'wall_s': 102.2}
+[INFO] [1795494395.109083, 7258.722000]: [42/246] id 153 -> NAV to (-12.61, -1.86) [from_grape_pose]
+[INFO] [1795494396.528231, 7259.148000]: calling NAV
+[INFO] [1795494401.046191, 7262.483000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795494402.679910, 7263.138000]: calling APPROACH
+[INFO] [1795494496.307231, 7290.801000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.7}
+[INFO] [1795494497.329765, 7291.098000]: {'id': 153, 'target': [-12.61, -1.859, 1.0, 0.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.7, 'frames_seen': 633, 'ee_excursion_m': 0.521, 'wall_s': 102.2}
+[INFO] [1795494497.331050, 7291.098000]: [43/246] id 154 -> NAV to (-12.09, -1.77) [robot_pose]
+[INFO] [1795494498.917519, 7291.651000]: calling NAV
+[INFO] [1795494503.430137, 7295.017000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795494504.921261, 7295.620000]: calling APPROACH
+[INFO] [1795494598.559690, 7323.269000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.6}
+[INFO] [1795494599.585777, 7323.576000]: {'id': 154, 'target': [-12.091, -1.771, 0.9992, -0.0396], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.6, 'frames_seen': 642, 'ee_excursion_m': 0.521, 'wall_s': 102.3}
+[INFO] [1795494599.586975, 7323.576000]: [44/246] id 155 -> NAV to (-11.92, -1.76) [robot_pose]
+[INFO] [1795494601.112189, 7324.071000]: calling NAV
+[INFO] [1795494605.631146, 7327.402000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795494607.172316, 7328.034000]: calling APPROACH
+[INFO] [1795494700.802487, 7355.663000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.6}
+[INFO] [1795494701.829480, 7355.964000]: {'id': 155, 'target': [-11.916, -1.758, 0.9993, -0.0362], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.6, 'frames_seen': 663, 'ee_excursion_m': 0.521, 'wall_s': 102.2}
+[INFO] [1795494701.831090, 7355.965000]: [45/246] id 156 -> NAV to (-11.73, -1.75) [robot_pose]
+[INFO] [1795494703.282058, 7356.455000]: calling NAV
+[INFO] [1795494707.791727, 7359.829000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795494709.202569, 7360.424000]: calling APPROACH
+[INFO] [1795494802.821572, 7388.112000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.7}
+[INFO] [1795494803.848917, 7388.413000]: {'id': 156, 'target': [-11.734, -1.75, 0.9995, -0.0304], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.7, 'frames_seen': 680, 'ee_excursion_m': 0.521, 'wall_s': 102.0}
+[INFO] [1795494803.849820, 7388.413000]: [46/246] id 157 -> NAV to (-11.52, -1.73) [robot_pose]
+[INFO] [1795494805.214407, 7388.820000]: calling NAV
+[INFO] [1795494809.738107, 7392.171000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795494811.258121, 7392.796000]: calling APPROACH
+[INFO] [1795494904.864205, 7420.489000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.7}
+[INFO] [1795494905.890899, 7420.788000]: {'id': 157, 'target': [-11.52, -1.734, 0.9998, -0.019], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.7, 'frames_seen': 669, 'ee_excursion_m': 0.521, 'wall_s': 102.0}
+[INFO] [1795494905.892335, 7420.789000]: [47/246] id 158 -> NAV to (-11.31, -1.73) [robot_pose]
+[INFO] [1795494907.424461, 7421.297000]: calling NAV
+[INFO] [1795494911.443683, 7424.345000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795494913.022580, 7424.995000]: calling APPROACH
+[INFO] [1795495006.131122, 7452.579000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795495007.163733, 7452.883000]: {'id': 158, 'target': [-11.307, -1.734, 1.0, -0.0068], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 670, 'ee_excursion_m': 0.521, 'wall_s': 101.3}
+[INFO] [1795495007.164977, 7452.883000]: [48/246] id 159 -> NAV to (-11.07, -1.73) [robot_pose]
+[INFO] [1795495008.538623, 7453.291000]: calling NAV
+[INFO] [1795495012.552157, 7456.346000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795495014.049775, 7456.965000]: calling APPROACH
+[INFO] [1795495107.181770, 7484.554000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795495108.214123, 7484.861000]: {'id': 159, 'target': [-11.069, -1.73, 1.0, -0.0044], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 627, 'ee_excursion_m': 0.521, 'wall_s': 101.0}
+[INFO] [1795495108.215395, 7484.861000]: [49/246] id 160 -> NAV to (-10.82, -1.73) [robot_pose]
+[INFO] [1795495109.578630, 7485.269000]: calling NAV
+[INFO] [1795495114.097139, 7488.681000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795495115.566218, 7489.267000]: calling APPROACH
+[INFO] [1795495208.665685, 7516.939000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795495209.687717, 7517.243000]: {'id': 160, 'target': [-10.821, -1.729, 1.0, -0.0008], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 603, 'ee_excursion_m': 0.521, 'wall_s': 101.5}
+[INFO] [1795495209.688606, 7517.243000]: [50/246] id 161 -> NAV to (-10.64, -1.73) [robot_pose]
+[INFO] [1795495211.225522, 7517.748000]: calling NAV
+[INFO] [1795495215.244011, 7520.800000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795495216.756877, 7521.435000]: calling APPROACH
+[INFO] [1795495309.866600, 7549.137000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795495310.901674, 7549.447000]: {'id': 161, 'target': [-10.636, -1.729, 1.0, -0.0008], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 594, 'ee_excursion_m': 0.521, 'wall_s': 101.2}
+[INFO] [1795495310.902875, 7549.447000]: [51/246] id 162 -> NAV to (-10.39, -1.73) [robot_pose]
+[INFO] [1795495312.348053, 7549.935000]: calling NAV
+[INFO] [1795495316.356573, 7552.998000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795495317.706333, 7553.544000]: calling APPROACH
+[INFO] [1795495410.331690, 7581.119000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.6}
+[INFO] [1795495411.356657, 7581.422000]: {'id': 162, 'target': [-10.39, -1.729, 1.0, -0.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.6, 'frames_seen': 581, 'ee_excursion_m': 0.521, 'wall_s': 100.5}
+[INFO] [1795495411.357755, 7581.422000]: [52/246] id 163 -> NAV to (-10.18, -1.73) [robot_pose]
+[INFO] [1795495412.806366, 7581.857000]: calling NAV
+[INFO] [1795495416.824800, 7584.960000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795495418.327169, 7585.580000]: calling APPROACH
+[INFO] [1795495510.920132, 7613.144000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.6}
+[INFO] [1795495511.955103, 7613.454000]: {'id': 163, 'target': [-10.178, -1.729, 1.0, -0.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.6, 'frames_seen': 583, 'ee_excursion_m': 0.521, 'wall_s': 100.6}
+[INFO] [1795495511.956397, 7613.454000]: [53/246] id 164 -> NAV to (-9.97, -1.73) [robot_pose]
+[INFO] [1795495513.395000, 7613.881000]: calling NAV
+[INFO] [1795495517.413597, 7616.987000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795495518.934253, 7617.623000]: calling APPROACH
+[INFO] [1795495611.547168, 7645.143000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795495612.590915, 7645.451000]: {'id': 164, 'target': [-9.967, -1.729, 1.0, 0.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 543, 'ee_excursion_m': 0.357, 'wall_s': 100.6}
+[INFO] [1795495612.591830, 7645.451000]: [54/246] id 165 -> NAV to (-9.75, -1.73) [robot_pose]
+[INFO] [1795495614.144366, 7645.990000]: calling NAV
+[INFO] [1795495618.159465, 7649.066000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795495619.610766, 7649.703000]: calling APPROACH
+[INFO] [1795495710.250187, 7676.619000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.6, 'sim_s': 26.9}
+[INFO] [1795495711.284954, 7676.929000]: {'id': 165, 'target': [-9.747, -1.73, 1.0, 0.002], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 90.6, 'action_sim_s': 26.9, 'frames_seen': 509, 'ee_excursion_m': 0.358, 'wall_s': 98.7}
+[INFO] [1795495711.286873, 7676.929000]: [55/246] id 166 -> NAV to (-9.50, -1.73) [robot_pose]
+[INFO] [1795495712.762655, 7677.414000]: calling NAV
+[INFO] [1795495716.773108, 7680.499000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795495718.297331, 7681.116000]: calling APPROACH
+[INFO] [1795495811.919686, 7708.944000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.8}
+[INFO] [1795495812.958537, 7709.253000]: {'id': 166, 'target': [-9.496, -1.731, 1.0, 0.0027], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.8, 'frames_seen': 546, 'ee_excursion_m': 0.354, 'wall_s': 101.7}
+[INFO] [1795495812.959875, 7709.254000]: [56/246] id 167 -> NAV to (-9.30, -1.73) [robot_pose]
+[INFO] [1795495814.395668, 7709.673000]: calling NAV
+[INFO] [1795495818.406642, 7712.734000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795495819.813338, 7713.339000]: calling APPROACH
+[INFO] [1795495913.445261, 7741.148000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.8}
+[INFO] [1795495914.479671, 7741.456000]: {'id': 167, 'target': [-9.296, -1.733, 1.0, 0.0037], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.8, 'frames_seen': 536, 'ee_excursion_m': 0.354, 'wall_s': 101.5}
+[INFO] [1795495914.480683, 7741.456000]: [57/246] id 168 -> NAV to (-9.07, -1.73) [robot_pose]
+[INFO] [1795495915.897727, 7741.883000]: calling NAV
+[INFO] [1795495919.908341, 7744.980000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795495921.335515, 7745.596000]: calling APPROACH
+[INFO] [1795496014.952203, 7773.383000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.8}
+[INFO] [1795496015.992036, 7773.689000]: {'id': 168, 'target': [-9.066, -1.734, 1.0, 0.0036], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.8, 'frames_seen': 531, 'ee_excursion_m': 0.355, 'wall_s': 101.5}
+[INFO] [1795496015.993311, 7773.689000]: [58/246] id 169 -> NAV to (-8.82, -1.74) [robot_pose]
+[INFO] [1795496017.392552, 7774.105000]: calling NAV
+[INFO] [1795496021.399607, 7777.214000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795496022.768302, 7777.783000]: calling APPROACH
+[INFO] [1795496116.380186, 7805.570000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.8}
+[INFO] [1795496117.419279, 7805.878000]: {'id': 169, 'target': [-8.816, -1.736, 1.0, 0.0036], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.8, 'frames_seen': 526, 'ee_excursion_m': 0.354, 'wall_s': 101.4}
+[INFO] [1795496117.420408, 7805.879000]: [59/246] id 170 -> NAV to (-8.60, -1.74) [robot_pose]
+[INFO] [1795496118.829877, 7806.307000]: calling NAV
+[INFO] [1795496122.849350, 7809.431000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795496124.380622, 7810.060000]: calling APPROACH
+[INFO] [1795496218.016212, 7837.892000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.8}
+[INFO] [1795496219.050484, 7838.200000]: {'id': 170, 'target': [-8.596, -1.738, 1.0, 0.0036], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.8, 'frames_seen': 530, 'ee_excursion_m': 0.354, 'wall_s': 101.6}
+[INFO] [1795496219.051440, 7838.201000]: [60/246] id 171 -> NAV to (-8.38, -1.74) [robot_pose]
+[INFO] [1795496220.456002, 7838.617000]: calling NAV
+[INFO] [1795496224.477816, 7841.716000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795496225.890347, 7842.300000]: calling APPROACH
+[INFO] [1795496319.533146, 7870.110000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.8}
+[INFO] [1795496320.570276, 7870.419000]: {'id': 171, 'target': [-8.381, -1.739, 1.0, 0.0036], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.8, 'frames_seen': 518, 'ee_excursion_m': 0.354, 'wall_s': 101.5}
+[INFO] [1795496320.571665, 7870.420000]: [61/246] id 172 -> NAV to (-8.13, -1.74) [robot_pose]
+[INFO] [1795496321.948741, 7870.834000]: calling NAV
+[INFO] [1795496325.957236, 7873.922000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795496327.428231, 7874.536000]: calling APPROACH
+[INFO] [1795496421.046160, 7902.318000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.8}
+[INFO] [1795496422.085393, 7902.626000]: {'id': 172, 'target': [-8.131, -1.741, 1.0, 0.0036], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.8, 'frames_seen': 514, 'ee_excursion_m': 0.354, 'wall_s': 101.5}
+[INFO] [1795496422.086685, 7902.627000]: [62/246] id 173 -> NAV to (-7.92, -1.74) [robot_pose]
+[INFO] [1795496423.619768, 7903.138000]: calling NAV
+[INFO] [1795496427.638816, 7906.253000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795496429.161379, 7906.898000]: calling APPROACH
+[INFO] [1795496522.775743, 7934.716000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.8}
+[INFO] [1795496523.803396, 7935.021000]: {'id': 173, 'target': [-7.916, -1.743, 1.0, 0.0036], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.8, 'frames_seen': 522, 'ee_excursion_m': 0.354, 'wall_s': 101.7}
+[INFO] [1795496523.804267, 7935.021000]: [63/246] id 174 -> NAV to (-7.73, -1.74) [robot_pose]
+[INFO] [1795496525.171028, 7935.430000]: calling NAV
+[INFO] [1795496529.688185, 7938.822000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795496531.155402, 7939.414000]: calling APPROACH
+[INFO] [1795496621.280363, 7966.180000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.1, 'sim_s': 26.8}
+[INFO] [1795496622.319080, 7966.485000]: {'id': 174, 'target': [-7.731, -1.744, 1.0, 0.0036], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 90.1, 'action_sim_s': 26.8, 'frames_seen': 488, 'ee_excursion_m': 0.321, 'wall_s': 98.5}
+[INFO] [1795496622.320334, 7966.486000]: [64/246] id 175 -> NAV to (-7.45, -1.75) [robot_pose]
+[INFO] [1795496623.779179, 7966.974000]: calling NAV
+[INFO] [1795496627.793340, 7970.009000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795496629.206690, 7970.595000]: calling APPROACH
+[INFO] [1795496719.821357, 7997.476000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.6, 'sim_s': 26.9}
+[INFO] [1795496720.862304, 7997.784000]: {'id': 175, 'target': [-7.446, -1.746, 1.0, 0.0031], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 90.6, 'action_sim_s': 26.9, 'frames_seen': 484, 'ee_excursion_m': 0.321, 'wall_s': 98.5}
+[INFO] [1795496720.863540, 7997.784000]: [65/246] id 176 -> NAV to (-7.25, -1.75) [robot_pose]
+[INFO] [1795496722.299601, 7998.218000]: calling NAV
+[INFO] [1795496726.321669, 8001.311000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795496727.792284, 8001.912000]: calling APPROACH
+[INFO] [1795496817.920686, 8028.682000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.1, 'sim_s': 26.8}
+[INFO] [1795496818.957564, 8028.989000]: {'id': 176, 'target': [-7.246, -1.747, 1.0, 0.0026], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 90.1, 'action_sim_s': 26.8, 'frames_seen': 485, 'ee_excursion_m': 0.319, 'wall_s': 98.1}
+[INFO] [1795496818.958849, 8028.989000]: [66/246] id 177 -> NAV to (-7.05, -1.75) [robot_pose]
+[INFO] [1795496820.307784, 8029.392000]: calling NAV
+[INFO] [1795496824.328144, 8032.497000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795496825.869015, 8033.122000]: calling APPROACH
+[INFO] [1795496916.528414, 8060.013000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.7, 'sim_s': 26.9}
+[INFO] [1795496917.566768, 8060.322000]: {'id': 177, 'target': [-7.046, -1.748, 1.0, 0.0022], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 90.7, 'action_sim_s': 26.9, 'frames_seen': 478, 'ee_excursion_m': 0.319, 'wall_s': 98.6}
+[INFO] [1795496917.568378, 8060.323000]: [67/246] id 178 -> NAV to (-6.80, -1.75) [robot_pose]
+[INFO] [1795496919.088497, 8060.818000]: calling NAV
+[INFO] [1795496923.107165, 8063.893000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795496924.668732, 8064.549000]: calling APPROACH
+[INFO] [1795497018.812189, 8092.541000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.1, 'sim_s': 28.0}
+[INFO] [1795497019.843836, 8092.845000]: {'id': 178, 'target': [-6.797, -1.748, 1.0, 0.0015], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 94.1, 'action_sim_s': 28.0, 'frames_seen': 514, 'ee_excursion_m': 0.341, 'wall_s': 102.3}
+[INFO] [1795497019.845089, 8092.846000]: [68/246] id 179 -> NAV to (-6.58, -1.75) [robot_pose]
+[INFO] [1795497021.315320, 8093.343000]: calling NAV
+[INFO] [1795497025.337395, 8096.426000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795497026.843336, 8097.057000]: calling APPROACH
+[INFO] [1795497118.449090, 8124.340000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 91.6, 'sim_s': 27.3}
+[INFO] [1795497119.476724, 8124.645000]: {'id': 179, 'target': [-6.582, -1.749, 1.0, 0.0013], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 91.6, 'action_sim_s': 27.3, 'frames_seen': 520, 'ee_excursion_m': 0.479, 'wall_s': 99.6}
+[INFO] [1795497119.477756, 8124.646000]: [69/246] id 180 -> NAV to (-6.37, -1.75) [robot_pose]
+[INFO] [1795497120.899783, 8125.071000]: calling NAV
+[INFO] [1795497124.921139, 8128.146000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795497126.397493, 8128.751000]: calling APPROACH
+[INFO] [1795497218.027258, 8156.041000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 91.6, 'sim_s': 27.3}
+[INFO] [1795497219.054864, 8156.347000]: {'id': 180, 'target': [-6.367, -1.749, 1.0, 0.0009], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 91.6, 'action_sim_s': 27.3, 'frames_seen': 514, 'ee_excursion_m': 0.479, 'wall_s': 99.6}
+[INFO] [1795497219.056941, 8156.347000]: [70/246] id 181 -> NAV to (-6.10, -1.75) [robot_pose]
+[INFO] [1795497220.536527, 8156.846000]: calling NAV
+[INFO] [1795497224.551557, 8159.936000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795497225.900248, 8160.487000]: calling APPROACH
+[INFO] [1795497317.510224, 8187.770000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 91.6, 'sim_s': 27.3}
+[INFO] [1795497318.553679, 8188.082000]: {'id': 181, 'target': [-6.097, -1.75, 1.0, 0.0007], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 91.6, 'action_sim_s': 27.3, 'frames_seen': 522, 'ee_excursion_m': 0.478, 'wall_s': 99.5}
+[INFO] [1795497318.557485, 8188.083000]: [71/246] id 182 -> NAV to (-5.92, -1.75) [robot_pose]
+[INFO] [1795497319.941135, 8188.498000]: calling NAV
+[INFO] [1795497323.949721, 8191.593000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795497325.458870, 8192.212000]: calling APPROACH
+[INFO] [1795497417.079265, 8219.509000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 91.6, 'sim_s': 27.3}
+[INFO] [1795497418.111122, 8219.813000]: {'id': 182, 'target': [-5.918, -1.75, 1.0, 0.0005], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 91.6, 'action_sim_s': 27.3, 'frames_seen': 513, 'ee_excursion_m': 0.479, 'wall_s': 99.6}
+[INFO] [1795497418.113215, 8219.813000]: [72/246] id 183 -> NAV to (-5.68, -1.75) [robot_pose]
+[INFO] [1795497419.598402, 8220.296000]: calling NAV
+[INFO] [1795497423.628434, 8223.360000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795497425.047420, 8223.977000]: calling APPROACH
+[INFO] [1795497515.147135, 8250.756000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.1, 'sim_s': 26.8}
+[INFO] [1795497516.181510, 8251.063000]: {'id': 183, 'target': [-5.683, -1.75, 1.0, 0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 90.1, 'action_sim_s': 26.8, 'frames_seen': 489, 'ee_excursion_m': 0.322, 'wall_s': 98.1}
+[INFO] [1795497516.182631, 8251.064000]: [73/246] id 184 -> NAV to (-5.45, -1.75) [robot_pose]
+[INFO] [1795497517.669996, 8251.556000]: calling NAV
+[INFO] [1795497521.679346, 8254.618000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795497523.042254, 8255.190000]: calling APPROACH
+[INFO] [1795497613.679134, 8282.075000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.6, 'sim_s': 26.9}
+[INFO] [1795497614.712080, 8282.382000]: {'id': 184, 'target': [-5.448, -1.75, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 90.6, 'action_sim_s': 26.9, 'frames_seen': 478, 'ee_excursion_m': 0.341, 'wall_s': 98.5}
+[INFO] [1795497614.713167, 8282.382000]: [74/246] id 185 -> NAV to (-5.23, -1.75) [robot_pose]
+[INFO] [1795497616.171837, 8282.864000]: calling NAV
+[INFO] [1795497620.180167, 8285.930000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795497621.628406, 8286.532000]: calling APPROACH
+[INFO] [1795497712.255246, 8313.448000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.6, 'sim_s': 26.9}
+[INFO] [1795497713.287182, 8313.755000]: {'id': 185, 'target': [-5.233, -1.75, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 90.6, 'action_sim_s': 26.9, 'frames_seen': 483, 'ee_excursion_m': 0.392, 'wall_s': 98.6}
+[INFO] [1795497713.288742, 8313.756000]: [75/246] id 186 -> NAV to (-4.98, -1.75) [robot_pose]
+[INFO] [1795497714.788804, 8314.258000]: calling NAV
+[INFO] [1795497718.803154, 8317.389000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795497720.322924, 8318.025000]: calling APPROACH
+[INFO] [1795497810.426819, 8344.819000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.1, 'sim_s': 26.8}
+[INFO] [1795497811.456120, 8345.127000]: {'id': 186, 'target': [-4.983, -1.749, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 90.1, 'action_sim_s': 26.8, 'frames_seen': 493, 'ee_excursion_m': 0.319, 'wall_s': 98.2}
+[INFO] [1795497811.458034, 8345.127000]: [76/246] id 187 -> NAV to (-4.78, -1.75) [robot_pose]
+[INFO] [1795497812.898881, 8345.551000]: calling NAV
+[INFO] [1795497816.911268, 8348.629000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795497818.329880, 8349.240000]: calling APPROACH
+[INFO] [1795497912.966934, 8377.401000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795497914.007590, 8377.711000]: {'id': 187, 'target': [-4.783, -1.749, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 532, 'ee_excursion_m': 0.36, 'wall_s': 102.5}
+[INFO] [1795497914.008969, 8377.711000]: [77/246] id 188 -> NAV to (-4.55, -1.75) [robot_pose]
+[INFO] [1795497915.369765, 8378.124000]: calling NAV
+[INFO] [1795497919.383202, 8381.170000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795497920.842336, 8381.757000]: calling APPROACH
+[INFO] [1795498011.458132, 8408.687000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.6, 'sim_s': 26.9}
+[INFO] [1795498012.491776, 8408.991000]: {'id': 188, 'target': [-4.548, -1.749, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 90.6, 'action_sim_s': 26.9, 'frames_seen': 501, 'ee_excursion_m': 0.32, 'wall_s': 98.5}
+[INFO] [1795498012.493050, 8408.992000]: [78/246] id 189 -> NAV to (-4.32, -1.75) [robot_pose]
+[INFO] [1795498013.912815, 8409.425000]: calling NAV
+[INFO] [1795498017.923233, 8412.472000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795498019.441396, 8413.101000]: calling APPROACH
+[INFO] [1795498110.569719, 8440.150000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 91.1, 'sim_s': 27.0}
+[INFO] [1795498111.608300, 8440.461000]: {'id': 189, 'target': [-4.318, -1.749, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 91.1, 'action_sim_s': 27.0, 'frames_seen': 488, 'ee_excursion_m': 0.416, 'wall_s': 99.1}
+[INFO] [1795498111.611361, 8440.462000]: [79/246] id 190 -> NAV to (-4.10, -1.75) [robot_pose]
+[INFO] [1795498113.108050, 8440.943000]: calling NAV
+[INFO] [1795498117.120165, 8444.066000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795498118.619375, 8444.668000]: calling APPROACH
+[INFO] [1795498208.728638, 8471.445000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.1, 'sim_s': 26.8}
+[INFO] [1795498209.760452, 8471.750000]: {'id': 190, 'target': [-4.099, -1.749, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 90.1, 'action_sim_s': 26.8, 'frames_seen': 507, 'ee_excursion_m': 0.318, 'wall_s': 98.1}
+[INFO] [1795498209.761504, 8471.750000]: [80/246] id 191 -> NAV to (-3.88, -1.75) [robot_pose]
+[INFO] [1795498211.295965, 8472.272000]: calling NAV
+[INFO] [1795498215.313098, 8475.369000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795498216.757416, 8475.974000]: calling APPROACH
+[INFO] [1795498306.893756, 8502.779000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 90.1, 'sim_s': 26.8}
+[INFO] [1795498307.928224, 8503.083000]: {'id': 191, 'target': [-3.884, -1.749, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 90.1, 'action_sim_s': 26.8, 'frames_seen': 509, 'ee_excursion_m': 0.32, 'wall_s': 98.2}
+[INFO] [1795498307.931459, 8503.083000]: [81/246] id 192 -> NAV to (-3.65, -1.75) [robot_pose]
+[INFO] [1795498309.444366, 8503.585000]: calling NAV
+[INFO] [1795498313.453146, 8506.671000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795498314.981374, 8507.295000]: calling APPROACH
+[INFO] [1795498407.091200, 8534.637000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.1, 'sim_s': 27.3}
+[INFO] [1795498408.124577, 8534.942000]: {'id': 192, 'target': [-3.649, -1.749, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.1, 'action_sim_s': 27.3, 'frames_seen': 486, 'ee_excursion_m': 0.499, 'wall_s': 100.2}
+[INFO] [1795498408.125877, 8534.943000]: [82/246] id 193 -> NAV to (-3.42, -1.75) [robot_pose]
+[INFO] [1795498409.663063, 8535.455000]: calling NAV
+[INFO] [1795498413.670667, 8538.529000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795498415.062398, 8539.117000]: calling APPROACH
+[INFO] [1795498507.693829, 8566.686000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.6}
+[INFO] [1795498508.717665, 8566.991000]: {'id': 193, 'target': [-3.419, -1.748, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.6, 'frames_seen': 565, 'ee_excursion_m': 0.456, 'wall_s': 100.6}
+[INFO] [1795498508.719234, 8566.991000]: [83/246] id 194 -> NAV to (-3.20, -1.75) [robot_pose]
+[INFO] [1795498510.263464, 8567.514000]: calling NAV
+[INFO] [1795498514.273743, 8570.629000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795498515.684547, 8571.232000]: calling APPROACH
+[INFO] [1795498608.313364, 8598.797000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.6}
+[INFO] [1795498609.344059, 8599.104000]: {'id': 194, 'target': [-3.199, -1.748, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.6, 'frames_seen': 578, 'ee_excursion_m': 0.456, 'wall_s': 100.6}
+[INFO] [1795498609.345331, 8599.104000]: [84/246] id 195 -> NAV to (-2.97, -1.75) [robot_pose]
+[INFO] [1795498610.741997, 8599.523000]: calling NAV
+[INFO] [1795498614.750151, 8602.616000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795498616.142329, 8603.201000]: calling APPROACH
+[INFO] [1795498708.784419, 8630.759000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.6}
+[INFO] [1795498709.815938, 8631.066000]: {'id': 195, 'target': [-2.969, -1.748, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.6, 'frames_seen': 582, 'ee_excursion_m': 0.456, 'wall_s': 100.5}
+[INFO] [1795498709.817255, 8631.066000]: [85/246] id 196 -> NAV to (-2.75, -1.75) [robot_pose]
+[INFO] [1795498711.216953, 8631.489000]: calling NAV
+[INFO] [1795498715.233755, 8634.577000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795498716.736394, 8635.185000]: calling APPROACH
+[INFO] [1795498809.351703, 8662.758000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.6}
+[INFO] [1795498810.379741, 8663.061000]: {'id': 196, 'target': [-2.749, -1.748, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.6, 'frames_seen': 588, 'ee_excursion_m': 0.456, 'wall_s': 100.6}
+[INFO] [1795498810.381039, 8663.062000]: [86/246] id 197 -> NAV to (-2.52, -1.75) [robot_pose]
+[INFO] [1795498811.743364, 8663.473000]: calling NAV
+[INFO] [1795498815.750664, 8666.557000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795498817.283401, 8667.201000]: calling APPROACH
+[INFO] [1795498909.910174, 8694.749000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795498910.937605, 8695.055000]: {'id': 197, 'target': [-2.519, -1.748, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 590, 'ee_excursion_m': 0.456, 'wall_s': 100.6}
+[INFO] [1795498910.938929, 8695.056000]: [87/246] id 198 -> NAV to (-2.60, 4.19) [robot_pose]
+[INFO] [1795498912.424525, 8695.547000]: calling NAV
+[INFO] [1795498939.469615, 8716.930000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 27.0, 'sim_s': 21.4}
+[INFO] [1795498940.924447, 8717.520000]: calling APPROACH
+[INFO] [1795499033.577273, 8745.067000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.7, 'sim_s': 27.5}
+[INFO] [1795499034.596943, 8745.372000]: {'id': 198, 'target': [-2.597, 4.186, -0.0345, 0.9994], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 27.0, 'action': True, 'action_wall_s': 92.7, 'action_sim_s': 27.5, 'frames_seen': 818, 'ee_excursion_m': 0.456, 'wall_s': 123.7}
+[INFO] [1795499034.598115, 8745.373000]: [88/246] id 199 -> NAV to (-2.84, 4.20) [robot_pose]
+[INFO] [1795499036.073897, 8745.871000]: calling NAV
+[INFO] [1795499040.590134, 8749.272000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795499042.128274, 8749.934000]: calling APPROACH
+[INFO] [1795499134.762324, 8777.461000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795499135.788409, 8777.766000]: {'id': 199, 'target': [-2.844, 4.197, -0.0253, 0.9997], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 814, 'ee_excursion_m': 0.456, 'wall_s': 101.2}
+[INFO] [1795499135.789544, 8777.766000]: [89/246] id 200 -> NAV to (-3.09, 4.21) [robot_pose]
+[INFO] [1795499137.193100, 8778.183000]: calling NAV
+[INFO] [1795499141.210159, 8781.248000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795499142.720278, 8781.890000]: calling APPROACH
+[INFO] [1795499235.362546, 8809.389000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795499236.393383, 8809.694000]: {'id': 200, 'target': [-3.093, 4.206, -0.0185, 0.9998], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 803, 'ee_excursion_m': 0.456, 'wall_s': 100.6}
+[INFO] [1795499236.394938, 8809.696000]: [90/246] id 201 -> NAV to (-3.36, 4.22) [robot_pose]
+[INFO] [1795499237.797563, 8810.111000]: calling NAV
+[INFO] [1795499241.809267, 8813.178000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795499243.233603, 8813.796000]: calling APPROACH
+[INFO] [1795499335.849174, 8841.301000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795499336.874436, 8841.609000]: {'id': 201, 'target': [-3.361, 4.216, -0.0187, 0.9998], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 786, 'ee_excursion_m': 0.456, 'wall_s': 100.5}
+[INFO] [1795499336.875387, 8841.609000]: [91/246] id 202 -> NAV to (-3.58, 4.22) [robot_pose]
+[INFO] [1795499338.235030, 8842.016000]: calling NAV
+[INFO] [1795499342.744527, 8845.425000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795499344.208239, 8846.007000]: calling APPROACH
+[INFO] [1795499437.318530, 8873.645000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795499438.351421, 8873.949000]: {'id': 202, 'target': [-3.576, 4.224, -0.0186, 0.9998], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 791, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795499438.354347, 8873.951000]: [92/246] id 203 -> NAV to (-4.22, 4.24) [robot_pose]
+[INFO] [1795499439.886712, 8874.465000]: calling NAV
+[INFO] [1795499443.896661, 8877.508000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795499445.248472, 8878.058000]: calling APPROACH
+[INFO] [1795499538.393668, 8905.716000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795499539.423888, 8906.018000]: {'id': 203, 'target': [-4.225, 4.244, -0.0127, 0.9999], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 781, 'ee_excursion_m': 0.455, 'wall_s': 101.1}
+[INFO] [1795499539.425171, 8906.018000]: [93/246] id 205 -> NAV to (-5.16, 4.25) [robot_pose]
+[INFO] [1795499540.934664, 8906.518000]: calling NAV
+[INFO] [1795499545.951669, 8910.271000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 5.0, 'sim_s': 3.8}
+[INFO] [1795499547.417379, 8910.869000]: calling APPROACH
+[INFO] [1795499640.570549, 8938.469000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.2, 'sim_s': 27.6}
+[INFO] [1795499641.605049, 8938.774000]: {'id': 205, 'target': [-5.158, 4.253, -0.0013, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 5.0, 'action': True, 'action_wall_s': 93.2, 'action_sim_s': 27.6, 'frames_seen': 770, 'ee_excursion_m': 0.456, 'wall_s': 102.2}
+[INFO] [1795499641.607680, 8938.775000]: [94/246] id 208 -> NAV to (-5.39, 4.25) [robot_pose]
+[INFO] [1795499643.092622, 8939.265000]: calling NAV
+[INFO] [1795499647.603696, 8942.660000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795499648.976097, 8943.220000]: calling APPROACH
+[INFO] [1795499742.115757, 8970.840000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795499743.149217, 8971.147000]: {'id': 208, 'target': [-5.388, 4.253, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 769, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795499743.150502, 8971.148000]: [95/246] id 210 -> NAV to (-5.64, 4.25) [robot_pose]
+[INFO] [1795499744.775888, 8971.733000]: calling NAV
+[INFO] [1795499749.304747, 8975.133000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795499750.831852, 8975.769000]: calling APPROACH
+[INFO] [1795499843.963484, 9003.368000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795499844.988869, 9003.672000]: {'id': 210, 'target': [-5.638, 4.254, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 757, 'ee_excursion_m': 0.456, 'wall_s': 101.8}
+[INFO] [1795499844.989698, 9003.672000]: [96/246] id 212 -> NAV to (-6.31, 4.26) [robot_pose]
+[INFO] [1795499846.406462, 9004.096000]: calling NAV
+[INFO] [1795499850.925081, 9007.494000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795499852.325336, 9008.072000]: calling APPROACH
+[INFO] [1795499945.479603, 9035.692000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.2, 'sim_s': 27.6}
+[INFO] [1795499946.515636, 9035.997000]: {'id': 212, 'target': [-6.308, 4.256, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.2, 'action_sim_s': 27.6, 'frames_seen': 785, 'ee_excursion_m': 0.457, 'wall_s': 101.5}
+[INFO] [1795499946.517244, 9035.997000]: [97/246] id 216 -> NAV to (-6.74, 4.26) [robot_pose]
+[INFO] [1795499947.972241, 9036.464000]: calling NAV
+[INFO] [1795499952.484639, 9039.820000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795499954.020143, 9040.470000]: calling APPROACH
+[INFO] [1795500047.153235, 9068.081000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795500048.178701, 9068.388000]: {'id': 216, 'target': [-6.738, 4.257, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 793, 'ee_excursion_m': 0.457, 'wall_s': 101.7}
+[INFO] [1795500048.181532, 9068.389000]: [98/246] id 217 -> NAV to (-6.99, 4.26) [robot_pose]
+[INFO] [1795500049.626914, 9068.871000]: calling NAV
+[INFO] [1795500054.138079, 9072.244000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795500055.563357, 9072.853000]: calling APPROACH
+[INFO] [1795500148.700673, 9100.467000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795500149.747310, 9100.774000]: {'id': 217, 'target': [-6.988, 4.258, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 795, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795500149.752186, 9100.774000]: [99/246] id 218 -> NAV to (-7.19, 4.26) [robot_pose]
+[INFO] [1795500151.232166, 9101.248000]: calling NAV
+[INFO] [1795500155.754214, 9104.593000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795500157.265388, 9105.203000]: calling APPROACH
+[INFO] [1795500250.392396, 9132.791000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795500251.426868, 9133.099000]: {'id': 218, 'target': [-7.188, 4.258, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 795, 'ee_excursion_m': 0.456, 'wall_s': 101.7}
+[INFO] [1795500251.428024, 9133.100000]: [100/246] id 224 -> NAV to (-7.41, 4.26) [robot_pose]
+[INFO] [1795500252.803432, 9133.516000]: calling NAV
+[INFO] [1795500257.320779, 9136.920000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795500258.842411, 9137.538000]: calling APPROACH
+[INFO] [1795500351.954210, 9165.129000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795500352.979592, 9165.431000]: {'id': 224, 'target': [-7.408, 4.259, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 798, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795500352.980806, 9165.431000]: [101/246] id 221 -> NAV to (-7.87, 4.26) [robot_pose]
+[INFO] [1795500354.521891, 9165.939000]: calling NAV
+[INFO] [1795500359.040209, 9169.292000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795500360.491727, 9169.868000]: calling APPROACH
+[INFO] [1795500453.636685, 9197.422000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795500454.661860, 9197.725000]: {'id': 221, 'target': [-7.873, 4.26, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 792, 'ee_excursion_m': 0.456, 'wall_s': 101.7}
+[INFO] [1795500454.662716, 9197.725000]: [102/246] id 229 -> NAV to (-8.31, 4.26) [robot_pose]
+[INFO] [1795500456.196976, 9198.232000]: calling NAV
+[INFO] [1795500460.708561, 9201.605000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795500462.300044, 9202.229000]: calling APPROACH
+[INFO] [1795500555.439724, 9229.840000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795500556.468119, 9230.143000]: {'id': 229, 'target': [-8.308, 4.261, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 805, 'ee_excursion_m': 0.457, 'wall_s': 101.8}
+[INFO] [1795500556.469445, 9230.144000]: [103/246] id 236 -> NAV to (-8.99, 4.26) [robot_pose]
+[INFO] [1795500557.877229, 9230.568000]: calling NAV
+[INFO] [1795500562.397157, 9233.915000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795500563.873339, 9234.502000]: calling APPROACH
+[INFO] [1795500657.033184, 9262.108000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.2, 'sim_s': 27.6}
+[INFO] [1795500658.073655, 9262.410000]: {'id': 236, 'target': [-8.988, 4.263, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.2, 'action_sim_s': 27.6, 'frames_seen': 790, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795500658.074565, 9262.410000]: [104/246] id 239 -> NAV to (-9.42, 4.26) [robot_pose]
+[INFO] [1795500659.487590, 9262.833000]: calling NAV
+[INFO] [1795500664.000292, 9266.236000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795500665.383327, 9266.804000]: calling APPROACH
+[INFO] [1795500758.503445, 9294.356000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795500759.536365, 9294.664000]: {'id': 239, 'target': [-9.423, 4.264, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 774, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795500759.537626, 9294.665000]: [105/246] id 240 -> NAV to (-9.67, 4.27) [robot_pose]
+[INFO] [1795500761.041398, 9295.160000]: calling NAV
+[INFO] [1795500765.562147, 9298.503000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795500767.189904, 9299.163000]: calling APPROACH
+[INFO] [1795500860.309266, 9326.721000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795500861.354588, 9327.036000]: {'id': 240, 'target': [-9.674, 4.265, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 778, 'ee_excursion_m': 0.456, 'wall_s': 101.8}
+[INFO] [1795500861.356006, 9327.036000]: [106/246] id 241 -> NAV to (-9.89, 4.27) [robot_pose]
+[INFO] [1795500862.778131, 9327.462000]: calling NAV
+[INFO] [1795500866.794211, 9330.504000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795500868.234194, 9331.080000]: calling APPROACH
+[INFO] [1795500961.382365, 9358.677000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795500962.409318, 9358.979000]: {'id': 241, 'target': [-9.888, 4.266, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.2, 'action_sim_s': 27.6, 'frames_seen': 793, 'ee_excursion_m': 0.456, 'wall_s': 101.1}
+[INFO] [1795500962.410158, 9358.979000]: [107/246] id 262 -> NAV to (-10.10, 4.22) [from_grape_pose]
+[INFO] [1795500963.935412, 9359.490000]: calling NAV
+[INFO] [1795500968.451103, 9362.884000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795500969.871711, 9363.473000]: calling APPROACH
+[INFO] [1795501063.001551, 9391.044000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795501064.032875, 9391.345000]: {'id': 262, 'target': [-10.102, 4.221, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 749, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795501064.034305, 9391.346000]: [108/246] id 254 -> NAV to (-10.56, 4.27) [robot_pose]
+[INFO] [1795501065.450670, 9391.813000]: calling NAV
+[INFO] [1795501069.462048, 9394.850000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795501070.867362, 9395.452000]: calling APPROACH
+[INFO] [1795501163.995883, 9423.041000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795501165.026172, 9423.345000]: {'id': 254, 'target': [-10.558, 4.268, -0.0014, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 785, 'ee_excursion_m': 0.457, 'wall_s': 101.0}
+[INFO] [1795501165.027433, 9423.345000]: [109/246] id 264 -> NAV to (-10.55, 4.22) [from_grape_pose]
+[INFO] [1795501166.529757, 9423.833000]: calling NAV
+[INFO] [1795501170.542410, 9426.881000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795501171.914287, 9427.438000]: calling APPROACH
+[INFO] [1795501265.036585, 9455.007000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795501266.082181, 9455.319000]: {'id': 264, 'target': [-10.548, 4.222, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 779, 'ee_excursion_m': 0.456, 'wall_s': 101.1}
+[INFO] [1795501266.086082, 9455.319000]: [110/246] id 261 -> NAV to (-11.46, 4.27) [robot_pose]
+[INFO] [1795501267.578972, 9455.824000]: calling NAV
+[INFO] [1795501272.593733, 9459.593000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 5.0, 'sim_s': 3.8}
+[INFO] [1795501274.041197, 9460.235000]: calling APPROACH
+[INFO] [1795501367.163691, 9487.818000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795501368.199042, 9488.128000]: {'id': 261, 'target': [-11.457, 4.272, -0.005, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 5.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 822, 'ee_excursion_m': 0.456, 'wall_s': 102.1}
+[INFO] [1795501368.200408, 9488.129000]: [111/246] id 271 -> NAV to (-12.36, 4.28) [robot_pose]
+[INFO] [1795501369.547966, 9488.533000]: calling NAV
+[INFO] [1795501374.062689, 9491.932000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795501375.466390, 9492.503000]: calling APPROACH
+[INFO] [1795501468.594306, 9520.099000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795501469.626619, 9520.402000]: {'id': 271, 'target': [-12.357, 4.284, -0.0082, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 833, 'ee_excursion_m': 0.455, 'wall_s': 101.4}
+[INFO] [1795501469.629922, 9520.403000]: [112/246] id 277 -> NAV to (-12.22, 1.24) [robot_pose]
+[INFO] [1795501471.182545, 9520.908000]: calling NAV
+[INFO] [1795501487.216295, 9533.141000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 16.0, 'sim_s': 12.2}
+[INFO] [1795501488.759954, 9533.773000]: calling APPROACH
+[INFO] [1795501581.395185, 9561.297000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795501582.414873, 9561.606000]: {'id': 277, 'target': [-12.223, 1.236, 0.9999, 0.0165], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 16.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 801, 'ee_excursion_m': 0.454, 'wall_s': 112.8}
+[INFO] [1795501582.416041, 9561.606000]: [113/246] id 278 -> NAV to (-11.99, 1.23) [robot_pose]
+[INFO] [1795501583.903410, 9562.104000]: calling NAV
+[INFO] [1795501588.411517, 9565.471000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795501589.980307, 9566.137000]: calling APPROACH
+[INFO] [1795501682.614373, 9593.653000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795501683.642497, 9593.961000]: {'id': 278, 'target': [-11.993, 1.228, 0.9999, 0.0165], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 819, 'ee_excursion_m': 0.456, 'wall_s': 101.2}
+[INFO] [1795501683.643355, 9593.961000]: [114/246] id 279 -> NAV to (-11.79, 1.22) [robot_pose]
+[INFO] [1795501685.176378, 9594.465000]: calling NAV
+[INFO] [1795501689.686729, 9597.779000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795501691.130110, 9598.384000]: calling APPROACH
+[INFO] [1795501784.252495, 9626.011000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795501785.276528, 9626.316000]: {'id': 279, 'target': [-11.793, 1.222, 0.9999, 0.0164], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 822, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795501785.277535, 9626.316000]: [115/246] id 280 -> NAV to (-11.56, 1.21) [robot_pose]
+[INFO] [1795501786.636297, 9626.720000]: calling NAV
+[INFO] [1795501791.151129, 9630.087000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795501792.496288, 9630.646000]: calling APPROACH
+[INFO] [1795501885.115062, 9658.149000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795501886.138953, 9658.453000]: {'id': 280, 'target': [-11.558, 1.214, 0.9999, 0.0157], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 814, 'ee_excursion_m': 0.456, 'wall_s': 100.9}
+[INFO] [1795501886.140205, 9658.453000]: [116/246] id 281 -> NAV to (-11.32, 1.21) [robot_pose]
+[INFO] [1795501887.646291, 9658.924000]: calling NAV
+[INFO] [1795501892.156716, 9662.311000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795501893.648309, 9662.922000]: calling APPROACH
+[INFO] [1795501986.771765, 9690.579000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795501987.796263, 9690.884000]: {'id': 281, 'target': [-11.324, 1.209, 0.9999, 0.0128], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 820, 'ee_excursion_m': 0.456, 'wall_s': 101.7}
+[INFO] [1795501987.797264, 9690.884000]: [117/246] id 282 -> NAV to (-11.10, 1.20) [robot_pose]
+[INFO] [1795501989.248292, 9691.360000]: calling NAV
+[INFO] [1795501993.776805, 9694.763000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795501995.281435, 9695.388000]: calling APPROACH
+[INFO] [1795502087.906917, 9722.923000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795502088.926371, 9723.225000]: {'id': 282, 'target': [-11.095, 1.202, 0.9999, 0.0102], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 814, 'ee_excursion_m': 0.456, 'wall_s': 101.1}
+[INFO] [1795502088.927372, 9723.225000]: [118/246] id 283 -> NAV to (-10.87, 1.20) [robot_pose]
+[INFO] [1795502090.292513, 9723.634000]: calling NAV
+[INFO] [1795502094.304502, 9726.755000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795502095.761339, 9727.379000]: calling APPROACH
+[INFO] [1795502188.377799, 9754.910000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795502189.404901, 9755.215000]: {'id': 283, 'target': [-10.875, 1.201, 1.0, 0.006], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 810, 'ee_excursion_m': 0.456, 'wall_s': 100.5}
+[INFO] [1795502189.406056, 9755.215000]: [119/246] id 284 -> NAV to (-10.61, 1.20) [robot_pose]
+[INFO] [1795502190.830088, 9755.644000]: calling NAV
+[INFO] [1795502194.855218, 9758.757000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795502196.392300, 9759.408000]: calling APPROACH
+[INFO] [1795502289.031184, 9786.941000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795502290.052059, 9787.246000]: {'id': 284, 'target': [-10.611, 1.198, 1.0, 0.0044], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 797, 'ee_excursion_m': 0.456, 'wall_s': 100.6}
+[INFO] [1795502290.053107, 9787.246000]: [120/246] id 285 -> NAV to (-10.43, 1.20) [robot_pose]
+[INFO] [1795502291.563563, 9787.742000]: calling NAV
+[INFO] [1795502295.578195, 9790.811000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795502297.022552, 9791.427000]: calling APPROACH
+[INFO] [1795502389.641393, 9818.966000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795502390.678144, 9819.276000]: {'id': 285, 'target': [-10.426, 1.197, 1.0, 0.002], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 793, 'ee_excursion_m': 0.456, 'wall_s': 100.6}
+[INFO] [1795502390.679286, 9819.276000]: [121/246] id 286 -> NAV to (-10.16, 1.20) [robot_pose]
+[INFO] [1795502392.122026, 9819.710000]: calling NAV
+[INFO] [1795502396.140174, 9822.800000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795502397.616347, 9823.408000]: calling APPROACH
+[INFO] [1795502490.249696, 9850.940000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795502491.275714, 9851.246000]: {'id': 286, 'target': [-10.161, 1.197, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 787, 'ee_excursion_m': 0.456, 'wall_s': 100.6}
+[INFO] [1795502491.276992, 9851.247000]: [122/246] id 287 -> NAV to (-9.98, 1.20) [robot_pose]
+[INFO] [1795502492.673085, 9851.670000]: calling NAV
+[INFO] [1795502496.689201, 9854.756000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795502498.094424, 9855.347000]: calling APPROACH
+[INFO] [1795502590.701277, 9882.891000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795502591.750792, 9883.204000]: {'id': 287, 'target': [-9.976, 1.196, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 783, 'ee_excursion_m': 0.456, 'wall_s': 100.5}
+[INFO] [1795502591.751780, 9883.204000]: [123/246] id 288 -> NAV to (-9.75, 1.20) [robot_pose]
+[INFO] [1795502593.174152, 9883.631000]: calling NAV
+[INFO] [1795502597.185183, 9886.707000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795502598.575461, 9887.283000]: calling APPROACH
+[INFO] [1795502691.210190, 9914.811000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795502692.235411, 9915.115000]: {'id': 288, 'target': [-9.746, 1.196, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 785, 'ee_excursion_m': 0.456, 'wall_s': 100.5}
+[INFO] [1795502692.236472, 9915.115000]: [124/246] id 289 -> NAV to (-9.51, 1.19) [robot_pose]
+[INFO] [1795502693.961095, 9915.758000]: calling NAV
+[INFO] [1795502698.480119, 9919.118000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795502699.947330, 9919.728000]: calling APPROACH
+[INFO] [1795502793.080705, 9947.380000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795502794.105816, 9947.681000]: {'id': 289, 'target': [-9.511, 1.195, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 784, 'ee_excursion_m': 0.456, 'wall_s': 101.9}
+[INFO] [1795502794.107268, 9947.681000]: [125/246] id 290 -> NAV to (-9.30, 1.19) [robot_pose]
+[INFO] [1795502795.643138, 9948.187000]: calling NAV
+[INFO] [1795502799.665675, 9951.252000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795502801.054769, 9951.815000]: calling APPROACH
+[INFO] [1795502893.672123, 9979.335000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795502894.695669, 9979.638000]: {'id': 290, 'target': [-9.296, 1.194, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 783, 'ee_excursion_m': 0.456, 'wall_s': 100.6}
+[INFO] [1795502894.697507, 9979.638000]: [126/246] id 291 -> NAV to (-9.06, 1.19) [robot_pose]
+[INFO] [1795502896.178828, 9980.137000]: calling NAV
+[INFO] [1795502900.188665, 9983.186000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795502901.609310, 9983.790000]: calling APPROACH
+[INFO] [1795502994.251596, 10011.324000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795502995.280351, 10011.629000]: {'id': 291, 'target': [-9.061, 1.194, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 776, 'ee_excursion_m': 0.456, 'wall_s': 100.6}
+[INFO] [1795502995.281739, 10011.630000]: [127/246] id 292 -> NAV to (-8.85, 1.19) [robot_pose]
+[INFO] [1795502996.734318, 10012.114000]: calling NAV
+[INFO] [1795503001.246322, 10015.517000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795503002.698436, 10016.139000]: calling APPROACH
+[INFO] [1795503095.804811, 10043.770000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795503096.830384, 10044.074000]: {'id': 292, 'target': [-8.846, 1.193, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 772, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795503096.832240, 10044.075000]: [128/246] id 293 -> NAV to (-8.60, 1.19) [robot_pose]
+[INFO] [1795503098.268698, 10044.508000]: calling NAV
+[INFO] [1795503102.277659, 10047.573000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795503103.835083, 10048.226000]: calling APPROACH
+[INFO] [1795503196.968915, 10075.861000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795503197.990693, 10076.162000]: {'id': 293, 'target': [-8.596, 1.192, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 778, 'ee_excursion_m': 0.456, 'wall_s': 101.2}
+[INFO] [1795503197.991521, 10076.162000]: [129/246] id 294 -> NAV to (-8.40, 1.19) [robot_pose]
+[INFO] [1795503199.405150, 10076.588000]: calling NAV
+[INFO] [1795503203.421231, 10079.665000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795503204.813668, 10080.245000]: calling APPROACH
+[INFO] [1795503297.928160, 10107.892000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795503298.956376, 10108.198000]: {'id': 294, 'target': [-8.396, 1.192, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 773, 'ee_excursion_m': 0.456, 'wall_s': 101.0}
+[INFO] [1795503298.957320, 10108.198000]: [130/246] id 295 -> NAV to (-8.16, 1.19) [robot_pose]
+[INFO] [1795503300.472712, 10108.699000]: calling NAV
+[INFO] [1795503304.993180, 10112.090000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795503306.455384, 10112.718000]: calling APPROACH
+[INFO] [1795503399.566183, 10140.331000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795503400.595761, 10140.638000]: {'id': 295, 'target': [-8.161, 1.191, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 767, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795503400.598615, 10140.639000]: [131/246] id 297 -> NAV to (-7.93, 1.19) [robot_pose]
+[INFO] [1795503402.054939, 10141.126000]: calling NAV
+[INFO] [1795503406.564807, 10144.485000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795503408.028257, 10145.098000]: calling APPROACH
+[INFO] [1795503501.171470, 10172.759000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.7}
+[INFO] [1795503502.199661, 10173.067000]: {'id': 297, 'target': [-7.926, 1.19, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.7, 'frames_seen': 772, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795503502.200601, 10173.067000]: [132/246] id 298 -> NAV to (-7.71, 1.19) [robot_pose]
+[INFO] [1795503503.673472, 10173.543000]: calling NAV
+[INFO] [1795503508.184430, 10176.922000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795503509.606848, 10177.524000]: calling APPROACH
+[INFO] [1795503602.728675, 10205.155000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795503603.754033, 10205.459000]: {'id': 298, 'target': [-7.711, 1.19, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 767, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795503603.754863, 10205.459000]: [133/246] id 299 -> NAV to (-7.48, 1.19) [robot_pose]
+[INFO] [1795503605.180450, 10205.891000]: calling NAV
+[INFO] [1795503609.203220, 10208.930000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795503610.639301, 10209.546000]: calling APPROACH
+[INFO] [1795503703.758503, 10237.163000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795503704.786776, 10237.470000]: {'id': 299, 'target': [-7.476, 1.189, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 769, 'ee_excursion_m': 0.456, 'wall_s': 101.0}
+[INFO] [1795503704.788078, 10237.471000]: [134/246] id 300 -> NAV to (-7.28, 1.19) [robot_pose]
+[INFO] [1795503706.249874, 10237.955000]: calling NAV
+[INFO] [1795503710.764392, 10241.316000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795503712.124587, 10241.858000]: calling APPROACH
+[INFO] [1795503805.230277, 10269.492000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795503806.259226, 10269.800000]: {'id': 300, 'target': [-7.276, 1.189, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 777, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795503806.260631, 10269.800000]: [135/246] id 301 -> NAV to (-7.03, 1.19) [robot_pose]
+[INFO] [1795503807.687558, 10270.228000]: calling NAV
+[INFO] [1795503812.211291, 10273.615000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795503813.657326, 10274.224000]: calling APPROACH
+[INFO] [1795503906.778896, 10301.822000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795503907.806148, 10302.126000]: {'id': 301, 'target': [-7.026, 1.188, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 777, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795503907.807357, 10302.127000]: [136/246] id 302 -> NAV to (-6.78, 1.19) [robot_pose]
+[INFO] [1795503909.186212, 10302.544000]: calling NAV
+[INFO] [1795503913.698851, 10305.896000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795503915.076503, 10306.460000]: calling APPROACH
+[INFO] [1795504008.219491, 10334.058000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795504009.245651, 10334.365000]: {'id': 302, 'target': [-6.776, 1.187, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 778, 'ee_excursion_m': 0.456, 'wall_s': 101.4}
+[INFO] [1795504009.246594, 10334.365000]: [137/246] id 303 -> NAV to (-6.60, 1.19) [robot_pose]
+[INFO] [1795504010.701271, 10334.797000]: calling NAV
+[INFO] [1795504015.209324, 10338.118000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795504016.756577, 10338.762000]: calling APPROACH
+[INFO] [1795504109.890278, 10366.369000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795504110.920127, 10366.677000]: {'id': 303, 'target': [-6.596, 1.187, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 778, 'ee_excursion_m': 0.456, 'wall_s': 101.7}
+[INFO] [1795504110.921555, 10366.677000]: [138/246] id 304 -> NAV to (-6.38, 1.19) [robot_pose]
+[INFO] [1795504112.538263, 10367.243000]: calling NAV
+[INFO] [1795504117.051445, 10370.590000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795504118.587505, 10371.241000]: calling APPROACH
+[INFO] [1795504211.698181, 10398.851000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795504212.731166, 10399.156000]: {'id': 304, 'target': [-6.376, 1.186, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 788, 'ee_excursion_m': 0.456, 'wall_s': 101.8}
+[INFO] [1795504212.732423, 10399.156000]: [139/246] id 306 -> NAV to (-6.38, 1.19) [robot_pose]
+[INFO] [1795504214.074326, 10399.564000]: calling NAV
+[INFO] [1795504218.588681, 10402.914000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795504220.077346, 10403.518000]: calling APPROACH
+[INFO] [1795504313.185295, 10431.142000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795504314.235502, 10431.454000]: {'id': 306, 'target': [-6.376, 1.186, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 784, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795504314.236790, 10431.455000]: [140/246] id 305 -> NAV to (-6.11, 1.19) [robot_pose]
+[INFO] [1795504315.757081, 10431.938000]: calling NAV
+[INFO] [1795504320.279835, 10435.272000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795504321.809594, 10435.897000]: calling APPROACH
+[INFO] [1795504414.931154, 10463.499000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795504415.964761, 10463.806000]: {'id': 305, 'target': [-6.111, 1.185, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 789, 'ee_excursion_m': 0.456, 'wall_s': 101.7}
+[INFO] [1795504415.965878, 10463.806000]: [141/246] id 307 -> NAV to (-5.91, 1.18) [robot_pose]
+[INFO] [1795504417.403643, 10464.235000]: calling NAV
+[INFO] [1795504421.922705, 10467.606000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795504423.310449, 10468.176000]: calling APPROACH
+[INFO] [1795504516.434072, 10495.723000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.5}
+[INFO] [1795504517.464667, 10496.026000]: {'id': 307, 'target': [-5.911, 1.185, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.5, 'frames_seen': 778, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795504517.466962, 10496.028000]: [142/246] id 308 -> NAV to (-5.70, 1.18) [robot_pose]
+[INFO] [1795504518.993740, 10496.530000]: calling NAV
+[INFO] [1795504523.509690, 10499.911000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795504525.041415, 10500.540000]: calling APPROACH
+[INFO] [1795504618.175163, 10528.088000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.5}
+[INFO] [1795504619.210258, 10528.398000]: {'id': 308, 'target': [-5.696, 1.184, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.5, 'frames_seen': 764, 'ee_excursion_m': 0.456, 'wall_s': 101.7}
+[INFO] [1795504619.211730, 10528.398000]: [143/246] id 309 -> NAV to (-5.43, 1.18) [robot_pose]
+[INFO] [1795504620.770620, 10528.922000]: calling NAV
+[INFO] [1795504625.282609, 10532.275000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795504626.761924, 10532.862000]: calling APPROACH
+[INFO] [1795504719.904844, 10560.431000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795504720.929154, 10560.736000]: {'id': 309, 'target': [-5.426, 1.183, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 760, 'ee_excursion_m': 0.456, 'wall_s': 101.7}
+[INFO] [1795504720.931088, 10560.737000]: [144/246] id 310 -> NAV to (-5.23, 1.18) [robot_pose]
+[INFO] [1795504722.382832, 10561.186000]: calling NAV
+[INFO] [1795504726.891178, 10564.585000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795504728.299926, 10565.168000]: calling APPROACH
+[INFO] [1795504821.446184, 10592.763000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795504822.476693, 10593.070000]: {'id': 310, 'target': [-5.226, 1.183, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 764, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795504822.478761, 10593.071000]: [145/246] id 311 -> NAV to (-5.01, 1.18) [robot_pose]
+[INFO] [1795504824.009677, 10593.578000]: calling NAV
+[INFO] [1795504828.518000, 10596.917000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795504830.054906, 10597.551000]: calling APPROACH
+[INFO] [1795504923.191768, 10625.128000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795504924.228448, 10625.437000]: {'id': 311, 'target': [-5.013, 1.182, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 772, 'ee_excursion_m': 0.456, 'wall_s': 101.7}
+[INFO] [1795504924.229738, 10625.438000]: [146/246] id 312 -> NAV to (-4.80, 1.18) [robot_pose]
+[INFO] [1795504925.676798, 10625.920000]: calling NAV
+[INFO] [1795504929.693804, 10628.972000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795504931.057010, 10629.516000]: calling APPROACH
+[INFO] [1795505024.168171, 10657.074000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795505025.201636, 10657.379000]: {'id': 312, 'target': [-4.799, 1.182, 1.0, 0.0014], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 773, 'ee_excursion_m': 0.456, 'wall_s': 101.0}
+[INFO] [1795505025.203517, 10657.379000]: [147/246] id 314 -> NAV to (-4.55, 1.18) [robot_pose]
+[INFO] [1795505026.708132, 10657.881000]: calling NAV
+[INFO] [1795505030.721776, 10660.935000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795505032.260429, 10661.582000]: calling APPROACH
+[INFO] [1795505125.395167, 10689.161000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795505126.423368, 10689.466000]: {'id': 314, 'target': [-4.55, 1.18, 1.0, 0.0022], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 784, 'ee_excursion_m': 0.456, 'wall_s': 101.2}
+[INFO] [1795505126.424390, 10689.467000]: [148/246] id 315 -> NAV to (-4.35, 1.18) [robot_pose]
+[INFO] [1795505127.947861, 10689.997000]: calling NAV
+[INFO] [1795505132.467137, 10693.355000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795505133.825706, 10693.903000]: calling APPROACH
+[INFO] [1795505226.950705, 10721.457000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795505227.984547, 10721.764000]: {'id': 315, 'target': [-4.35, 1.179, 1.0, 0.0027], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 786, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795505227.985890, 10721.765000]: [149/246] id 316 -> NAV to (-4.13, 1.18) [robot_pose]
+[INFO] [1795505229.437144, 10722.252000]: calling NAV
+[INFO] [1795505233.954182, 10725.656000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795505235.542541, 10726.299000]: calling APPROACH
+[INFO] [1795505328.681242, 10753.910000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795505329.709256, 10754.216000]: {'id': 316, 'target': [-4.129, 1.178, 1.0, 0.0033], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 796, 'ee_excursion_m': 0.456, 'wall_s': 101.7}
+[INFO] [1795505329.710433, 10754.217000]: [150/246] id 317 -> NAV to (-3.88, 1.18) [robot_pose]
+[INFO] [1795505331.133178, 10754.645000]: calling NAV
+[INFO] [1795505335.648161, 10758.032000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795505337.044363, 10758.599000]: calling APPROACH
+[INFO] [1795505430.169700, 10786.187000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795505431.203046, 10786.493000]: {'id': 317, 'target': [-3.879, 1.176, 1.0, 0.0034], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 796, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795505431.204225, 10786.493000]: [151/246] id 318 -> NAV to (-3.66, 1.17) [robot_pose]
+[INFO] [1795505432.674418, 10786.977000]: calling NAV
+[INFO] [1795505437.191253, 10790.395000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795505438.616359, 10790.993000]: calling APPROACH
+[INFO] [1795505531.760151, 10818.586000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795505532.792625, 10818.892000]: {'id': 318, 'target': [-3.664, 1.174, 1.0, 0.0037], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 796, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795505532.794083, 10818.893000]: [152/246] id 319 -> NAV to (-3.41, 1.17) [robot_pose]
+[INFO] [1795505534.146014, 10819.298000]: calling NAV
+[INFO] [1795505538.669672, 10822.592000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795505540.140373, 10823.178000]: calling APPROACH
+[INFO] [1795505633.273160, 10850.677000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.5}
+[INFO] [1795505634.312435, 10850.985000]: {'id': 319, 'target': [-3.413, 1.172, 1.0, 0.0039], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.5, 'frames_seen': 795, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795505634.313658, 10850.985000]: [153/246] id 321 -> NAV to (-3.18, 1.17) [robot_pose]
+[INFO] [1795505635.812795, 10851.490000]: calling NAV
+[INFO] [1795505639.827161, 10854.544000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795505641.319426, 10855.141000]: calling APPROACH
+[INFO] [1795505734.449526, 10882.723000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795505735.483370, 10883.029000]: {'id': 321, 'target': [-3.178, 1.171, 1.0, 0.0039], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 798, 'ee_excursion_m': 0.456, 'wall_s': 101.2}
+[INFO] [1795505735.484249, 10883.029000]: [154/246] id 322 -> NAV to (-3.00, 1.17) [robot_pose]
+[INFO] [1795505736.938844, 10883.467000]: calling NAV
+[INFO] [1795505741.456789, 10886.896000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795505742.862424, 10887.491000]: calling APPROACH
+[INFO] [1795505835.980034, 10915.077000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795505837.007073, 10915.384000]: {'id': 322, 'target': [-2.998, 1.169, 1.0, 0.0045], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 808, 'ee_excursion_m': 0.456, 'wall_s': 101.5}
+[INFO] [1795505837.008078, 10915.384000]: [155/246] id 323 -> NAV to (-2.76, 1.17) [robot_pose]
+[INFO] [1795505838.532767, 10915.888000]: calling NAV
+[INFO] [1795505843.053275, 10919.321000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795505844.443737, 10919.902000]: calling APPROACH
+[INFO] [1795505937.576769, 10947.543000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795505938.610237, 10947.850000]: {'id': 323, 'target': [-2.762, 1.167, 1.0, 0.0046], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 818, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795505938.611402, 10947.850000]: [156/246] id 324 -> NAV to (-2.56, 1.16) [robot_pose]
+[INFO] [1795505939.992703, 10948.261000]: calling NAV
+[INFO] [1795505944.513676, 10951.651000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795505946.067306, 10952.296000]: calling APPROACH
+[INFO] [1795506039.179103, 10979.905000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.1, 'sim_s': 27.6}
+[INFO] [1795506040.203241, 10980.207000]: {'id': 324, 'target': [-2.562, 1.165, 1.0, 0.005], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 93.1, 'action_sim_s': 27.6, 'frames_seen': 827, 'ee_excursion_m': 0.456, 'wall_s': 101.6}
+[INFO] [1795506040.204432, 10980.208000]: [157/246] id 327 -> NAV to (-2.63, 7.08) [robot_pose]
+[INFO] [1795506041.556014, 10980.617000]: calling NAV
+[INFO] [1795506070.095763, 11003.158000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 28.5, 'sim_s': 22.5}
+[INFO] [1795506071.506969, 11003.756000]: calling APPROACH
+[INFO] [1795506164.137535, 11031.328000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.6}
+[INFO] [1795506165.156027, 11031.632000]: {'id': 327, 'target': [-2.634, 7.079, -0.0257, 0.9997], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 28.5, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.6, 'frames_seen': 653, 'ee_excursion_m': 0.456, 'wall_s': 125.0}
+[INFO] [1795506165.157343, 11031.632000]: [158/246] id 332 -> NAV to (-2.66, 7.08) [from_grape_pose]
+[INFO] [1795506166.510513, 11032.036000]: calling NAV
+[INFO] [1795506170.529784, 11035.184000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795506172.031362, 11035.792000]: calling APPROACH
+[INFO] [1795506264.654677, 11063.360000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.6}
+[INFO] [1795506265.682845, 11063.663000]: {'id': 332, 'target': [-2.662, 7.083, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.6, 'frames_seen': 654, 'ee_excursion_m': 0.456, 'wall_s': 100.5}
+[INFO] [1795506265.684166, 11063.664000]: [159/246] id 329 -> NAV to (-3.12, 7.10) [robot_pose]
+[INFO] [1795506267.067561, 11064.079000]: calling NAV
+[INFO] [1795506271.094616, 11067.160000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795506272.614367, 11067.794000]: calling APPROACH
+[INFO] [1795506365.235737, 11095.319000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795506366.269876, 11095.624000]: {'id': 329, 'target': [-3.115, 7.097, -0.0118, 0.9999], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 595, 'ee_excursion_m': 0.456, 'wall_s': 100.6}
+[INFO] [1795506366.271256, 11095.625000]: [160/246] id 342 -> NAV to (-3.14, 7.08) [from_grape_pose]
+[INFO] [1795506367.713445, 11096.056000]: calling NAV
+[INFO] [1795506371.722028, 11099.173000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795506373.138674, 11099.775000]: calling APPROACH
+[INFO] [1795506465.742230, 11127.320000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795506466.781828, 11127.625000]: {'id': 342, 'target': [-3.143, 7.081, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 583, 'ee_excursion_m': 0.456, 'wall_s': 100.5}
+[INFO] [1795506466.784266, 11127.626000]: [161/246] id 331 -> NAV to (-3.61, 7.10) [robot_pose]
+[INFO] [1795506468.310751, 11128.132000]: calling NAV
+[INFO] [1795506472.321182, 11131.212000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795506473.752965, 11131.833000]: calling APPROACH
+[INFO] [1795506566.377727, 11159.347000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795506567.420200, 11159.658000]: {'id': 331, 'target': [-3.613, 7.104, -0.004, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 548, 'ee_excursion_m': 0.457, 'wall_s': 100.6}
+[INFO] [1795506567.421484, 11159.658000]: [162/246] id 333 -> NAV to (-3.83, 7.10) [robot_pose]
+[INFO] [1795506568.880382, 11160.124000]: calling NAV
+[INFO] [1795506572.891126, 11163.213000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795506574.529305, 11163.923000]: calling APPROACH
+[INFO] [1795506667.160662, 11191.477000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.6}
+[INFO] [1795506668.207890, 11191.787000]: {'id': 333, 'target': [-3.828, 7.105, -0.002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.6, 'frames_seen': 543, 'ee_excursion_m': 0.456, 'wall_s': 100.8}
+[INFO] [1795506668.209703, 11191.788000]: [163/246] id 334 -> NAV to (-4.05, 7.11) [robot_pose]
+[INFO] [1795506669.591656, 11192.212000]: calling NAV
+[INFO] [1795506673.606518, 11195.309000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795506675.091404, 11195.926000]: calling APPROACH
+[INFO] [1795506767.721462, 11223.468000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795506768.756170, 11223.776000]: {'id': 334, 'target': [-4.047, 7.106, 0.0001, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 539, 'ee_excursion_m': 0.456, 'wall_s': 100.5}
+[INFO] [1795506768.757087, 11223.776000]: [164/246] id 349 -> NAV to (-4.04, 7.08) [from_grape_pose]
+[INFO] [1795506770.215415, 11224.212000]: calling NAV
+[INFO] [1795506774.228167, 11227.245000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795506775.788792, 11227.901000]: calling APPROACH
+[INFO] [1795506868.419622, 11255.454000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.6}
+[INFO] [1795506869.460850, 11255.766000]: {'id': 349, 'target': [-4.036, 7.08, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.6, 'frames_seen': 531, 'ee_excursion_m': 0.456, 'wall_s': 100.7}
+[INFO] [1795506869.462145, 11255.766000]: [165/246] id 337 -> NAV to (-4.50, 7.10) [robot_pose]
+[INFO] [1795506870.831918, 11256.178000]: calling NAV
+[INFO] [1795506874.850161, 11259.274000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795506876.279330, 11259.880000]: calling APPROACH
+[INFO] [1795506968.919168, 11287.409000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795506969.951287, 11287.717000]: {'id': 337, 'target': [-4.497, 7.103, 0.0024, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 531, 'ee_excursion_m': 0.456, 'wall_s': 100.5}
+[INFO] [1795506969.952203, 11287.717000]: [166/246] id 340 -> NAV to (-4.71, 7.10) [robot_pose]
+[INFO] [1795506971.508363, 11288.234000]: calling NAV
+[INFO] [1795506975.519722, 11291.336000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795506976.982284, 11291.938000]: calling APPROACH
+[INFO] [1795507083.624944, 11323.621000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795507084.652211, 11323.930000]: {'id': 340, 'target': [-4.712, 7.101, 0.0024, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 695, 'ee_excursion_m': 0.441, 'wall_s': 114.7}
+[INFO] [1795507084.653930, 11323.931000]: [167/246] id 348 -> NAV to (-4.96, 7.10) [robot_pose]
+[INFO] [1795507086.010999, 11324.340000]: calling NAV
+[INFO] [1795507090.028654, 11327.385000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795507091.583367, 11328.034000]: calling APPROACH
+[INFO] [1795507198.222251, 11359.710000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795507199.248205, 11360.016000]: {'id': 348, 'target': [-4.962, 7.1, 0.0024, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 699, 'ee_excursion_m': 0.441, 'wall_s': 114.6}
+[INFO] [1795507199.249805, 11360.016000]: [168/246] id 358 -> NAV to (-4.94, 7.08) [from_grape_pose]
+[INFO] [1795507200.645208, 11360.433000]: calling NAV
+[INFO] [1795507204.653343, 11363.495000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795507206.138259, 11364.095000]: calling APPROACH
+[INFO] [1795507312.771595, 11395.771000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795507313.805203, 11396.075000]: {'id': 358, 'target': [-4.937, 7.079, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 694, 'ee_excursion_m': 0.442, 'wall_s': 114.6}
+[INFO] [1795507313.806691, 11396.075000]: [169/246] id 346 -> NAV to (-5.41, 7.10) [robot_pose]
+[INFO] [1795507315.157194, 11396.480000]: calling NAV
+[INFO] [1795507319.174434, 11399.560000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795507320.566481, 11400.138000]: calling APPROACH
+[INFO] [1795507427.202209, 11431.875000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795507428.234984, 11432.184000]: {'id': 346, 'target': [-5.412, 7.098, 0.0024, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 715, 'ee_excursion_m': 0.441, 'wall_s': 114.4}
+[INFO] [1795507428.236384, 11432.185000]: [170/246] id 356 -> NAV to (-5.63, 7.10) [robot_pose]
+[INFO] [1795507429.660408, 11432.614000]: calling NAV
+[INFO] [1795507433.667789, 11435.701000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795507435.080358, 11436.308000]: calling APPROACH
+[INFO] [1795507541.699704, 11468.022000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795507542.731338, 11468.331000]: {'id': 356, 'target': [-5.627, 7.097, 0.0024, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 708, 'ee_excursion_m': 0.441, 'wall_s': 114.5}
+[INFO] [1795507542.732516, 11468.331000]: [171/246] id 351 -> NAV to (-5.86, 7.10) [robot_pose]
+[INFO] [1795507544.255718, 11468.846000]: calling NAV
+[INFO] [1795507548.268280, 11471.896000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795507549.617373, 11472.441000]: calling APPROACH
+[INFO] [1795507656.254406, 11504.169000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795507657.290636, 11504.475000]: {'id': 351, 'target': [-5.861, 7.096, 0.0024, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 716, 'ee_excursion_m': 0.441, 'wall_s': 114.6}
+[INFO] [1795507657.292027, 11504.476000]: [172/246] id 355 -> NAV to (-6.06, 7.10) [robot_pose]
+[INFO] [1795507658.765273, 11504.968000]: calling NAV
+[INFO] [1795507662.785851, 11508.083000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795507664.173750, 11508.662000]: calling APPROACH
+[INFO] [1795507770.813639, 11540.383000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795507771.849516, 11540.688000]: {'id': 355, 'target': [-6.061, 7.095, 0.0024, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 696, 'ee_excursion_m': 0.441, 'wall_s': 114.6}
+[INFO] [1795507771.850838, 11540.689000]: [173/246] id 357 -> NAV to (-6.30, 7.09) [robot_pose]
+[INFO] [1795507773.362132, 11541.186000]: calling NAV
+[INFO] [1795507777.884032, 11544.593000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795507779.322723, 11545.197000]: calling APPROACH
+[INFO] [1795507885.943130, 11576.913000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795507886.967451, 11577.218000]: {'id': 357, 'target': [-6.296, 7.094, 0.0024, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 683, 'ee_excursion_m': 0.441, 'wall_s': 115.1}
+[INFO] [1795507886.968704, 11577.218000]: [174/246] id 369 -> NAV to (-6.24, 7.08) [from_grape_pose]
+[INFO] [1795507888.442543, 11577.705000]: calling NAV
+[INFO] [1795507892.452136, 11580.742000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795507893.846331, 11581.338000]: calling APPROACH
+[INFO] [1795508000.508447, 11613.078000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.7, 'sim_s': 31.7}
+[INFO] [1795508001.543385, 11613.387000]: {'id': 369, 'target': [-6.241, 7.08, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.7, 'action_sim_s': 31.7, 'frames_seen': 687, 'ee_excursion_m': 0.441, 'wall_s': 114.6}
+[INFO] [1795508001.544624, 11613.387000]: [175/246] id 367 -> NAV to (-6.76, 7.09) [robot_pose]
+[INFO] [1795508003.093465, 11613.910000]: calling NAV
+[INFO] [1795508007.619484, 11617.321000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795508009.109967, 11617.916000]: calling APPROACH
+[INFO] [1795508115.740227, 11649.606000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795508116.763331, 11649.911000]: {'id': 367, 'target': [-6.762, 7.092, 0.002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 679, 'ee_excursion_m': 0.442, 'wall_s': 115.2}
+[INFO] [1795508116.764208, 11649.911000]: [176/246] id 359 -> NAV to (-7.01, 7.09) [robot_pose]
+[INFO] [1795508118.139710, 11650.333000]: calling NAV
+[INFO] [1795508122.651145, 11653.735000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795508124.245422, 11654.411000]: calling APPROACH
+[INFO] [1795508230.882159, 11686.150000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795508231.914965, 11686.459000]: {'id': 359, 'target': [-7.012, 7.091, 0.0013, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 699, 'ee_excursion_m': 0.441, 'wall_s': 115.2}
+[INFO] [1795508231.916310, 11686.460000]: [177/246] id 364 -> NAV to (-7.20, 7.09) [robot_pose]
+[INFO] [1795508233.291240, 11686.872000]: calling NAV
+[INFO] [1795508237.303211, 11689.912000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795508238.754354, 11690.501000]: calling APPROACH
+[INFO] [1795508345.416667, 11722.220000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.7, 'sim_s': 31.7}
+[INFO] [1795508346.452575, 11722.526000]: {'id': 364, 'target': [-7.197, 7.091, 0.0012, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.7, 'action_sim_s': 31.7, 'frames_seen': 683, 'ee_excursion_m': 0.441, 'wall_s': 114.5}
+[INFO] [1795508346.453881, 11722.527000]: [178/246] id 368 -> NAV to (-7.45, 7.09) [robot_pose]
+[INFO] [1795508347.909397, 11723.018000]: calling NAV
+[INFO] [1795508352.429173, 11726.430000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795508353.884220, 11727.022000]: calling APPROACH
+[INFO] [1795508460.525545, 11758.761000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795508461.551834, 11759.067000]: {'id': 368, 'target': [-7.447, 7.091, 0.0004, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 692, 'ee_excursion_m': 0.441, 'wall_s': 115.1}
+[INFO] [1795508461.553356, 11759.068000]: [179/246] id 370 -> NAV to (-7.68, 7.09) [robot_pose]
+[INFO] [1795508462.976788, 11759.499000]: calling NAV
+[INFO] [1795508467.498697, 11762.932000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795508468.932564, 11763.546000]: calling APPROACH
+[INFO] [1795508575.557162, 11795.288000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795508576.582049, 11795.596000]: {'id': 370, 'target': [-7.677, 7.091, 0.0003, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 690, 'ee_excursion_m': 0.441, 'wall_s': 115.0}
+[INFO] [1795508576.582880, 11795.596000]: [180/246] id 371 -> NAV to (-7.86, 7.09) [robot_pose]
+[INFO] [1795508578.077306, 11796.096000]: calling NAV
+[INFO] [1795508582.099187, 11799.188000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795508583.650892, 11799.831000]: calling APPROACH
+[INFO] [1795508690.296521, 11831.549000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795508691.328312, 11831.856000]: {'id': 371, 'target': [-7.863, 7.09, 0.0003, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 677, 'ee_excursion_m': 0.441, 'wall_s': 114.7}
+[INFO] [1795508691.329562, 11831.857000]: [181/246] id 372 -> NAV to (-8.10, 7.09) [robot_pose]
+[INFO] [1795508692.864123, 11832.372000]: calling NAV
+[INFO] [1795508696.875722, 11835.468000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795508698.465861, 11836.124000]: calling APPROACH
+[INFO] [1795508805.105256, 11867.876000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.8}
+[INFO] [1795508806.137938, 11868.185000]: {'id': 372, 'target': [-8.097, 7.091, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.8, 'frames_seen': 603, 'ee_excursion_m': 0.441, 'wall_s': 114.8}
+[INFO] [1795508806.139288, 11868.186000]: [182/246] id 373 -> NAV to (-8.33, 7.09) [robot_pose]
+[INFO] [1795508807.654079, 11868.689000]: calling NAV
+[INFO] [1795508811.669466, 11871.814000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795508813.128761, 11872.441000]: calling APPROACH
+[INFO] [1795508919.771115, 11904.184000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 106.6, 'sim_s': 31.7}
+[INFO] [1795508920.803477, 11904.490000]: {'id': 373, 'target': [-8.327, 7.091, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 106.6, 'action_sim_s': 31.7, 'frames_seen': 613, 'ee_excursion_m': 0.441, 'wall_s': 114.7}
+[INFO] [1795508920.804767, 11904.491000]: [183/246] id 374 -> NAV to (-8.53, 7.09) [robot_pose]
+[INFO] [1795508922.235454, 11904.922000]: calling NAV
+[INFO] [1795508926.251385, 11907.992000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795508927.693403, 11908.627000]: calling APPROACH
+[INFO] [1795509021.335167, 11936.449000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 93.6, 'sim_s': 27.8}
+[INFO] [1795509022.378589, 11936.759000]: {'id': 374, 'target': [-8.527, 7.091, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 93.6, 'action_sim_s': 27.8, 'frames_seen': 516, 'ee_excursion_m': 0.52, 'wall_s': 101.6}
+[INFO] [1795509022.380124, 11936.759000]: [184/246] id 375 -> NAV to (-8.78, 7.09) [robot_pose]
+[INFO] [1795509023.723065, 11937.165000]: calling NAV
+[INFO] [1795509027.744202, 11940.247000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795509029.155219, 11940.840000]: calling APPROACH
+[INFO] [1795509120.810996, 11968.113000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 91.7, 'sim_s': 27.3}
+[INFO] [1795509121.841665, 11968.421000]: {'id': 375, 'target': [-8.777, 7.091, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 91.7, 'action_sim_s': 27.3, 'frames_seen': 486, 'ee_excursion_m': 0.44, 'wall_s': 99.5}
+[INFO] [1795509121.842745, 11968.422000]: [185/246] id 376 -> NAV to (-9.00, 7.09) [robot_pose]
+[INFO] [1795509123.295601, 11968.904000]: calling NAV
+[INFO] [1795509127.303689, 11972.017000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795509128.762069, 11972.606000]: calling APPROACH
+[INFO] [1795509243.408121, 12006.643000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 114.6, 'sim_s': 34.0}
+[INFO] [1795509244.448228, 12006.950000]: {'id': 376, 'target': [-8.997, 7.091, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 114.6, 'action_sim_s': 34.0, 'frames_seen': 652, 'ee_excursion_m': 0.649, 'wall_s': 122.6}
+[INFO] [1795509244.449505, 12006.951000]: [186/246] id 377 -> NAV to (-9.21, 7.09) [robot_pose]
+[INFO] [1795509245.835608, 12007.364000]: calling NAV
+[INFO] [1795509249.847682, 12010.462000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795509251.313367, 12011.055000]: calling APPROACH
+[INFO] [1795509365.950140, 12045.124000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 114.6, 'sim_s': 34.1}
+[INFO] [1795509366.984808, 12045.431000]: {'id': 377, 'target': [-9.213, 7.091, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 114.6, 'action_sim_s': 34.1, 'frames_seen': 654, 'ee_excursion_m': 0.65, 'wall_s': 122.5}
+[INFO] [1795509366.985867, 12045.431000]: [187/246] id 378 -> NAV to (-9.45, 7.09) [robot_pose]
+[INFO] [1795509368.420156, 12045.868000]: calling NAV
+[INFO] [1795509372.444167, 12049.006000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795509373.909312, 12049.600000]: calling APPROACH
+[INFO] [1795509466.546019, 12077.140000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795509467.570597, 12077.447000]: {'id': 378, 'target': [-9.447, 7.091, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 520, 'ee_excursion_m': 0.376, 'wall_s': 100.6}
+[INFO] [1795509467.571916, 12077.448000]: [188/246] id 379 -> NAV to (-9.70, 7.09) [robot_pose]
+[INFO] [1795509468.981444, 12077.872000]: calling NAV
+[INFO] [1795509472.994891, 12080.976000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795509474.561870, 12081.624000]: calling APPROACH
+[INFO] [1795509567.177177, 12109.146000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 92.6, 'sim_s': 27.5}
+[INFO] [1795509568.206018, 12109.454000]: {'id': 379, 'target': [-9.697, 7.091, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 92.6, 'action_sim_s': 27.5, 'frames_seen': 522, 'ee_excursion_m': 0.375, 'wall_s': 100.6}
+[INFO] [1795509568.207309, 12109.455000]: [189/246] id 380 -> NAV to (-9.90, 7.09) [robot_pose]
+[INFO] [1795509569.724631, 12109.964000]: calling NAV
+[INFO] [1795509573.734674, 12113.095000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795509575.214766, 12113.692000]: calling APPROACH
+[INFO] [1795509670.349193, 12141.986000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.3}
+[INFO] [1795509671.382248, 12142.294000]: {'id': 380, 'target': [-9.897, 7.091, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.3, 'frames_seen': 559, 'ee_excursion_m': 0.611, 'wall_s': 103.2}
+[INFO] [1795509671.383591, 12142.295000]: [190/246] id 389 -> NAV to (-9.89, 7.07) [from_grape_pose]
+[INFO] [1795509672.796493, 12142.719000]: calling NAV
+[INFO] [1795509676.812783, 12145.809000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795509678.211050, 12146.409000]: calling APPROACH
+[INFO] [1795509773.346172, 12174.676000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.3}
+[INFO] [1795509774.377336, 12174.983000]: {'id': 389, 'target': [-9.89, 7.07, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.3, 'frames_seen': 550, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795509774.378519, 12174.984000]: [191/246] id 390 -> NAV to (-11.41, 7.09) [from_grape_pose]
+[INFO] [1795509775.764011, 12175.402000]: calling NAV
+[INFO] [1795509782.279645, 12180.342000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 6.5, 'sim_s': 4.9}
+[INFO] [1795509783.766892, 12180.970000]: calling APPROACH
+[INFO] [1795509878.905536, 12209.225000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.3}
+[INFO] [1795509879.936277, 12209.527000]: {'id': 390, 'target': [-11.407, 7.095, 0.0, 1.0], 'target_from': 'from_grape_pose', 'nav': True, 'nav_wall_s': 6.5, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.3, 'frames_seen': 604, 'ee_excursion_m': 0.611, 'wall_s': 105.6}
+[INFO] [1795509879.937681, 12209.528000]: [192/246] id 381 -> NAV to (-10.35, 7.09) [robot_pose]
+[INFO] [1795509881.458273, 12210.034000]: calling NAV
+[INFO] [1795509885.470396, 12213.118000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795509886.902954, 12213.726000]: calling APPROACH
+[INFO] [1795509982.017314, 12241.972000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.2}
+[INFO] [1795509983.044017, 12242.282000]: {'id': 381, 'target': [-10.347, 7.092, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.2, 'frames_seen': 597, 'ee_excursion_m': 0.612, 'wall_s': 103.1}
+[INFO] [1795509983.044979, 12242.282000]: [193/246] id 383 -> NAV to (-10.58, 7.09) [robot_pose]
+[INFO] [1795509984.666267, 12242.857000]: calling NAV
+[INFO] [1795509988.684285, 12245.988000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795509990.068347, 12246.564000]: calling APPROACH
+[INFO] [1795510085.206478, 12274.825000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.3}
+[INFO] [1795510086.241906, 12275.132000]: {'id': 383, 'target': [-10.577, 7.092, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.3, 'frames_seen': 602, 'ee_excursion_m': 0.611, 'wall_s': 103.2}
+[INFO] [1795510086.243290, 12275.133000]: [194/246] id 385 -> NAV to (-10.80, 7.09) [robot_pose]
+[INFO] [1795510087.690913, 12275.614000]: calling NAV
+[INFO] [1795510091.701183, 12278.661000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795510093.234287, 12279.323000]: calling APPROACH
+[INFO] [1795510188.368921, 12307.560000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.2}
+[INFO] [1795510189.400271, 12307.866000]: {'id': 385, 'target': [-10.797, 7.092, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.2, 'frames_seen': 598, 'ee_excursion_m': 0.612, 'wall_s': 103.2}
+[INFO] [1795510189.401129, 12307.866000]: [195/246] id 386 -> NAV to (-11.05, 7.09) [robot_pose]
+[INFO] [1795510190.933326, 12308.400000]: calling NAV
+[INFO] [1795510194.946173, 12311.474000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795510196.371514, 12312.068000]: calling APPROACH
+[INFO] [1795510291.491183, 12340.317000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.2}
+[INFO] [1795510292.527306, 12340.625000]: {'id': 386, 'target': [-11.047, 7.092, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.2, 'frames_seen': 593, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795510292.528737, 12340.626000]: [196/246] id 387 -> NAV to (-11.25, 7.09) [robot_pose]
+[INFO] [1795510294.046551, 12341.134000]: calling NAV
+[INFO] [1795510298.054795, 12344.212000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795510299.482398, 12344.825000]: calling APPROACH
+[INFO] [1795510394.597971, 12373.071000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.2}
+[INFO] [1795510395.635822, 12373.380000]: {'id': 387, 'target': [-11.247, 7.092, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.2, 'frames_seen': 589, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795510395.636931, 12373.380000]: [197/246] id 388 -> NAV to (-11.48, 7.09) [robot_pose]
+[INFO] [1795510397.012467, 12373.798000]: calling NAV
+[INFO] [1795510401.029217, 12376.885000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795510402.481423, 12377.530000]: calling APPROACH
+[INFO] [1795510497.602113, 12405.780000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.2}
+[INFO] [1795510498.628208, 12406.085000]: {'id': 388, 'target': [-11.477, 7.092, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.2, 'frames_seen': 609, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795510498.629190, 12406.085000]: [198/246] id 391 -> NAV to (-11.68, 7.09) [robot_pose]
+[INFO] [1795510500.048483, 12406.545000]: calling NAV
+[INFO] [1795510504.063006, 12409.651000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795510505.451396, 12410.252000]: calling APPROACH
+[INFO] [1795510600.574194, 12438.516000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.3}
+[INFO] [1795510601.612715, 12438.826000]: {'id': 391, 'target': [-11.677, 7.092, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.3, 'frames_seen': 616, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795510601.613730, 12438.826000]: [199/246] id 392 -> NAV to (-11.91, 7.09) [robot_pose]
+[INFO] [1795510603.109274, 12439.317000]: calling NAV
+[INFO] [1795510607.130621, 12442.426000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795510608.638310, 12443.051000]: calling APPROACH
+[INFO] [1795510703.270905, 12471.197000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.1}
+[INFO] [1795510704.299755, 12471.496000]: {'id': 392, 'target': [-11.912, 7.092, -0.0002, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.1, 'frames_seen': 692, 'ee_excursion_m': 0.611, 'wall_s': 102.7}
+[INFO] [1795510704.301293, 12471.496000]: [200/246] id 393 -> NAV to (-12.16, 7.09) [robot_pose]
+[INFO] [1795510705.724168, 12471.926000]: calling NAV
+[INFO] [1795510709.732460, 12474.964000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795510711.177322, 12475.585000]: calling APPROACH
+[INFO] [1795510806.305212, 12503.812000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.2}
+[INFO] [1795510807.338664, 12504.122000]: {'id': 393, 'target': [-12.162, 7.094, 0.0036, 1.0], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.2, 'frames_seen': 727, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795510807.339919, 12504.122000]: [201/246] id 394 -> NAV to (-12.40, 7.09) [robot_pose]
+[INFO] [1795510808.880429, 12504.650000]: calling NAV
+[INFO] [1795510813.398320, 12508.042000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795510814.893420, 12508.634000]: calling APPROACH
+[INFO] [1795510910.014470, 12536.800000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.2}
+[INFO] [1795510911.035672, 12537.103000]: {'id': 394, 'target': [-12.395, 7.09, 0.0158, 0.9999], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.2, 'frames_seen': 739, 'ee_excursion_m': 0.612, 'wall_s': 103.7}
+[INFO] [1795510911.036777, 12537.104000]: [202/246] id 398 -> NAV to (-12.48, 4.33) [robot_pose]
+[INFO] [1795510912.467922, 12537.525000]: calling NAV
+[INFO] [1795510946.022147, 12563.085000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 33.6, 'sim_s': 25.6}
+[INFO] [1795510947.478684, 12563.725000]: calling APPROACH
+[INFO] [1795511042.087494, 12591.977000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.3}
+[INFO] [1795511043.104660, 12592.279000]: {'id': 398, 'target': [-12.485, 4.334, 0.9965, 0.0831], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 33.6, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.3, 'frames_seen': 857, 'ee_excursion_m': 0.611, 'wall_s': 132.1}
+[INFO] [1795511043.106168, 12592.280000]: [203/246] id 399 -> NAV to (-12.33, 4.31) [robot_pose]
+[INFO] [1795511044.637284, 12592.794000]: calling NAV
+[INFO] [1795511049.147148, 12596.146000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795511050.522269, 12596.707000]: calling APPROACH
+[INFO] [1795511145.118396, 12624.958000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.3}
+[INFO] [1795511146.135520, 12625.255000]: {'id': 399, 'target': [-12.328, 4.305, 0.9972, 0.0753], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.3, 'frames_seen': 857, 'ee_excursion_m': 0.612, 'wall_s': 103.0}
+[INFO] [1795511146.136787, 12625.255000]: [204/246] id 400 -> NAV to (-12.05, 4.28) [robot_pose]
+[INFO] [1795511147.557080, 12625.683000]: calling NAV
+[INFO] [1795511152.075139, 12629.042000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795511153.592941, 12629.665000]: calling APPROACH
+[INFO] [1795511248.701128, 12657.861000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 95.1, 'sim_s': 28.2}
+[INFO] [1795511249.719351, 12658.159000]: {'id': 400, 'target': [-12.051, 4.281, 0.9986, 0.0524], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 95.1, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.6}
+[INFO] [1795511249.720656, 12658.160000]: [205/246] id 401 -> NAV to (-11.82, 4.26) [robot_pose]
+[INFO] [1795511251.118156, 12658.580000]: calling NAV
+[INFO] [1795511255.635174, 12661.907000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795511257.006349, 12662.447000]: calling APPROACH
+[INFO] [1795511351.619068, 12690.641000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795511352.648116, 12690.948000]: {'id': 401, 'target': [-11.823, 4.256, 0.9994, 0.0345], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 102.9}
+[INFO] [1795511352.649056, 12690.948000]: [206/246] id 402 -> NAV to (-11.57, 4.25) [robot_pose]
+[INFO] [1795511354.110775, 12691.382000]: calling NAV
+[INFO] [1795511358.626178, 12694.723000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795511360.114902, 12695.327000]: calling APPROACH
+[INFO] [1795511454.712816, 12723.519000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795511455.741736, 12723.823000]: {'id': 402, 'target': [-11.575, 4.251, 0.9998, 0.018], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795511455.742962, 12723.823000]: [207/246] id 403 -> NAV to (-11.33, 4.24) [robot_pose]
+[INFO] [1795511457.294772, 12724.343000]: calling NAV
+[INFO] [1795511461.812119, 12727.700000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795511463.412429, 12728.363000]: calling APPROACH
+[INFO] [1795511558.028763, 12756.593000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795511559.058509, 12756.897000]: {'id': 403, 'target': [-11.325, 4.242, 1.0, 0.008], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 856, 'ee_excursion_m': 0.611, 'wall_s': 103.3}
+[INFO] [1795511559.061227, 12756.898000]: [208/246] id 404 -> NAV to (-11.11, 4.24) [robot_pose]
+[INFO] [1795511560.588858, 12757.397000]: calling NAV
+[INFO] [1795511565.109501, 12760.804000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795511566.588394, 12761.410000]: calling APPROACH
+[INFO] [1795511661.212290, 12789.603000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795511662.241412, 12789.907000]: {'id': 404, 'target': [-11.106, 4.239, 1.0, 0.0074], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.2}
+[INFO] [1795511662.244504, 12789.907000]: [209/246] id 405 -> NAV to (-10.85, 4.23) [robot_pose]
+[INFO] [1795511663.716754, 12790.404000]: calling NAV
+[INFO] [1795511668.226656, 12793.771000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795511669.614606, 12794.344000]: calling APPROACH
+[INFO] [1795511764.227749, 12822.519000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795511765.258976, 12822.823000]: {'id': 405, 'target': [-10.855, 4.234, 0.9999, 0.0116], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 854, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795511765.260072, 12822.823000]: [210/246] id 406 -> NAV to (-10.65, 4.23) [robot_pose]
+[INFO] [1795511766.723527, 12823.320000]: calling NAV
+[INFO] [1795511771.243778, 12826.717000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795511772.734322, 12827.317000]: calling APPROACH
+[INFO] [1795511867.341967, 12855.532000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795511868.363137, 12855.836000]: {'id': 406, 'target': [-10.655, 4.229, 0.9999, 0.0131], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 856, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795511868.364171, 12855.836000]: [211/246] id 407 -> NAV to (-10.42, 4.22) [robot_pose]
+[INFO] [1795511869.737737, 12856.252000]: calling NAV
+[INFO] [1795511874.250714, 12859.631000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795511875.770367, 12860.267000]: calling APPROACH
+[INFO] [1795511970.375689, 12888.497000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795511971.406663, 12888.805000]: {'id': 407, 'target': [-10.425, 4.223, 0.9999, 0.0137], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 856, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795511971.408270, 12888.806000]: [212/246] id 408 -> NAV to (-10.21, 4.22) [robot_pose]
+[INFO] [1795511972.756519, 12889.212000]: calling NAV
+[INFO] [1795511977.266374, 12892.591000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795511978.735336, 12893.187000]: calling APPROACH
+[INFO] [1795512073.343423, 12921.390000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795512074.367791, 12921.695000]: {'id': 408, 'target': [-10.205, 4.217, 0.9999, 0.0133], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795512074.369014, 12921.696000]: [213/246] id 409 -> NAV to (-9.98, 4.21) [robot_pose]
+[INFO] [1795512075.733072, 12922.105000]: calling NAV
+[INFO] [1795512079.743866, 12925.140000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795512081.199596, 12925.772000]: calling APPROACH
+[INFO] [1795512175.814195, 12953.971000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795512176.845940, 12954.283000]: {'id': 409, 'target': [-9.975, 4.212, 0.9999, 0.0117], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 102.5}
+[INFO] [1795512176.846956, 12954.283000]: [214/246] id 410 -> NAV to (-9.76, 4.21) [robot_pose]
+[INFO] [1795512178.192263, 12954.683000]: calling NAV
+[INFO] [1795512182.706709, 12958.057000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795512184.254342, 12958.698000]: calling APPROACH
+[INFO] [1795512278.854984, 12986.911000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795512279.891065, 12987.222000]: {'id': 410, 'target': [-9.756, 4.206, 1.0, 0.0093], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795512279.892968, 12987.223000]: [215/246] id 411 -> NAV to (-9.49, 4.20) [robot_pose]
+[INFO] [1795512281.444905, 12987.730000]: calling NAV
+[INFO] [1795512285.961128, 12991.098000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795512287.421231, 12991.670000]: calling APPROACH
+[INFO] [1795512382.058586, 13019.850000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795512383.079724, 13020.152000]: {'id': 411, 'target': [-9.491, 4.204, 1.0, 0.0059], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.2}
+[INFO] [1795512383.080678, 13020.152000]: [216/246] id 412 -> NAV to (-9.31, 4.20) [robot_pose]
+[INFO] [1795512384.609703, 13020.666000]: calling NAV
+[INFO] [1795512389.128251, 13024.053000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795512390.749723, 13024.700000]: calling APPROACH
+[INFO] [1795512485.384125, 13052.909000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795512486.413226, 13053.216000]: {'id': 412, 'target': [-9.306, 4.202, 1.0, 0.0044], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.612, 'wall_s': 103.3}
+[INFO] [1795512486.414574, 13053.216000]: [217/246] id 413 -> NAV to (-9.08, 4.20) [robot_pose]
+[INFO] [1795512487.844906, 13053.647000]: calling NAV
+[INFO] [1795512492.367254, 13057.024000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795512493.899682, 13057.647000]: calling APPROACH
+[INFO] [1795512588.519196, 13085.859000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795512589.539062, 13086.161000]: {'id': 413, 'target': [-9.076, 4.201, 1.0, 0.0023], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795512589.540668, 13086.162000]: [218/246] id 414 -> NAV to (-8.84, 4.20) [robot_pose]
+[INFO] [1795512590.898955, 13086.569000]: calling NAV
+[INFO] [1795512595.413335, 13089.969000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795512596.831329, 13090.568000]: calling APPROACH
+[INFO] [1795512691.427225, 13118.767000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795512692.452390, 13119.073000]: {'id': 414, 'target': [-8.842, 4.2, 1.0, 0.0008], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 854, 'ee_excursion_m': 0.611, 'wall_s': 102.9}
+[INFO] [1795512692.453556, 13119.074000]: [219/246] id 415 -> NAV to (-8.61, 4.20) [robot_pose]
+[INFO] [1795512693.902979, 13119.515000]: calling NAV
+[INFO] [1795512697.923101, 13122.599000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.1}
+[INFO] [1795512699.288289, 13123.160000]: calling APPROACH
+[INFO] [1795512793.910644, 13151.353000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795512794.938923, 13151.660000]: {'id': 415, 'target': [-8.608, 4.2, 1.0, -0.0003], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 102.5}
+[INFO] [1795512794.939980, 13151.660000]: [220/246] id 416 -> NAV to (-8.39, 4.20) [robot_pose]
+[INFO] [1795512796.372787, 13152.089000]: calling NAV
+[INFO] [1795512800.894692, 13155.457000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795512802.435420, 13156.092000]: calling APPROACH
+[INFO] [1795512897.069147, 13184.276000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795512898.099917, 13184.580000]: {'id': 416, 'target': [-8.393, 4.2, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.2}
+[INFO] [1795512898.101101, 13184.581000]: [221/246] id 417 -> NAV to (-8.16, 4.20) [robot_pose]
+[INFO] [1795512899.592922, 13185.075000]: calling NAV
+[INFO] [1795512904.104798, 13188.446000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795512905.488317, 13189.019000]: calling APPROACH
+[INFO] [1795513000.090334, 13217.219000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795513001.115929, 13217.524000]: {'id': 417, 'target': [-8.158, 4.2, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 856, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795513001.117057, 13217.525000]: [222/246] id 418 -> NAV to (-7.94, 4.20) [robot_pose]
+[INFO] [1795513002.464554, 13217.929000]: calling NAV
+[INFO] [1795513006.492925, 13220.971000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795513008.028285, 13221.618000]: calling APPROACH
+[INFO] [1795513102.633154, 13249.816000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795513103.652782, 13250.118000]: {'id': 418, 'target': [-7.943, 4.2, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 102.5}
+[INFO] [1795513103.653817, 13250.118000]: [223/246] id 419 -> NAV to (-7.73, 4.20) [robot_pose]
+[INFO] [1795513105.096586, 13250.584000]: calling NAV
+[INFO] [1795513109.607632, 13253.975000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795513111.071461, 13254.552000]: calling APPROACH
+[INFO] [1795513205.693222, 13282.718000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795513206.721920, 13283.025000]: {'id': 419, 'target': [-7.728, 4.2, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 854, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795513206.723164, 13283.025000]: [224/246] id 420 -> NAV to (-7.46, 4.20) [robot_pose]
+[INFO] [1795513208.073525, 13283.429000]: calling NAV
+[INFO] [1795513212.590735, 13286.829000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795513214.026324, 13287.412000]: calling APPROACH
+[INFO] [1795513308.655162, 13315.602000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795513309.678807, 13315.910000]: {'id': 420, 'target': [-7.458, 4.201, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 854, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795513309.679812, 13315.910000]: [225/246] id 422 -> NAV to (-7.24, 4.20) [robot_pose]
+[INFO] [1795513311.055496, 13316.327000]: calling NAV
+[INFO] [1795513315.573783, 13319.684000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795513317.066032, 13320.296000]: calling APPROACH
+[INFO] [1795513411.695050, 13348.481000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795513412.727855, 13348.789000]: {'id': 422, 'target': [-7.243, 4.201, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 854, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795513412.729276, 13348.790000]: [226/246] id 423 -> NAV to (-7.06, 4.20) [robot_pose]
+[INFO] [1795513414.146062, 13349.216000]: calling NAV
+[INFO] [1795513418.653712, 13352.569000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795513420.092217, 13353.160000]: calling APPROACH
+[INFO] [1795513514.718496, 13381.346000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795513515.738935, 13381.651000]: {'id': 423, 'target': [-7.058, 4.201, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 854, 'ee_excursion_m': 0.612, 'wall_s': 103.0}
+[INFO] [1795513515.740010, 13381.651000]: [227/246] id 424 -> NAV to (-6.79, 4.20) [robot_pose]
+[INFO] [1795513517.151791, 13382.075000]: calling NAV
+[INFO] [1795513521.160784, 13385.123000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795513522.580861, 13385.718000]: calling APPROACH
+[INFO] [1795513617.181956, 13413.905000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795513618.212350, 13414.211000]: {'id': 424, 'target': [-6.793, 4.201, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 854, 'ee_excursion_m': 0.611, 'wall_s': 102.5}
+[INFO] [1795513618.213665, 13414.212000]: [228/246] id 425 -> NAV to (-6.58, 4.20) [robot_pose]
+[INFO] [1795513619.678765, 13414.709000]: calling NAV
+[INFO] [1795513624.200667, 13418.071000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795513625.758977, 13418.730000]: calling APPROACH
+[INFO] [1795513720.394138, 13446.940000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795513721.413395, 13447.247000]: {'id': 425, 'target': [-6.578, 4.201, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 856, 'ee_excursion_m': 0.612, 'wall_s': 103.2}
+[INFO] [1795513721.414562, 13447.247000]: [229/246] id 426 -> NAV to (-6.38, 4.20) [robot_pose]
+[INFO] [1795513722.909905, 13447.742000]: calling NAV
+[INFO] [1795513727.426149, 13451.106000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795513728.902371, 13451.684000]: calling APPROACH
+[INFO] [1795513823.528822, 13479.846000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795513824.554362, 13480.146000]: {'id': 426, 'target': [-6.378, 4.201, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 853, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795513824.556184, 13480.147000]: [230/246] id 427 -> NAV to (-6.14, 4.20) [robot_pose]
+[INFO] [1795513826.068459, 13480.648000]: calling NAV
+[INFO] [1795513830.586390, 13484.002000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795513832.227352, 13484.678000]: calling APPROACH
+[INFO] [1795513926.823140, 13512.874000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795513927.849075, 13513.180000]: {'id': 427, 'target': [-6.143, 4.202, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 854, 'ee_excursion_m': 0.611, 'wall_s': 103.3}
+[INFO] [1795513927.849910, 13513.180000]: [231/246] id 428 -> NAV to (-5.93, 4.20) [robot_pose]
+[INFO] [1795513929.374281, 13513.679000]: calling NAV
+[INFO] [1795513933.888861, 13517.054000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795513935.295319, 13517.644000]: calling APPROACH
+[INFO] [1795514029.920142, 13545.833000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795514030.947901, 13546.141000]: {'id': 428, 'target': [-5.928, 4.202, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 854, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795514030.949074, 13546.141000]: [232/246] id 429 -> NAV to (-5.69, 4.20) [robot_pose]
+[INFO] [1795514032.421959, 13546.627000]: calling NAV
+[INFO] [1795514036.950830, 13549.995000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795514038.449523, 13550.594000]: calling APPROACH
+[INFO] [1795514133.070164, 13578.789000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795514134.096605, 13579.096000]: {'id': 429, 'target': [-5.693, 4.202, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795514134.097763, 13579.096000]: [233/246] id 430 -> NAV to (-5.46, 4.20) [robot_pose]
+[INFO] [1795514135.577430, 13579.563000]: calling NAV
+[INFO] [1795514140.090695, 13582.841000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795514141.603717, 13583.449000]: calling APPROACH
+[INFO] [1795514236.228699, 13611.644000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795514237.268971, 13611.955000]: {'id': 430, 'target': [-5.458, 4.202, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.2}
+[INFO] [1795514237.270203, 13611.955000]: [234/246] id 431 -> NAV to (-5.24, 4.20) [robot_pose]
+[INFO] [1795514238.791852, 13612.451000]: calling NAV
+[INFO] [1795514243.312690, 13615.834000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795514244.808791, 13616.429000]: calling APPROACH
+[INFO] [1795514339.411246, 13644.625000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795514340.442178, 13644.930000]: {'id': 431, 'target': [-5.243, 4.202, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.2}
+[INFO] [1795514340.444735, 13644.931000]: [235/246] id 432 -> NAV to (-5.01, 4.20) [robot_pose]
+[INFO] [1795514341.789119, 13645.335000]: calling NAV
+[INFO] [1795514346.302656, 13648.682000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795514347.774286, 13649.319000]: calling APPROACH
+[INFO] [1795514442.407268, 13677.513000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795514443.430183, 13677.818000]: {'id': 432, 'target': [-5.008, 4.203, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.612, 'wall_s': 103.0}
+[INFO] [1795514443.431525, 13677.819000]: [236/246] id 433 -> NAV to (-4.78, 4.20) [robot_pose]
+[INFO] [1795514444.853884, 13678.246000]: calling NAV
+[INFO] [1795514449.374842, 13681.650000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795514450.787499, 13682.239000]: calling APPROACH
+[INFO] [1795514545.399197, 13710.423000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795514546.430385, 13710.729000]: {'id': 433, 'target': [-4.778, 4.203, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795514546.432085, 13710.729000]: [237/246] id 434 -> NAV to (-4.58, 4.20) [robot_pose]
+[INFO] [1795514547.886009, 13711.214000]: calling NAV
+[INFO] [1795514551.896275, 13714.248000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.0, 'sim_s': 3.0}
+[INFO] [1795514553.494481, 13714.899000]: calling APPROACH
+[INFO] [1795514648.108618, 13743.111000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795514649.137266, 13743.413000]: {'id': 434, 'target': [-4.578, 4.203, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.0, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 102.7}
+[INFO] [1795514649.138393, 13743.413000]: [238/246] id 435 -> NAV to (-4.34, 4.20) [robot_pose]
+[INFO] [1795514650.689018, 13743.961000]: calling NAV
+[INFO] [1795514655.204159, 13747.336000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795514656.689369, 13747.929000]: calling APPROACH
+[INFO] [1795514751.326690, 13776.137000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795514752.356466, 13776.441000]: {'id': 435, 'target': [-4.343, 4.203, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.2}
+[INFO] [1795514752.358036, 13776.441000]: [239/246] id 436 -> NAV to (-4.11, 4.20) [robot_pose]
+[INFO] [1795514753.784429, 13776.874000]: calling NAV
+[INFO] [1795514758.309153, 13780.296000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795514759.759610, 13780.919000]: calling APPROACH
+[INFO] [1795514854.397158, 13809.155000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795514855.423946, 13809.459000]: {'id': 436, 'target': [-4.108, 4.203, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795514855.424938, 13809.459000]: [240/246] id 437 -> NAV to (-3.89, 4.20) [robot_pose]
+[INFO] [1795514856.943863, 13809.970000]: calling NAV
+[INFO] [1795514861.462661, 13813.354000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795514862.865534, 13813.946000]: calling APPROACH
+[INFO] [1795514957.482954, 13842.151000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795514958.515070, 13842.456000]: {'id': 437, 'target': [-3.893, 4.203, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795514958.515997, 13842.456000]: [241/246] id 438 -> NAV to (-3.66, 4.20) [robot_pose]
+[INFO] [1795514960.018430, 13842.957000]: calling NAV
+[INFO] [1795514964.540168, 13846.358000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795514965.998386, 13846.993000]: calling APPROACH
+[INFO] [1795515060.622215, 13875.212000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795515061.654525, 13875.519000]: {'id': 438, 'target': [-3.659, 4.204, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795515061.655773, 13875.519000]: [242/246] id 439 -> NAV to (-3.41, 4.20) [robot_pose]
+[INFO] [1795515063.115825, 13876.001000]: calling NAV
+[INFO] [1795515067.628198, 13879.389000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795515069.131902, 13879.993000]: calling APPROACH
+[INFO] [1795515163.735349, 13908.169000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795515164.766683, 13908.478000]: {'id': 439, 'target': [-3.409, 4.204, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 854, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795515164.768515, 13908.478000]: [243/246] id 440 -> NAV to (-3.21, 4.20) [robot_pose]
+[INFO] [1795515166.121328, 13908.887000]: calling NAV
+[INFO] [1795515170.643647, 13912.273000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795515172.131364, 13912.874000]: calling APPROACH
+[INFO] [1795515266.748679, 13941.086000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795515267.777379, 13941.394000]: {'id': 440, 'target': [-3.209, 4.204, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 856, 'ee_excursion_m': 0.611, 'wall_s': 103.0}
+[INFO] [1795515267.778726, 13941.395000]: [244/246] id 441 -> NAV to (-2.99, 4.20) [robot_pose]
+[INFO] [1795515269.181572, 13941.811000]: calling NAV
+[INFO] [1795515273.696096, 13945.240000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795515275.071320, 13945.800000]: calling APPROACH
+[INFO] [1795515369.694739, 13974.023000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795515370.725505, 13974.327000]: {'id': 441, 'target': [-2.994, 4.204, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.612, 'wall_s': 102.9}
+[INFO] [1795515370.726511, 13974.327000]: [245/246] id 442 -> NAV to (-2.76, 4.20) [robot_pose]
+[INFO] [1795515372.172825, 13974.809000]: calling NAV
+[INFO] [1795515376.690184, 13978.179000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.4}
+[INFO] [1795515378.211801, 13978.809000]: calling APPROACH
+[INFO] [1795515472.839272, 14007.005000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795515473.859307, 14007.309000]: {'id': 442, 'target': [-2.759, 4.204, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795515473.860409, 14007.309000]: [246/246] id 443 -> NAV to (-2.54, 4.20) [robot_pose]
+[INFO] [1795515475.291605, 14007.743000]: calling NAV
+[INFO] [1795515479.803613, 14011.079000]: {'routine': 'NAV', 'result': 'done', 'saw_true': True, 'wall_s': 4.5, 'sim_s': 3.3}
+[INFO] [1795515481.338540, 14011.720000]: calling APPROACH
+[INFO] [1795515575.968318, 14039.930000]: {'routine': 'APPROACH', 'result': 'done', 'saw_true': True, 'wall_s': 94.6, 'sim_s': 28.2}
+[INFO] [1795515576.991737, 14040.231000]: {'id': 443, 'target': [-2.543, 4.204, 1.0, -0.0004], 'target_from': 'robot_pose', 'nav': True, 'nav_wall_s': 4.5, 'action': True, 'action_wall_s': 94.6, 'action_sim_s': 28.2, 'frames_seen': 855, 'ee_excursion_m': 0.611, 'wall_s': 103.1}
+[INFO] [1795515577.429901, 14040.402000]: calling BASE_HOME
+[INFO] [1795515598.461997, 14056.529000]: {'routine': 'BASE_HOME', 'result': 'done', 'saw_true': True, 'wall_s': 21.0, 'sim_s': 16.1}

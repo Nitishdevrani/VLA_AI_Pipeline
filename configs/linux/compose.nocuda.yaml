@@ -1,0 +1,13 @@
+# Override on top of the organizers' compose.yaml for NVIDIA GPUs newer than the image's PyTorch.
+# start_sim_linux.sh adds it automatically when the GPU's compute capability is 10.x or higher.
+#
+# Why: the image ships torch 2.4.1+cu121 on Python 3.8, with CUDA kernels up to sm_90 (RTX 40 / H100).
+# RTX 50-series (Blackwell, sm_120) needs torch >= 2.7, which no longer supports Python 3.8, so it
+# cannot be upgraded inside this image. Without this file the YOLO node crashes on every frame with
+#   RuntimeError: CUDA error: no kernel image is available for execution on the device
+# Hiding CUDA makes ultralytics fall back to CPU (~0.3 s/frame), while Gazebo and RViz still render
+# on the NVIDIA GPU through OpenGL (unaffected by CUDA_VISIBLE_DEVICES).
+services:
+  frasky_test:
+    environment:
+      - CUDA_VISIBLE_DEVICES=
